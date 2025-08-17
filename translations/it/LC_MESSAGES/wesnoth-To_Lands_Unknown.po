@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: To_Lands_Unknown-1.10\n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2025-07-27 07:49 UTC\n"
+"POT-Creation-Date: 2025-08-17 12:20 UTC\n"
 "PO-Revision-Date: 2013-03-12 12:47+0100\n"
 "Last-Translator: BioHazardX <dhamp90@aol.com>; revisione a cura di: Bonta-"
 "Kun <alexbarbazza@yahoo.it>\n"
@@ -169,7 +169,7 @@ msgid "Gameplay Testing"
 msgstr "Test di gioco"
 
 #. [about]
-#: To_Lands_Unknown/about.cfg:148
+#: To_Lands_Unknown/about.cfg:151
 msgid "Ko-fi Supporters"
 msgstr ""
 
@@ -282,8 +282,8 @@ msgstr ""
 #. [unit]: type=EoMa_Fire_Elemental, id=pyro
 #. [modify_unit]: id=pyro
 #: To_Lands_Unknown/achievements.cfg:79
-#: To_Lands_Unknown/scenarios/03_Near_the_Jungle.cfg:688
-#: To_Lands_Unknown/scenarios/03_Near_the_Jungle.cfg:1176
+#: To_Lands_Unknown/scenarios/03_Near_the_Jungle.cfg:693
+#: To_Lands_Unknown/scenarios/03_Near_the_Jungle.cfg:1181
 msgid "Pyro"
 msgstr ""
 
@@ -521,11 +521,7 @@ msgstr ""
 "momento installata."
 
 #. [dummy]: id=metamorph
-#. [value]: id=metamorph
-#. [value]: id=metamorph # wmllint: ignore
 #: To_Lands_Unknown/macros/abilities.cfg:8
-#: To_Lands_Unknown/macros/items.cfg:836
-#: To_Lands_Unknown/scenarios/08_Ka-gatta.cfg:1725
 msgid "metamorph"
 msgstr "metamorfosi"
 
@@ -852,6 +848,10 @@ msgid ""
 msgstr ""
 
 #: To_Lands_Unknown/macros/artifact-descriptions.cfg:3
+msgid "This item is recoverable after its owner's death."
+msgstr ""
+
+#: To_Lands_Unknown/macros/artifact-descriptions.cfg:6
 #, fuzzy
 #| msgid ""
 #| "Legends say that this scimitar was made from a spark of the Abyss. Its "
@@ -865,14 +865,34 @@ msgid ""
 "- Attack increases by 100%\n"
 "- Chance to hit is not affected by defense and equals 70%\n"
 "\n"
-"Should this unit pick up the scimitar?"
+"Only a summoner can use this item."
 msgstr ""
 "Leggende narrano di scimitarre forgiate da una scintilla dell’Abisso. Il "
 "loro potere è presumibilmente incredibile.\n"
 "Attacco incrementato del 100%\n"
 "Possibilità di colpire invariabile e uguale al 70%"
 
-#: To_Lands_Unknown/macros/artifact-descriptions.cfg:11
+#: To_Lands_Unknown/macros/artifact-descriptions.cfg:14
+msgid ""
+"Scimitar damage increased by 100%, and the weapon becomes magical (always "
+"70% chance to hit)"
+msgstr ""
+
+#: To_Lands_Unknown/macros/artifact-descriptions.cfg:16
+msgid ""
+"This unit holds a powerful scimitar.\n"
+"Effects:\n"
+"Scimitar damage increased by 100%, and the weapon becomes magical (always "
+"70% chance to hit)"
+msgstr ""
+
+#: To_Lands_Unknown/macros/artifact-descriptions.cfg:23
+#, fuzzy
+#| msgid ""
+#| "Woven of golden threads, inspired by Abyssal winds. Everyone who "
+#| "possesses this ancient vehicle gains amazing speed and agility.\n"
+#| "Speed increases by 50%\n"
+#| "Negates zones of control (grants the skirmisher ability)"
 msgid ""
 "Propelled by Abyssal winds, and woven from magical threads. Those lucky "
 "enough who possess this ancient vehicle gain amazing mobility.\n"
@@ -882,19 +902,52 @@ msgid ""
 "- Speed increases by 50%\n"
 "- +10% terrain defense bonus\n"
 "\n"
-"Should this unit pick up the carpet?"
+"Only a carpet rider or a carpet master can use this item."
+msgstr ""
+"Tessuto con fili d’oro e sospinto dai venti abissali. Chi possiede questo "
+"mezzo antico guadagna velocità e agilità sorprendenti.\n"
+"Velocità incrementata del 50%\n"
+"Nega le zone di controllo (concede l’abilità «incursore»)"
+
+#: To_Lands_Unknown/macros/artifact-descriptions.cfg:31
+msgid ""
+"Advances the unit (if unit is already at maximum level, gain 1 AMLA "
+"instead)\n"
+"Speed increases by 50%\n"
+"+10% terrain defense bonus"
 msgstr ""
 
-#: To_Lands_Unknown/macros/artifact-descriptions.cfg:19
+#: To_Lands_Unknown/macros/artifact-descriptions.cfg:35
+msgid ""
+"This unit flies on the ancient Golden Carpet.\n"
+"\n"
+"Effects:\n"
+"Speed increases by 50%\n"
+"+10% terrain defense bonus"
+msgstr ""
+
+#: To_Lands_Unknown/macros/artifact-descriptions.cfg:43
 msgid ""
 "This mysterius ring is richly decorated with magical symbols connected to "
 "the Abyss, mending wounds of the bearer.\n"
 "- Grants regeneration\n"
 "\n"
-"Should this unit pick up the ring?"
+"Only a human can use this item."
 msgstr ""
 
-#: To_Lands_Unknown/macros/artifact-descriptions.cfg:24
+#: To_Lands_Unknown/macros/artifact-descriptions.cfg:48
+msgid "This ring will heal the bearer by 8 hitpoints each turn."
+msgstr ""
+
+#: To_Lands_Unknown/macros/artifact-descriptions.cfg:50
+msgid ""
+"This unit wears the Ring of Regeneration.\n"
+"\n"
+"Effects:\n"
+"Grants the regeneration ability"
+msgstr ""
+
+#: To_Lands_Unknown/macros/artifact-descriptions.cfg:57
 #, fuzzy
 #| msgid ""
 #| "Marked with mysterious symbols, this cloak was enchanted a long time ago, "
@@ -908,14 +961,28 @@ msgid ""
 "- Advances the unit (unless the unit is already at maximum level)\n"
 "- Grants 50% fire resistance\n"
 "\n"
-"Should this unit pick up the cloak?"
+"Only a camel rider (or his advancements) can use this item."
 msgstr ""
 "Marchiato da simboli misteriosi, questo mantello fu reso magico in tempi "
 "antichi, ma concede tuttora al proprietario una buona protezione al fuoco.\n"
 "Avanza l’unità di livello\n"
 "Garantisce una resistenza al fuoco del 50%"
 
-#: To_Lands_Unknown/macros/artifact-descriptions.cfg:31
+#: To_Lands_Unknown/macros/artifact-descriptions.cfg:64
+msgid ""
+"Advances the unit (unless the unit is already at maximum level)\n"
+"Grants 50% fire resistance"
+msgstr ""
+
+#: To_Lands_Unknown/macros/artifact-descriptions.cfg:67
+msgid ""
+"This unit wears the famous Desert Cloak of ancients.\n"
+"\n"
+"Effects:\n"
+"Grants 50% fire resistance"
+msgstr ""
+
+#: To_Lands_Unknown/macros/artifact-descriptions.cfg:74
 #, fuzzy
 #| msgid ""
 #| "This unique headgear had to belong to a very powerful summoner. It "
@@ -931,7 +998,7 @@ msgid ""
 "- Increases magical power by 20%\n"
 "- Decreases experience points needed for advancement by 25%\n"
 "\n"
-"Should this unit pick up the cap?"
+"Only a summoner can use this item."
 msgstr ""
 "Questo copricapo unico nel suo genere doveva appartenere ad un evocatore "
 "molto potente. È il risultato dell’incredibile lavorazione e della "
@@ -940,646 +1007,13 @@ msgstr ""
 "Aumenta il potere magico del 20%\n"
 "Riduce i punti esperienza necessari per avanzare di livello del 25%"
 
-#: To_Lands_Unknown/macros/artifact-descriptions.cfg:38
-#, fuzzy
-#| msgid ""
-#| "Richly decorated plates, solid workmanship and magical symbols: this must "
-#| "be the legendary armor of Ka-Gattans. Its extraordinary shape fits any "
-#| "human body.\n"
-#| "Increases physical resistances by 25%\n"
-#| "Increases fire and cold resistances by 20%\n"
-#| "Decreases astral resistance by 15%"
-msgid ""
-"Richly decorated plates, solid workmanship and magical symbols: this must be "
-"the legendary armor made by the Ka-gattans blacksmiths.\n"
-"\n"
-"- Increases physical resistances by 25%\n"
-"- Increases fire and cold resistances by 20%\n"
-"- Decreases arcane resistance by 15%\n"
-"\n"
-"Should this unit pick up the armor?"
-msgstr ""
-"Placche sontuosamente decorate, solida lavorazione e simboli magici: questa "
-"è l’armatura leggendaria dei soldati di Ka-Gatta. La sua forma straordinaria "
-"si adatta ad ogni corpo umano.\n"
-"Aumenta la resistenza fisica del 25%\n"
-"Aumenta la resistenza al fuoco e al freddo del 20%\n"
-"Riduce la resistenza astrale del 15%"
-
-#: To_Lands_Unknown/macros/artifact-descriptions.cfg:46
-msgid ""
-"This pike, forged from raw abyssal energy, is the weapon once wielded by the "
-"very first Rhami'kai of. The spears used by her successors were were made "
-"from mundane metal.\n"
-"\n"
-"- Advances the unit (unless the unit is already at maximum level)\n"
-"- Increases the attack by 25%\n"
-"- Increases magical resistances by 10%\n"
-"\n"
-"Should this unit pick up the spear?"
-msgstr ""
-
-#: To_Lands_Unknown/macros/artifact-descriptions.cfg:54
-#, fuzzy
-#| msgid ""
-#| "A legendary artifact, a masterpiece made by the Ancestors. In olden times "
-#| "a magical collar was made, which when placed upon a magical being, could "
-#| "recall it after death.\n"
-#| "The unit is recalled back to the leader\n"
-#| "After each recall the unit gets stronger\n"
-#| "The unit can be recalled only 3 times. After that it dies for sure."
-msgid ""
-"A legendary masterpiece made by the Ancestors in the olden times. Its unique "
-"powers enabled the magical being to be recalled back to the mortal world "
-"after being killed.\n"
-"\n"
-"- The unit is recalled back to the leader when dies\n"
-"- After each recall the unit is fully healed\n"
-"- The unit can be recalled only 3 times. After that it dies for sure.\n"
-"\n"
-"Should this unit pick up the collar?"
-msgstr ""
-"Artefatto leggendario, un capolavoro fabbricato dagli antenati. In tempi "
-"antichi un collare magico fu forgiato e fatto indossare ad un essere magico, "
-"il quale poteva essere richiamato dopo la sua morte.\n"
-"L’unità viene richiamata dal condottiero\n"
-"Dopo ogni richiamo l’unità diventa sempre più forte\n"
-"L’unità può essere richiamata solo 3 volte, dopo di che muore per sempre."
-
-#: To_Lands_Unknown/macros/artifact-descriptions.cfg:62
-#, fuzzy
-#| msgid ""
-#| "The Ancestors were fascinated with elementals — entities made of pure "
-#| "energy. They also dreamed about creating a creature from a mix of all "
-#| "four known elements. Unfortunately they failed. Yet at the end an unique "
-#| "amulet was created, capable of transforming one element into another one. "
-#| "This is one of the most powerful relics made by the Ancestors.\n"
-#| "The elemental unit can turn into another elemental\n"
-#| "(use right-click on the unit to activate)"
-msgid ""
-"When the Ancestors summoned first elementals — entities made of pure energy "
-"-  they dreamed about replicating the Elemental Bird - a mix of all four "
-"known elements. Unfortunately they failed, but at least ended up with an "
-"unique amulet, capable of transforming one forms of an elemental into "
-"another. One might go as far as saying this is one of the most powerful "
-"relics made by the Ancestors.\n"
-"The elemental unit can turn into another elemental (use right-click on the "
-"unit to activate)\n"
-"\n"
-"Should this unit pick up the amulet?"
-msgstr ""
-"Gli antenati furono affascinati dagli elementali – entità costituite di pura "
-"energia. Sognarono persino di creare una creatura mista di tutti e quattro "
-"gli elementi noti. Purtroppo non ci riuscirono, ma alla fine fu creato un "
-"amuleto unico nel suo genere, in grado di trasformare un elemento in un "
-"altro. Questa è una delle reliquie più potenti create dagli antenati.\n"
-"L’unità elementale può mutare in un altro tipo di elementale\n"
-"(per attivarlo, fai clic col tasto destro del mouse sopra l’unità)"
-
-#: To_Lands_Unknown/macros/artifact-descriptions.cfg:67
-msgid ""
-"This staff is rumored to have been the very one wielded by the first Master "
-"of Banishers. Its power is formidable even in untrained hands.\n"
-"\n"
-"- Advances the unit (unless the unit is already at maximum level)\n"
-"- the banishment attack never misses\n"
-"- the staff/frozen gate attacks deal +2 damage \n"
-"- increases magical resistances by 10%\n"
-"\n"
-"Should this unit pick up the staff?"
-msgstr ""
-
-#: To_Lands_Unknown/macros/artifact-descriptions.cfg:76
-msgid ""
-"This sphere was found in Reficul's camp. It emits a magical barrier around "
-"the bearer, protecting him from most kinds of damage. Tar-Tabar's enchanters "
-"have managed to adapt it for human use, but at a slight expense of "
-"effectiveness.\n"
-"\n"
-"- increases physical and magical resistances by 15%\n"
-"\n"
-"Should this unit pick up the sphere?"
-msgstr ""
-
-#. [message]: speaker=narrator
-#: To_Lands_Unknown/macros/interface-utils.cfg:84
-#, fuzzy
-#| msgid "You want to withdraw, but where?"
-msgid "Do you want to play the cutscene?"
-msgstr "Volete ritirarvi, ma dove?"
-
-#. [option]
-#: To_Lands_Unknown/macros/interface-utils.cfg:86
-msgid "Play"
-msgstr ""
-
-#. [option]
-#: To_Lands_Unknown/macros/interface-utils.cfg:93
-msgid "Play (safe mode - may be slow)"
-msgstr ""
-
-#. [option]
-#: To_Lands_Unknown/macros/interface-utils.cfg:106
-msgid "Skip"
-msgstr ""
-
-#. [option]
-#: To_Lands_Unknown/macros/items.cfg:69
-msgid " for later use (on recruit/recall of a unit)"
-msgstr ""
-
-#. [message]: speaker=narrator
-#: To_Lands_Unknown/macros/items.cfg:118
-msgid "You can still take the item for later use, though."
-msgstr ""
-
-#. [message]: speaker=narrator
-#: To_Lands_Unknown/macros/items.cfg:162
-#, fuzzy
-#| msgid ""
-#| "At the moment you do not have a unit in your army who could use this "
-#| "artifact. However the item will be picked up, so it can wait for a "
-#| "suitable unit to be recruited or recalled."
-msgid ""
-"At the moment you do not have a unit on the map who could use this artifact. "
-"However the item will be picked up, so it can wait for a suitable unit to be "
-"recruited or recalled."
-msgstr ""
-"Al momento non disponi di un’unità nel tuo esercito che possa usare questo "
-"artefatto. Tuttavia l’oggetto verrà raccolto, in attesa che venga reclutata "
-"o richiamata un’unità adatta per usarlo."
-
-#. [option]
-#. [scenario]: id=08_Ka-gatta
-#: To_Lands_Unknown/macros/items.cfg:352
-#: To_Lands_Unknown/scenarios/08_Ka-gatta.cfg:784
-msgid "carpet^Take it"
-msgstr "Prendilo"
-
-#. [object]
-#: To_Lands_Unknown/macros/items.cfg:356
-#: To_Lands_Unknown/scenarios/08_Ka-gatta.cfg:786
-msgid "Golden Carpet"
-msgstr "Tappetto dorato"
-
-#. [object]
-#: To_Lands_Unknown/macros/items.cfg:359
-#, fuzzy
-#| msgid ""
-#| "Woven of golden threads, inspired by Abyssal winds. Everyone who "
-#| "possesses this ancient vehicle gains amazing speed and agility.\n"
-#| "Speed increases by 50%\n"
-#| "Negates zones of control (grants the skirmisher ability)"
-msgid ""
-"Woven of golden threads, inspired by Abyssal winds. Everyone who possesses "
-"this ancient vehicle gains amazing speed and agility.\n"
-"\n"
-"Advances the unit (if unit is already at maximum level, gain 1 AMLA "
-"instead)\n"
-"Speed increases by 50%\n"
-"+10% terrain defense bonus"
-msgstr ""
-"Tessuto con fili d’oro e sospinto dai venti abissali. Chi possiede questo "
-"mezzo antico guadagna velocità e agilità sorprendenti.\n"
-"Velocità incrementata del 50%\n"
-"Nega le zone di controllo (concede l’abilità «incursore»)"
-
-#. [value]: id=gcarpet
-#. [value]: id=gcarpet # wmllint: ignore
-#: To_Lands_Unknown/macros/items.cfg:408
-#: To_Lands_Unknown/scenarios/08_Ka-gatta.cfg:840
-#, fuzzy
-#| msgid "Golden Carpet"
-msgid "golden carpet"
-msgstr "Tappetto dorato"
-
-#. [value]: id=gcarpet
-#. [value]: id=gcarpet # wmllint: ignore
-#: To_Lands_Unknown/macros/items.cfg:409
-#: To_Lands_Unknown/scenarios/08_Ka-gatta.cfg:841
-msgid ""
-"This unit flies on the ancient Golden Carpet.\n"
-"\n"
-"Effects:\n"
-"Speed increases by 50%\n"
-"+10% terrain defense bonus"
-msgstr ""
-
-#. [option]
-#: To_Lands_Unknown/macros/items.cfg:434
-#, fuzzy
-#| msgid "carpet^Leave it"
-msgid "carpet^Leave it for another unit"
-msgstr "Lascialo"
-
-#. [option]
-#. [scenario]: id=08_Ka-gatta
-#: To_Lands_Unknown/macros/items.cfg:471
-#: To_Lands_Unknown/scenarios/08_Ka-gatta.cfg:950
-msgid "cloak^Take it"
-msgstr "Prendilo"
-
-#. [object]
-#: To_Lands_Unknown/macros/items.cfg:475
-#: To_Lands_Unknown/scenarios/08_Ka-gatta.cfg:952
-msgid "Desert Cloak"
-msgstr "Mantello del deserto"
-
-#. [object]
-#: To_Lands_Unknown/macros/items.cfg:478
-#, fuzzy
-#| msgid ""
-#| "Marked with mysterious symbols, this cloak was enchanted a long time ago, "
-#| "but it still grants its owner good protection against fire.\n"
-#| "Advances the unit\n"
-#| "Grants 50% fire resistance"
-msgid ""
-"Marked with mysterious symbols, this cloak was enchanted a long time ago, "
-"but it still grants its owner good protection against fire.\n"
-"Advances the unit (unless the unit is already at maximum level)\n"
-"Grants 50% fire resistance"
-msgstr ""
-"Marchiato da simboli misteriosi, questo mantello fu reso magico in tempi "
-"antichi, ma concede tuttora al proprietario una buona protezione al fuoco.\n"
-"Avanza l’unità di livello\n"
-"Garantisce una resistenza al fuoco del 50%"
-
-#. [value]: id=dcloak
-#. [value]: id=dcloak # wmllint: ignore
-#: To_Lands_Unknown/macros/items.cfg:508
-#: To_Lands_Unknown/scenarios/08_Ka-gatta.cfg:988
-#, fuzzy
-#| msgid "Desert Cloak"
-msgid "desert cloak"
-msgstr "Mantello del deserto"
-
-#. [value]: id=dcloak
-#. [value]: id=dcloak # wmllint: ignore
-#: To_Lands_Unknown/macros/items.cfg:509
-#: To_Lands_Unknown/scenarios/08_Ka-gatta.cfg:989
-msgid ""
-"This unit wears the famous Desert Cloak of ancients.\n"
-"\n"
-"Effects:\n"
-"Grants 50% fire resistance"
-msgstr ""
-
-#. [option]
-#: To_Lands_Unknown/macros/items.cfg:533
-#, fuzzy
-#| msgid "cloak^Leave it"
-msgid "cloak^Leave it for another unit"
-msgstr "Lascialo"
-
-#. [option]
-#. [scenario]: id=08_Ka-gatta
-#: To_Lands_Unknown/macros/items.cfg:570
-#: To_Lands_Unknown/scenarios/08_Ka-gatta.cfg:1421
-msgid "spear^Take it"
-msgstr "Prendila"
-
-#. [object]
-#: To_Lands_Unknown/macros/items.cfg:574
-msgid "Spear of Rhami"
-msgstr "Lancia di Rhami"
-
-#. [object]
-#: To_Lands_Unknown/macros/items.cfg:577
-#, fuzzy
-#| msgid ""
-#| "This weapon, forged from the light of the Abyss, is a part of the "
-#| "equipment used by magical entities called Rhami’kai. The Ancestors stole "
-#| "one of those spears and enhanced it magically.\n"
-#| "Advances the unit\n"
-#| "Increases the attack by 20%"
-msgid ""
-"This weapon, forged from the light of the Abyss, is a part of the equipment "
-"used by magical entities called Rhami’kai. The Ancestors stole one of those "
-"spears and enhanced it magically.\n"
-"Advances the unit (unless the unit is already at maximum level)\n"
-"Increases the attack by 25%\n"
-"Increases magical resistances by 10%"
-msgstr ""
-"Quest’arma, forgiata dalla luce dell’Abisso, fa parte dell’equipaggiamento "
-"utilizzato dalle entità magiche chiamate rhami’kai. Gli antenati rubarono "
-"una delle loro lance e la potenziarono con l’uso della magia.\n"
-"Avanza l’unità di livello\n"
-"Aumenta l’attacco del 20%"
-
-#. [value]: id=spearrhami
-#. [value]: id=spearrhami # wmllint: ignore
-#: To_Lands_Unknown/macros/items.cfg:636
-#: To_Lands_Unknown/scenarios/08_Ka-gatta.cfg:1488
-#, fuzzy
-#| msgid "Spear of Rhami"
-msgid "spear of rhami"
-msgstr "Lancia di Rhami"
-
-#. [value]: id=spearrhami
-#: To_Lands_Unknown/macros/items.cfg:637
-msgid ""
-"This unit is holding a powerful spear of abysmal origin.\n"
-"\n"
-"Effects:\n"
-"Increases the attack by 25%\n"
-"Increases magic resistance by 10%"
-msgstr ""
-
-#. [option]
-#: To_Lands_Unknown/macros/items.cfg:662
-#, fuzzy
-#| msgid "spear^Leave it"
-msgid "spear^Leave it for another unit"
-msgstr "Lasciala"
-
-#. [option]
-#. [scenario]: id=08_Ka-gatta
-#: To_Lands_Unknown/macros/items.cfg:699
-#: To_Lands_Unknown/scenarios/08_Ka-gatta.cfg:1589
-msgid "collar^Take it"
-msgstr "Prendila"
-
-#. [object]
-#: To_Lands_Unknown/macros/items.cfg:703
-#: To_Lands_Unknown/scenarios/08_Ka-gatta.cfg:1591
-msgid "Collar of Recall"
-msgstr "Collare del richiamo"
-
-#. [object]
-#: To_Lands_Unknown/macros/items.cfg:706
-#, fuzzy
-#| msgid ""
-#| "A legendary artifact, a masterpiece made by the Ancestors. In olden times "
-#| "a magical collar was made, which when placed upon a magical being, could "
-#| "recall it after death.\n"
-#| "The unit is recalled back to the leader\n"
-#| "After each recall the unit gets stronger\n"
-#| "The unit can be recalled only 3 times. After that it dies for sure."
-msgid ""
-"A legendary artifact, a masterpiece made by the Ancestors. In olden times a "
-"magical collar was made, which when placed upon a magical being, could "
-"recall it after death.\n"
-"The unit is recalled back to the leader\n"
-"After each recall the unit is fully healed\n"
-"The unit can be recalled only 3 times. After that it dies for sure."
-msgstr ""
-"Artefatto leggendario, un capolavoro fabbricato dagli antenati. In tempi "
-"antichi un collare magico fu forgiato e fatto indossare ad un essere magico, "
-"il quale poteva essere richiamato dopo la sua morte.\n"
-"L’unità viene richiamata dal condottiero\n"
-"Dopo ogni richiamo l’unità diventa sempre più forte\n"
-"L’unità può essere richiamata solo 3 volte, dopo di che muore per sempre."
-
-#. [value]: id=collar
-#. [value]: id=collar # wmllint: ignore
-#: To_Lands_Unknown/macros/items.cfg:738
-#: To_Lands_Unknown/scenarios/08_Ka-gatta.cfg:1637
-msgid "collar"
-msgstr "collare"
-
-#. [value]: id=collar
-#: To_Lands_Unknown/macros/items.cfg:739
-msgid ""
-"After death the unit is recalled back to leader. Activates only 3 times."
-msgstr ""
-"Dopo la morte, l’unità ha la possibilità di essere richiamata dal "
-"condottiero. Attivabile solo 3 volte."
-
-#. [option]
-#: To_Lands_Unknown/macros/items.cfg:765
-#, fuzzy
-#| msgid "collar^Leave it"
-msgid "collar^Leave it for another unit"
-msgstr "Lasciala"
-
-#. [option]
-#. [scenario]: id=08_Ka-gatta
-#: To_Lands_Unknown/macros/items.cfg:802
-#: To_Lands_Unknown/scenarios/08_Ka-gatta.cfg:1675
-msgid "amulet^Take it"
-msgstr "Prendilo"
-
-#. [object]
-#: To_Lands_Unknown/macros/items.cfg:806
-#: To_Lands_Unknown/scenarios/08_Ka-gatta.cfg:1677
-msgid "Amulet of Metamorph"
-msgstr "Amuleto della metamorfosi"
-
-#. [object]
-#: To_Lands_Unknown/macros/items.cfg:809
-msgid ""
-"The Ancestors were fascinated with elementals — entities made of pure "
-"energy. They also dreamed about creating a creature from a mix of all four "
-"known elements. Unfortunately they failed. Yet at the end an unique amulet "
-"was created, capable of transforming one element into another one. This is "
-"one of the most powerful relics made by the Ancestors.\n"
-"The elemental unit can turn into other elemental\n"
-"(use right-click on the unit to activate)"
-msgstr ""
-"Gli antenati furono affascinati dagli elementali – entità costituite di pura "
-"energia. Sognarono persino di creare una creatura mista di tutti e quattro "
-"gli elementi noti. Purtroppo non ci riuscirono, ma alla fine fu creato un "
-"amuleto unico nel suo genere, in grado di trasformare un elemento in un "
-"altro. Questa è una delle reliquie più potenti create dagli antenati.\n"
-"L’unità elementale può mutare in un altro tipo di elementale\n"
-"(per attivarlo, fai clic col tasto destro del mouse sopra l’unità)"
-
-#. [value]: id=metamorph
-#. [value]: id=metamorph # wmllint: ignore
-#: To_Lands_Unknown/macros/items.cfg:837
-#: To_Lands_Unknown/scenarios/08_Ka-gatta.cfg:1726
-msgid ""
-"This elemental wears the Amulet of Metamorph.\n"
-"\n"
-"Effects:\n"
-"The elemental unit can turn into another elemental (use right-click on the "
-"unit to activate).\n"
-"The unit becomes loyal."
-msgstr ""
-
-#. [option]
-#: To_Lands_Unknown/macros/items.cfg:880
-#, fuzzy
-#| msgid "amulet^Leave it"
-msgid "amulet^Leave it for another unit"
-msgstr "Lascialo"
-
-#. [option]
-#. [scenario]: id=08_Ka-gatta
-#: To_Lands_Unknown/macros/items.cfg:916
-#: To_Lands_Unknown/scenarios/08_Ka-gatta.cfg:1346
-msgid "armor^Take it"
-msgstr "Prendila"
-
-#. [object]
-#: To_Lands_Unknown/macros/items.cfg:920
-#: To_Lands_Unknown/scenarios/08_Ka-gatta.cfg:1348
-msgid "Cuirass of the Ancients"
-msgstr "Corazza degli antichi"
-
-#. [object]
-#: To_Lands_Unknown/macros/items.cfg:923
-#, fuzzy
-#| msgid ""
-#| "Richly decorated plates, solid workmanship and magical symbols: this must "
-#| "be the legendary armor of Ka-Gattans. Its extraordinary shape fits any "
-#| "human body.\n"
-#| "Increases physical resistances by 25%\n"
-#| "Increases fire and cold resistances by 20%\n"
-#| "Decreases astral resistance by 15%"
-msgid ""
-"Richly decorated plates, solid workmanship and magical symbols: this must be "
-"the legendary armor of Ka-gattans.\n"
-"\n"
-"- Increases physical resistances by 25%\n"
-"- Increases fire and cold resistances by 20%\n"
-"- Decreases arcane resistance by 15%"
-msgstr ""
-"Placche sontuosamente decorate, solida lavorazione e simboli magici: questa "
-"è l’armatura leggendaria dei soldati di Ka-Gatta. La sua forma straordinaria "
-"si adatta ad ogni corpo umano.\n"
-"Aumenta la resistenza fisica del 25%\n"
-"Aumenta la resistenza al fuoco e al freddo del 20%\n"
-"Riduce la resistenza astrale del 15%"
-
-#. [option]
-#: To_Lands_Unknown/macros/items.cfg:977
-#, fuzzy
-#| msgid "armor^Leave it"
-msgid "armor^Leave it for another unit"
-msgstr "Lasciala"
-
-#. [option]
-#. [scenario]: id=08_Ka-gatta
-#: To_Lands_Unknown/macros/items.cfg:1013
-#: To_Lands_Unknown/scenarios/08_Ka-gatta.cfg:1740
-#, fuzzy
-#| msgid "spear^Take it"
-msgid "staff^Take it"
-msgstr "Prendila"
-
-#. [object]
-#: To_Lands_Unknown/macros/items.cfg:1017
-#: To_Lands_Unknown/scenarios/08_Ka-gatta.cfg:1742
-#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:102
-msgid "Banishment Staff"
-msgstr ""
-
-#. [object]
-#: To_Lands_Unknown/macros/items.cfg:1020
-#: To_Lands_Unknown/scenarios/08_Ka-gatta.cfg:1745
-msgid ""
-"- Advances the unit (unless the unit is already at maximum level)\n"
-"- the banishment attack never misses\n"
-"- the staff/frozen gate attacks deal +2 damage \n"
-"- increases magical resistances by 10%"
-msgstr ""
-
-#. [value]: id=staffbanisher
-#. [value]: id=staffbanisher # wmllint: ignore
-#: To_Lands_Unknown/macros/items.cfg:1080
-#: To_Lands_Unknown/scenarios/08_Ka-gatta.cfg:1809
-#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:144
-msgid "banishment staff"
-msgstr ""
-
-#. [value]: id=staffbanisher
-#. [value]: id=staffbanisher # wmllint: ignore
-#: To_Lands_Unknown/macros/items.cfg:1081
-#: To_Lands_Unknown/scenarios/08_Ka-gatta.cfg:1810
-#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:145
-msgid ""
-"This unit is holding a powerful staff which once belonged to the first "
-"Master of Banishers.\n"
-"\n"
-"Effects:\n"
-"- the banishment attack never misses\n"
-"- the staff/frozen gate attacks deal +2 damage \n"
-"- increases magical resistances by 10%"
-msgstr ""
-
-#. [option]
-#: To_Lands_Unknown/macros/items.cfg:1108
-msgid "staff^Leave it for another unit"
-msgstr ""
-
-#. [option]
-#. [scenario]: id=08_Ka-gatta
-#: To_Lands_Unknown/macros/items.cfg:1144
-#: To_Lands_Unknown/scenarios/08_Ka-gatta.cfg:899
-#, fuzzy
-#| msgid "armor^Take it"
-msgid "ring^Take it"
-msgstr "Prendila"
-
-#. [object]
-#: To_Lands_Unknown/macros/items.cfg:1148
-#: To_Lands_Unknown/scenarios/08_Ka-gatta.cfg:901
-msgid "Ring of Regeneration"
-msgstr ""
-
-#. [object]
-#: To_Lands_Unknown/macros/items.cfg:1151
-msgid ""
-"This mysterius ring is richly decorated with magical symbols making it "
-"somehow connected to the Abyss. The bearer of this relic may benefit from "
-"strange energies flowing into his body, healing him effectively.\n"
-"- Grants regeneration"
-msgstr ""
-
-#. [value]: id=regenring
-#. [value]: id=regenring # wmllint: ignore
-#: To_Lands_Unknown/macros/items.cfg:1176
-#: To_Lands_Unknown/scenarios/08_Ka-gatta.cfg:934
-msgid "ring of regeneration"
-msgstr ""
-
-#. [value]: id=regenring
-#: To_Lands_Unknown/macros/items.cfg:1177
-msgid ""
-"This unit wears the Ring of Regeneration.\n"
-"\n"
-"Effects:\n"
-"Grants regeneration"
-msgstr ""
-
-#. [option]
-#: To_Lands_Unknown/macros/items.cfg:1208
-msgid "ring^Leave it for another unit"
-msgstr ""
-
-#. [option]
-#. [scenario]: id=08_Ka-gatta
-#: To_Lands_Unknown/macros/items.cfg:1244
-#: To_Lands_Unknown/scenarios/08_Ka-gatta.cfg:1010
-msgid "cap^Take it"
-msgstr "Prendilo"
-
-#. [object]
-#: To_Lands_Unknown/macros/items.cfg:1248
-#: To_Lands_Unknown/scenarios/08_Ka-gatta.cfg:1012
-msgid "Cap of Power"
-msgstr "Copricapo del potere"
-
-#. [object]
-#: To_Lands_Unknown/macros/items.cfg:1251
-#: To_Lands_Unknown/scenarios/08_Ka-gatta.cfg:1015
+#: To_Lands_Unknown/macros/artifact-descriptions.cfg:81
 msgid ""
 "Increases magical power by 20%\n"
 "Decreases experience points needed for advancement by 25%"
 msgstr ""
 
-#. [value]: id=capofpower
-#. [value]: id=capofpower # wmllint: ignore
-#: To_Lands_Unknown/macros/items.cfg:1304
-#: To_Lands_Unknown/scenarios/08_Ka-gatta.cfg:1068
-msgid "cap of power"
-msgstr "copricapo del potere"
-
-#. [value]: id=capofpower
-#. [value]: id=capofpower # wmllint: ignore
-#: To_Lands_Unknown/macros/items.cfg:1305
-#: To_Lands_Unknown/scenarios/08_Ka-gatta.cfg:1069
+#: To_Lands_Unknown/macros/artifact-descriptions.cfg:84
 #, fuzzy
 #| msgid ""
 #| "This unique headgear had to belong to a very powerful summoner. It "
@@ -1601,55 +1035,500 @@ msgstr ""
 "Aumenta il potere magico del 20%\n"
 "Riduce i punti esperienza necessari per avanzare di livello del 25%"
 
-#. [option]
-#: To_Lands_Unknown/macros/items.cfg:1337
-msgid "cap^Leave it for another unit"
+#: To_Lands_Unknown/macros/artifact-descriptions.cfg:92
+#, fuzzy
+#| msgid ""
+#| "Richly decorated plates, solid workmanship and magical symbols: this must "
+#| "be the legendary armor of Ka-Gattans. Its extraordinary shape fits any "
+#| "human body.\n"
+#| "Increases physical resistances by 25%\n"
+#| "Increases fire and cold resistances by 20%\n"
+#| "Decreases astral resistance by 15%"
+msgid ""
+"Richly decorated plates, solid workmanship and magical symbols: this must be "
+"the legendary armor made by the Ka-gattans' blacksmiths.\n"
+"\n"
+"- Increases physical resistances by 25%\n"
+"- Increases fire and cold resistances by 20%\n"
+"- Decreases arcane resistance by 15%\n"
+"\n"
+"Only a human can use this item."
+msgstr ""
+"Placche sontuosamente decorate, solida lavorazione e simboli magici: questa "
+"è l’armatura leggendaria dei soldati di Ka-Gatta. La sua forma straordinaria "
+"si adatta ad ogni corpo umano.\n"
+"Aumenta la resistenza fisica del 25%\n"
+"Aumenta la resistenza al fuoco e al freddo del 20%\n"
+"Riduce la resistenza astrale del 15%"
+
+#: To_Lands_Unknown/macros/artifact-descriptions.cfg:100
+msgid ""
+"Increases physical resistances by 25%\n"
+"Increases fire and cold resistances by 20%\n"
+"Decreases arcane resistance by 15%"
 msgstr ""
 
-#. [option]
-#: To_Lands_Unknown/macros/items.cfg:1372
+#: To_Lands_Unknown/macros/artifact-descriptions.cfg:104
+#, fuzzy
+#| msgid ""
+#| "This unit is wearing a powerful armor, which grants additional physical "
+#| "resistance, but also increases susceptibility to arcane damage."
+msgid ""
+"This unit is wearing a powerful armor, which grants additional physical "
+"resistance, but also increases susceptibility to arcane damage.\n"
+"\n"
+"Effects:\n"
+"Increases physical resistances by 25%\n"
+"Increases fire and cold resistances by 20%\n"
+"Decreases arcane resistance by 15%"
+msgstr ""
+"L’unità indossa un’armatura potentissima che le conferisce ulteriore "
+"resistenza fisica, ma che aumenta la sua vulnerabilità ai danni esoterici."
+
+#: To_Lands_Unknown/macros/artifact-descriptions.cfg:113
+#, fuzzy
+#| msgid ""
+#| "This weapon, forged from the light of the Abyss, is a part of the "
+#| "equipment used by magical entities called Rhami’kai. The Ancestors stole "
+#| "one of those spears and enhanced it magically.\n"
+#| "Advances the unit\n"
+#| "Increases the attack by 20%"
+msgid ""
+"This pike, forged from raw abyssal energy, is the weapon once wielded by the "
+"very first Rhami'kai. The spears used by her successors were made from "
+"mundane metal.\n"
+"\n"
+"- Advances the unit (unless the unit is already at maximum level)\n"
+"- Increases the attack by 25%\n"
+"- Increases magical resistances by 10%\n"
+"\n"
+"Only a Rhami, Rhami’kai or Ho'rhami can use this item."
+msgstr ""
+"Quest’arma, forgiata dalla luce dell’Abisso, fa parte dell’equipaggiamento "
+"utilizzato dalle entità magiche chiamate rhami’kai. Gli antenati rubarono "
+"una delle loro lance e la potenziarono con l’uso della magia.\n"
+"Avanza l’unità di livello\n"
+"Aumenta l’attacco del 20%"
+
+#: To_Lands_Unknown/macros/artifact-descriptions.cfg:122
+msgid ""
+"Advances the unit (unless the unit is already at maximum level)\n"
+"Increases the attack by 25%\n"
+"Increases magical resistances by 10%"
+msgstr ""
+
+#: To_Lands_Unknown/macros/artifact-descriptions.cfg:126
+msgid ""
+"This unit is holding a powerful spear of abysmal origin.\n"
+"\n"
+"Effects:\n"
+"Increases the attack by 20%"
+msgstr ""
+
+#: To_Lands_Unknown/macros/artifact-descriptions.cfg:134
+#, fuzzy
+#| msgid ""
+#| "A legendary artifact, a masterpiece made by the Ancestors. In olden times "
+#| "a magical collar was made, which when placed upon a magical being, could "
+#| "recall it after death.\n"
+#| "The unit is recalled back to the leader\n"
+#| "After each recall the unit gets stronger\n"
+#| "The unit can be recalled only 3 times. After that it dies for sure."
+msgid ""
+"A legendary masterpiece made by the Ancestors in the olden times. Its unique "
+"powers enabled the magical being to be recalled back to the mortal world "
+"after being killed.\n"
+"\n"
+"- The unit is recalled back to the leader when dies\n"
+"- After each recall the unit is fully healed\n"
+"- The unit can be recalled only 3 times. After that it dies for sure.\n"
+"\n"
+"Only a magical entity can use this item."
+msgstr ""
+"Artefatto leggendario, un capolavoro fabbricato dagli antenati. In tempi "
+"antichi un collare magico fu forgiato e fatto indossare ad un essere magico, "
+"il quale poteva essere richiamato dopo la sua morte.\n"
+"L’unità viene richiamata dal condottiero\n"
+"Dopo ogni richiamo l’unità diventa sempre più forte\n"
+"L’unità può essere richiamata solo 3 volte, dopo di che muore per sempre."
+
+#: To_Lands_Unknown/macros/artifact-descriptions.cfg:142
+#, fuzzy
+#| msgid ""
+#| "A legendary artifact, a masterpiece made by the Ancestors. In olden times "
+#| "a magical collar was made, which when placed upon a magical being, could "
+#| "recall it after death.\n"
+#| "The unit is recalled back to the leader\n"
+#| "After each recall the unit gets stronger\n"
+#| "The unit can be recalled only 3 times. After that it dies for sure."
+msgid ""
+"The unit is recalled back to the leader when dies\n"
+"After each recall the unit is fully healed\n"
+"The unit can be recalled only 3 times. After that it dies for sure."
+msgstr ""
+"Artefatto leggendario, un capolavoro fabbricato dagli antenati. In tempi "
+"antichi un collare magico fu forgiato e fatto indossare ad un essere magico, "
+"il quale poteva essere richiamato dopo la sua morte.\n"
+"L’unità viene richiamata dal condottiero\n"
+"Dopo ogni richiamo l’unità diventa sempre più forte\n"
+"L’unità può essere richiamata solo 3 volte, dopo di che muore per sempre."
+
+#: To_Lands_Unknown/macros/artifact-descriptions.cfg:146
+msgid ""
+"After death the unit is recalled back to the leader. Activates only 3 times."
+msgstr ""
+"Dopo la morte, l’unità ha la possibilità di essere richiamata dal "
+"condottiero. Attivabile solo 3 volte."
+
+#: To_Lands_Unknown/macros/artifact-descriptions.cfg:150
+#, fuzzy
+#| msgid ""
+#| "The Ancestors were fascinated with elementals — entities made of pure "
+#| "energy. They also dreamed about creating a creature from a mix of all "
+#| "four known elements. Unfortunately they failed. Yet at the end an unique "
+#| "amulet was created, capable of transforming one element into another one. "
+#| "This is one of the most powerful relics made by the Ancestors.\n"
+#| "The elemental unit can turn into another elemental\n"
+#| "(use right-click on the unit to activate)"
+msgid ""
+"When the Ancestors summoned first elementals — entities made of pure energy "
+"-  they dreamed about replicating the Elemental Bird - a mix of all four "
+"known elements. Unfortunately they failed, but at least ended up with an "
+"unique amulet, capable of transforming one forms of an elemental into "
+"another. One might go as far as saying this is one of the most powerful "
+"relics made by the Ancestors.\n"
+"The elemental unit can turn into another elemental (use right-click on the "
+"unit to activate)\n"
+"\n"
+"Only an elemental entity can use this item."
+msgstr ""
+"Gli antenati furono affascinati dagli elementali – entità costituite di pura "
+"energia. Sognarono persino di creare una creatura mista di tutti e quattro "
+"gli elementi noti. Purtroppo non ci riuscirono, ma alla fine fu creato un "
+"amuleto unico nel suo genere, in grado di trasformare un elemento in un "
+"altro. Questa è una delle reliquie più potenti create dagli antenati.\n"
+"L’unità elementale può mutare in un altro tipo di elementale\n"
+"(per attivarlo, fai clic col tasto destro del mouse sopra l’unità)"
+
+#: To_Lands_Unknown/macros/artifact-descriptions.cfg:156
+#, fuzzy
+#| msgid ""
+#| "Metamorph:\n"
+#| "this elemental can turn into another type of elemental."
+msgid ""
+"This elemental unit can turn into another elemental (use right-click on the "
+"unit to activate)"
+msgstr ""
+"Metamorfosi:\n"
+"l’elementale può mutare in un altro tipo di elementale."
+
+#: To_Lands_Unknown/macros/artifact-descriptions.cfg:158
+msgid ""
+"This elemental wears the Amulet of Metamorph.\n"
+"\n"
+"Effects:\n"
+"The elemental unit can turn into another elemental (use right-click on the "
+"unit to activate).\n"
+"The unit becomes loyal."
+msgstr ""
+
+#: To_Lands_Unknown/macros/artifact-descriptions.cfg:167
+msgid ""
+"This staff is rumored to have been the very one wielded by the first Master "
+"of Banishers. Its power is formidable even in untrained hands.\n"
+"\n"
+"- Advances the unit (unless the unit is already at maximum level)\n"
+"- the banishment attack never misses\n"
+"- the staff/frozen gate attacks deal +2 damage \n"
+"- increases magical resistances by 10%\n"
+"\n"
+"Only a Novice Summoner, Dispeller or Banisher can use this item."
+msgstr ""
+
+#: To_Lands_Unknown/macros/artifact-descriptions.cfg:177
+msgid ""
+"Advances the unit (unless the unit is already at maximum level)\n"
+"- the banishment attack never misses\n"
+"- the staff/frozen gate attacks deal +2 damage \n"
+"- increases magical resistances by 10%"
+msgstr ""
+
+#: To_Lands_Unknown/macros/artifact-descriptions.cfg:182
+msgid ""
+"This unit is holding a powerful staff which once belonged to the first "
+"Master of Banishers.\n"
+"\n"
+"Effects:\n"
+"- the banishment attack never misses\n"
+"- the staff/frozen gate attacks deal +2 damage \n"
+"- increases magical resistances by 10%"
+msgstr ""
+
+#: To_Lands_Unknown/macros/artifact-descriptions.cfg:191
+msgid ""
+"This sphere was found in Reficul's camp. It emits a magical barrier around "
+"the bearer, protecting him from most kinds of damage. Tar-Tabar's enchanters "
+"have managed to adapt it for human use, but at a slight expense of "
+"effectiveness.\n"
+"\n"
+"- increases physical and magical resistances by 15%\n"
+"\n"
+"Only a magical entity can use this item."
+msgstr ""
+
+#: To_Lands_Unknown/macros/artifact-descriptions.cfg:198
+msgid "Increases physical and magical resistances by 15%"
+msgstr ""
+
+#: To_Lands_Unknown/macros/artifact-descriptions.cfg:200
+msgid ""
+"This unit holds a powerful magical sphere which once belonged to Reficul.\n"
+"\n"
+"Effects:\n"
+"Grants 15% physical and magical resistance"
+msgstr ""
+
+#: To_Lands_Unknown/macros/artifacts.cfg:31
+#, fuzzy
+#| msgid "ancient cuirass"
+msgid "Ancient Scimitar"
+msgstr "corazza antica"
+
+#: To_Lands_Unknown/macros/artifacts.cfg:31
+msgid "scimitar^Take it"
+msgstr "Prendila"
+
+#: To_Lands_Unknown/macros/artifacts.cfg:31
+msgid "scimitar^Leave it"
+msgstr "Lasciala"
+
+#. [effect]
+#: To_Lands_Unknown/macros/artifacts.cfg:40
+#, fuzzy
+#| msgid "ancient cuirass"
+msgid "ancient scimitar"
+msgstr "corazza antica"
+
+#: To_Lands_Unknown/macros/artifacts.cfg:61
+msgid "Golden Carpet"
+msgstr "Tappetto dorato"
+
+#: To_Lands_Unknown/macros/artifacts.cfg:61
+msgid "carpet^Take it"
+msgstr "Prendilo"
+
+#: To_Lands_Unknown/macros/artifacts.cfg:61
+msgid "carpet^Leave it"
+msgstr "Lascialo"
+
+#: To_Lands_Unknown/macros/artifacts.cfg:105
+msgid "Ring of Regeneration"
+msgstr ""
+
+#: To_Lands_Unknown/macros/artifacts.cfg:105
+#, fuzzy
+#| msgid "armor^Take it"
+msgid "ring^Take it"
+msgstr "Prendila"
+
+#: To_Lands_Unknown/macros/artifacts.cfg:105
+#, fuzzy
+#| msgid "armor^Leave it"
+msgid "ring^Leave it"
+msgstr "Lasciala"
+
+#: To_Lands_Unknown/macros/artifacts.cfg:120
+msgid "Desert Cloak"
+msgstr "Mantello del deserto"
+
+#: To_Lands_Unknown/macros/artifacts.cfg:120
+msgid "cloak^Take it"
+msgstr "Prendilo"
+
+#: To_Lands_Unknown/macros/artifacts.cfg:120
+msgid "cloak^Leave it"
+msgstr "Lascialo"
+
+#: To_Lands_Unknown/macros/artifacts.cfg:148
+msgid "Cap of Power"
+msgstr "Copricapo del potere"
+
+#: To_Lands_Unknown/macros/artifacts.cfg:148
+msgid "cap^Take it"
+msgstr "Prendilo"
+
+#: To_Lands_Unknown/macros/artifacts.cfg:148
+msgid "cap^Leave it"
+msgstr "Lascialo"
+
+#: To_Lands_Unknown/macros/artifacts.cfg:198
+#, fuzzy
+#| msgid "ancient cuirass"
+msgid "Ancient Cuirass"
+msgstr "corazza antica"
+
+#: To_Lands_Unknown/macros/artifacts.cfg:198
+msgid "armor^Take it"
+msgstr "Prendila"
+
+#: To_Lands_Unknown/macros/artifacts.cfg:198
+msgid "armor^Leave it"
+msgstr "Lasciala"
+
+#: To_Lands_Unknown/macros/artifacts.cfg:218
+#, fuzzy
+#| msgid "Spear of Rhami"
+msgid "Spear of the Rhami"
+msgstr "Lancia di Rhami"
+
+#: To_Lands_Unknown/macros/artifacts.cfg:218
+msgid "spear^Take it"
+msgstr "Prendila"
+
+#: To_Lands_Unknown/macros/artifacts.cfg:218
+msgid "spear^Leave it"
+msgstr "Lasciala"
+
+#: To_Lands_Unknown/macros/artifacts.cfg:257
+msgid "Collar of Recall"
+msgstr "Collare del richiamo"
+
+#: To_Lands_Unknown/macros/artifacts.cfg:257
+msgid "collar^Take it"
+msgstr "Prendila"
+
+#: To_Lands_Unknown/macros/artifacts.cfg:257
+msgid "collar^Leave it"
+msgstr "Lasciala"
+
+#: To_Lands_Unknown/macros/artifacts.cfg:301
+msgid "Amulet of Metamorph"
+msgstr "Amuleto della metamorfosi"
+
+#: To_Lands_Unknown/macros/artifacts.cfg:301
+msgid "amulet^Take it"
+msgstr "Prendilo"
+
+#: To_Lands_Unknown/macros/artifacts.cfg:301
+msgid "amulet^Leave it"
+msgstr "Lascialo"
+
+#: To_Lands_Unknown/macros/artifacts.cfg:338
+msgid "Banishment Staff"
+msgstr ""
+
+#: To_Lands_Unknown/macros/artifacts.cfg:338
+#, fuzzy
+#| msgid "spear^Take it"
+msgid "staff^Take it"
+msgstr "Prendila"
+
+#: To_Lands_Unknown/macros/artifacts.cfg:338
+#, fuzzy
+#| msgid "spear^Leave it"
+msgid "staff^Leave it"
+msgstr "Lasciala"
+
+#: To_Lands_Unknown/macros/artifacts.cfg:369
+#, fuzzy
+#| msgid "Reficul"
+msgid "Reficul's Sphere"
+msgstr "Reficul"
+
+#: To_Lands_Unknown/macros/artifacts.cfg:369
 #, fuzzy
 #| msgid "spear^Take it"
 msgid "sphere^Take it"
 msgstr "Prendila"
 
-#. [object]
-#: To_Lands_Unknown/macros/items.cfg:1376
+#: To_Lands_Unknown/macros/artifacts.cfg:369
 #, fuzzy
-#| msgid "Reficul"
-msgid "Reficul's sphere"
-msgstr "Reficul"
+#| msgid "spear^Leave it"
+msgid "sphere^Leave it"
+msgstr "Lasciala"
 
-#. [object]
-#: To_Lands_Unknown/macros/items.cfg:1379
-msgid "Increases magical and physical resistances by 15%"
+#. [option]
+#: To_Lands_Unknown/macros/items.cfg:135
+msgid " for later use"
 msgstr ""
 
-#. [value]: id=sphereofreficul
-#: To_Lands_Unknown/macros/items.cfg:1412
-msgid "reficul's sphere"
+#. [object]: id=carry_{ID}
+#: To_Lands_Unknown/macros/items.cfg:140
+msgid "Item collected"
 msgstr ""
 
-#. [value]: id=sphereofreficul
-#: To_Lands_Unknown/macros/items.cfg:1413
+#. [object]: id=carry_{ID}
+#: To_Lands_Unknown/macros/items.cfg:144
 msgid ""
-"This unit wears a sphere once belonging to Reficul.\n"
+"The item has been collected by the unit. As long as the unit is alive it can "
+"give the item to another adjacent friendly unit (via right-click) or equip "
+"it later (even in other scenarios). When the unit dies, the carried item is "
+"dropped on the ground so that it can be picked by other units. A unit can "
+"only carry one item at a time, unless it equips it. Do note that some items "
+"equipped on units are lost forever once these units die, while some others "
+"are recoverable. For more information check items' descriptions."
+msgstr ""
+
+#. [value]: id=carry_{ID} # wmllint: ignore
+#: To_Lands_Unknown/macros/items.cfg:165
+msgid "carries: "
+msgstr ""
+
+#. [value]: id=carry_{ID} # wmllint: ignore
+#: To_Lands_Unknown/macros/items.cfg:166
+msgid ""
+"This unit carries an item. The item has no effect on the unit, because it is "
+"unequipped. As long as the unit is alive, it can give the item to another "
+"adjacent friendly unit (via right-click) or equip it later (even in other "
+"scenarios as long as the item is compatible with the unit). When the unit "
+"dies, the carried item is dropped on the ground so that it can be picked by "
+"other units (if there is no ground, the item is lost). Do note that some "
+"items equipped on units are lost forever once these units die, while some "
+"others are recoverable. For more information check items' descriptions."
+msgstr ""
+
+#. [set_menu_item]: id=tlu_item_give_{ID}
+#: To_Lands_Unknown/macros/items.cfg:180
+msgid "Give: "
+msgstr ""
+
+#. [set_menu_item]: id=tlu_item_selfequip_{ID}
+#. [set_menu_item]: id=tlu_item_equip_{ID}
+#: To_Lands_Unknown/macros/items.cfg:222 To_Lands_Unknown/macros/items.cfg:316
+msgid "Equip: "
+msgstr ""
+
+#. [message]: speaker=narrator
+#: To_Lands_Unknown/macros/items.cfg:668
+msgid ""
+"You still have unequipped items in your possession. To equip them, right-"
+"click a unit in a keep or in a castle tile to give it a compatible item of "
+"your choosing. For more detailed information about equipping items, right-"
+"click anywhere on the map."
+msgstr ""
+
+#. [set_menu_item]: id=z_items_help
+#: To_Lands_Unknown/macros/items.cfg:679
+msgid "Items Help"
+msgstr ""
+
+#. [message]: speaker=narrator
+#: To_Lands_Unknown/macros/items.cfg:686
+msgid ""
+"You still have unequipped items in your possession. To equip them, right-"
+"click a unit in a keep or in a castle tile to give that unit a compatible "
+"item of your choosing.\n"
 "\n"
-"Effects:\n"
-"Resitances to physical and magical attacks are increased by 15%"
+"Below is a list of unequipped items. Choose an item from the list to learn "
+"more about what it does and who can equip it. Do note that some items "
+"equipped on units are lost forever once these units die, while some others "
+"are recoverable. For more information check items' descriptions."
 msgstr ""
 
 #. [option]
-#: To_Lands_Unknown/macros/items.cfg:1437
-msgid "sphere^Leave it for another unit"
+#: To_Lands_Unknown/macros/items.cfg:701
+msgid "Exit"
 msgstr ""
-
-#. [unstore_unit]
-#: To_Lands_Unknown/macros/items.cfg:1534
-#, fuzzy
-#| msgid "+1 movement point, -10 HP"
-msgid "movepoints"
-msgstr "+1 punto movimento, -10 PF"
 
 #. [unstore_unit]
 #: To_Lands_Unknown/macros/macros.cfg:103
@@ -1786,7 +1665,7 @@ msgstr ""
 #. [message]: speaker=Mastermage
 #: To_Lands_Unknown/macros/macros.cfg:1223
 #: To_Lands_Unknown/scenarios/05_Jungle_of_Life.cfg:322
-#: To_Lands_Unknown/scenarios/09_Goddess_of_All_Rhamis.cfg:231
+#: To_Lands_Unknown/scenarios/09_Goddess_of_All_Rhamis.cfg:232
 #: To_Lands_Unknown/scenarios/16_Defense_of_Saffaros.cfg:1193
 #: To_Lands_Unknown/scenarios/16_Defense_of_Saffaros.cfg:1205
 #: To_Lands_Unknown/scenarios/17_Siege_of_Kharos.cfg:1175
@@ -1885,21 +1764,21 @@ msgstr "...NON LA METÀ DI ESSO!!!"
 #: To_Lands_Unknown/macros/scenario-deaths.cfg:120
 #: To_Lands_Unknown/scenarios/01_Highest_Tiers.cfg:544
 #: To_Lands_Unknown/scenarios/06_Fire_Canyon.cfg:1747
-#: To_Lands_Unknown/scenarios/08_Ka-gatta.cfg:2375
+#: To_Lands_Unknown/scenarios/08_Ka-gatta.cfg:1713
 #: To_Lands_Unknown/scenarios/10_Chaos.cfg:840
 #: To_Lands_Unknown/scenarios/10_Chaos.cfg:858
 #: To_Lands_Unknown/scenarios/10_Chaos.cfg:1209
 #: To_Lands_Unknown/scenarios/11_Message.cfg:297
 #: To_Lands_Unknown/scenarios/12_Siege_of_Mag-Magar.cfg:887
 #: To_Lands_Unknown/scenarios/12_Siege_of_Mag-Magar.cfg:902
-#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:621
-#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:1539
-#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:1503
-#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:1510
-#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:1513
-#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:1517
-#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:1544
-#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:1546
+#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:589
+#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:1507
+#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:1471
+#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:1478
+#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:1481
+#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:1485
+#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:1512
+#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:1514
 #: To_Lands_Unknown/scenarios/15_Abyssal_Rebellion.cfg:887
 #: To_Lands_Unknown/scenarios/15_Abyssal_Rebellion.cfg:926
 #: To_Lands_Unknown/scenarios/15_Abyssal_Rebellion.cfg:990
@@ -3672,7 +3551,7 @@ msgstr "."
 #. [message]: speaker=Mehir
 #. [event]
 #: To_Lands_Unknown/scenarios/00_Prologue.cfg:679
-#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:1512
+#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:1480
 msgid "*yawn*"
 msgstr ""
 
@@ -4064,7 +3943,7 @@ msgstr ""
 #. [message]: speaker=ferryman
 #. [message]: speaker=Mehir
 #: To_Lands_Unknown/scenarios/00_Prologue.cfg:1201
-#: To_Lands_Unknown/scenarios/10_Chaos.cfg:2016
+#: To_Lands_Unknown/scenarios/10_Chaos.cfg:2029
 msgid "Excuse me?"
 msgstr ""
 
@@ -4414,10 +4293,10 @@ msgstr "Sconfiggi Aerius"
 #. [objective]: condition=lose
 #: To_Lands_Unknown/scenarios/01_Highest_Tiers.cfg:53
 #: To_Lands_Unknown/scenarios/01_Highest_Tiers.cfg:1093
-#: To_Lands_Unknown/scenarios/03_Near_the_Jungle.cfg:187
-#: To_Lands_Unknown/scenarios/03_Near_the_Jungle.cfg:512
-#: To_Lands_Unknown/scenarios/03_Near_the_Jungle.cfg:879
-#: To_Lands_Unknown/scenarios/03_Near_the_Jungle.cfg:1072
+#: To_Lands_Unknown/scenarios/03_Near_the_Jungle.cfg:192
+#: To_Lands_Unknown/scenarios/03_Near_the_Jungle.cfg:517
+#: To_Lands_Unknown/scenarios/03_Near_the_Jungle.cfg:884
+#: To_Lands_Unknown/scenarios/03_Near_the_Jungle.cfg:1077
 #: To_Lands_Unknown/scenarios/04_Southern_Nations.cfg:165
 #: To_Lands_Unknown/scenarios/04_Southern_Nations.cfg:892
 #: To_Lands_Unknown/scenarios/04_Southern_Nations.cfg:1064
@@ -4425,8 +4304,8 @@ msgstr "Sconfiggi Aerius"
 #: To_Lands_Unknown/scenarios/04_Southern_Nations.cfg:1800
 #: To_Lands_Unknown/scenarios/06_Fire_Canyon.cfg:293
 #: To_Lands_Unknown/scenarios/06_Fire_Canyon.cfg:752
-#: To_Lands_Unknown/scenarios/08_Ka-gatta.cfg:490
-#: To_Lands_Unknown/scenarios/09_Goddess_of_All_Rhamis.cfg:263
+#: To_Lands_Unknown/scenarios/08_Ka-gatta.cfg:491
+#: To_Lands_Unknown/scenarios/09_Goddess_of_All_Rhamis.cfg:264
 #: To_Lands_Unknown/scenarios/10_Chaos.cfg:361
 #: To_Lands_Unknown/scenarios/10_Chaos.cfg:735
 #: To_Lands_Unknown/scenarios/10_Chaos.cfg:945
@@ -4773,10 +4652,10 @@ msgid "Elder"
 msgstr "Anziano"
 
 #. [unit]: type=EoMa_Neutral_Summoner, id=Samir
-#. [event]: id=Ghost
+#. [event]: id=ghost_event, id=Ghost
 #: To_Lands_Unknown/scenarios/01_Highest_Tiers.cfg:989
 #: To_Lands_Unknown/scenarios/02_Central_Palace.cfg:124
-#: To_Lands_Unknown/scenarios/08_Ka-gatta.cfg:1110
+#: To_Lands_Unknown/scenarios/08_Ka-gatta.cfg:853
 msgid "Samir"
 msgstr "Samir"
 
@@ -5219,7 +5098,7 @@ msgstr "Bakha"
 
 #. [side]: type=EoMa_Mystic, id=Rhaxiz
 #. [side]: type=EoMa_Toad_Mystic, id=Rhaxiz
-#: To_Lands_Unknown/scenarios/03_Near_the_Jungle.cfg:89
+#: To_Lands_Unknown/scenarios/03_Near_the_Jungle.cfg:94
 #: To_Lands_Unknown/scenarios/04_Southern_Nations.cfg:220
 msgid "team_name^Lizards"
 msgstr "Lucertole"
@@ -5228,38 +5107,38 @@ msgstr "Lucertole"
 #. [message]: speaker=narrator
 #. [side]: type=EoMa_Toad_Mystic, id=Rhaxiz
 #. [side]: type=EoMa_Chosen_of_Forest, id=Keeper, id=Rhaxiz
-#: To_Lands_Unknown/scenarios/03_Near_the_Jungle.cfg:94
-#: To_Lands_Unknown/scenarios/03_Near_the_Jungle.cfg:1028
+#: To_Lands_Unknown/scenarios/03_Near_the_Jungle.cfg:99
+#: To_Lands_Unknown/scenarios/03_Near_the_Jungle.cfg:1033
 #: To_Lands_Unknown/scenarios/04_Southern_Nations.cfg:224
 #: To_Lands_Unknown/scenarios/05_Jungle_of_Life.cfg:72
 msgid "Rhaxiz"
 msgstr "Rhaxiz"
 
 #. [objective]: condition=win
-#: To_Lands_Unknown/scenarios/03_Near_the_Jungle.cfg:183
+#: To_Lands_Unknown/scenarios/03_Near_the_Jungle.cfg:188
 #, fuzzy
 #| msgid "Defend the camp"
 msgid "Run to the camp!"
 msgstr "Difendi l’accampamento"
 
 #. [note]
-#: To_Lands_Unknown/scenarios/03_Near_the_Jungle.cfg:195
-#: To_Lands_Unknown/scenarios/03_Near_the_Jungle.cfg:529
-#: To_Lands_Unknown/scenarios/03_Near_the_Jungle.cfg:887
+#: To_Lands_Unknown/scenarios/03_Near_the_Jungle.cfg:200
+#: To_Lands_Unknown/scenarios/03_Near_the_Jungle.cfg:534
+#: To_Lands_Unknown/scenarios/03_Near_the_Jungle.cfg:892
 #, fuzzy
 #| msgid "Protect Rhaxiz"
 msgid "Ignore Rhaxiz"
 msgstr "Proteggi Rhaxis"
 
 #. [message]: speaker=Bakha
-#: To_Lands_Unknown/scenarios/03_Near_the_Jungle.cfg:228
+#: To_Lands_Unknown/scenarios/03_Near_the_Jungle.cfg:233
 msgid ""
 "Everything is going well. As long as we don’t experience any significant "
 "delays, we should be in the Abyss sooner than planned."
 msgstr ""
 
 #. [message]: speaker=Mehir
-#: To_Lands_Unknown/scenarios/03_Near_the_Jungle.cfg:232
+#: To_Lands_Unknown/scenarios/03_Near_the_Jungle.cfg:237
 #, fuzzy
 #| msgid ""
 #| "Indeed. The workers from Sud-Affar are very diligent, but this is also "
@@ -5275,19 +5154,19 @@ msgstr ""
 "aspettando?"
 
 #. [message]: speaker=Bakha
-#: To_Lands_Unknown/scenarios/03_Near_the_Jungle.cfg:236
+#: To_Lands_Unknown/scenarios/03_Near_the_Jungle.cfg:241
 msgid "You see, there's a slight obstacle for the construction ahead."
 msgstr ""
 
 #. [message]: speaker=Mehir
-#: To_Lands_Unknown/scenarios/03_Near_the_Jungle.cfg:240
+#: To_Lands_Unknown/scenarios/03_Near_the_Jungle.cfg:245
 #, fuzzy
 #| msgid "What was that?"
 msgid "What is it?"
 msgstr "Cos’è stato?"
 
 #. [message]: speaker=Bakha
-#: To_Lands_Unknown/scenarios/03_Near_the_Jungle.cfg:244
+#: To_Lands_Unknown/scenarios/03_Near_the_Jungle.cfg:249
 #, fuzzy
 #| msgid ""
 #| "There’s a jungle, over there, just in front of the path of the Circle. We "
@@ -5300,21 +5179,21 @@ msgstr ""
 "attraversarla."
 
 #. [message]: speaker=Mehir
-#: To_Lands_Unknown/scenarios/03_Near_the_Jungle.cfg:254
+#: To_Lands_Unknown/scenarios/03_Near_the_Jungle.cfg:259
 msgid ""
 "Psssh, come on, we have fire elementals. We can just use them to burn down "
 "any foliage that blocks the path."
 msgstr ""
 
 #. [message]: speaker=Bakha
-#: To_Lands_Unknown/scenarios/03_Near_the_Jungle.cfg:258
+#: To_Lands_Unknown/scenarios/03_Near_the_Jungle.cfg:263
 msgid ""
 "Maybe we should scout the area first, to see if the place is safe enough to "
 "work in? It kind of gives me the creeps..."
 msgstr ""
 
 #. [message]: speaker=Mehir
-#: To_Lands_Unknown/scenarios/03_Near_the_Jungle.cfg:263
+#: To_Lands_Unknown/scenarios/03_Near_the_Jungle.cfg:268
 msgid ""
 "Do I look like an explorer to you? I was born for higher purpose. Mobilize "
 "your squad immediately, and head for that place. Oh, and once you are there, "
@@ -5322,36 +5201,36 @@ msgid ""
 msgstr ""
 
 #. [message]: speaker=Bakha
-#: To_Lands_Unknown/scenarios/03_Near_the_Jungle.cfg:267
+#: To_Lands_Unknown/scenarios/03_Near_the_Jungle.cfg:272
 msgid "*sigh* Fine..."
 msgstr ""
 
 #. [message]: speaker=Mehir
-#: To_Lands_Unknown/scenarios/03_Near_the_Jungle.cfg:272
+#: To_Lands_Unknown/scenarios/03_Near_the_Jungle.cfg:277
 msgid "Alright, mobilize some troops, we will be moving soon."
 msgstr ""
 
 #. [message]: speaker=Mehir
-#: To_Lands_Unknown/scenarios/03_Near_the_Jungle.cfg:310
+#: To_Lands_Unknown/scenarios/03_Near_the_Jungle.cfg:315
 msgid ""
 "Ah, a calm wind, sunbathing and cold drinks... Man, being a supervisor sure "
 "is great these days..."
 msgstr ""
 
 #. [message]: speaker=Bakha
-#: To_Lands_Unknown/scenarios/03_Near_the_Jungle.cfg:319
+#: To_Lands_Unknown/scenarios/03_Near_the_Jungle.cfg:324
 msgid ""
 "*heavy breathing* My liege, we're under attack! All of the men got killed! "
 "Alert the guards, fast!"
 msgstr ""
 
 #. [message]: speaker=Mehir
-#: To_Lands_Unknown/scenarios/03_Near_the_Jungle.cfg:324
+#: To_Lands_Unknown/scenarios/03_Near_the_Jungle.cfg:329
 msgid "A... ATTACKED?! What the hell do you mean, 'attacked'?!"
 msgstr ""
 
 #. [message]: speaker=Bakha
-#: To_Lands_Unknown/scenarios/03_Near_the_Jungle.cfg:328
+#: To_Lands_Unknown/scenarios/03_Near_the_Jungle.cfg:333
 msgid ""
 "We were just traversing the jungle, and suddenly were ambushed by some sort "
 "of lizards! They didn't seem intent to kill us at first, but then one of our "
@@ -5359,7 +5238,7 @@ msgid ""
 msgstr ""
 
 #. [message]: speaker=Mehir
-#: To_Lands_Unknown/scenarios/03_Near_the_Jungle.cfg:333
+#: To_Lands_Unknown/scenarios/03_Near_the_Jungle.cfg:338
 msgid ""
 "*sigh* It's as if the entire world conspired to prevent my relaxation! Where "
 "the hell are those scumbags?! I'll show them the wrath of a bothered "
@@ -5367,17 +5246,17 @@ msgid ""
 msgstr ""
 
 #. [message]: speaker=Bakha
-#: To_Lands_Unknown/scenarios/03_Near_the_Jungle.cfg:337
+#: To_Lands_Unknown/scenarios/03_Near_the_Jungle.cfg:342
 msgid "Uhh... if you haven't noticed, they're right behind me..."
 msgstr ""
 
 #. [message]: speaker=Mehir
-#: To_Lands_Unknown/scenarios/03_Near_the_Jungle.cfg:386
+#: To_Lands_Unknown/scenarios/03_Near_the_Jungle.cfg:391
 msgid "All I wanted was a few bananas, and now we got this... fantastic..."
 msgstr ""
 
 #. [message]: speaker=Mehir
-#: To_Lands_Unknown/scenarios/03_Near_the_Jungle.cfg:390
+#: To_Lands_Unknown/scenarios/03_Near_the_Jungle.cfg:395
 msgid ""
 "*grabs a scimitar in a professional manner* (to the men) On the other hand, "
 "the dinner menu will include deep-fried medium-rare toasted lizard with "
@@ -5388,22 +5267,22 @@ msgstr ""
 
 #. [message]: type=EoMa_Novice_Summoner
 #. [message]: type=EoMa_Carpet_Master
-#: To_Lands_Unknown/scenarios/03_Near_the_Jungle.cfg:445
-#: To_Lands_Unknown/scenarios/03_Near_the_Jungle.cfg:848
+#: To_Lands_Unknown/scenarios/03_Near_the_Jungle.cfg:450
+#: To_Lands_Unknown/scenarios/03_Near_the_Jungle.cfg:853
 #, fuzzy
 #| msgid "Yes sir!"
 msgid "Sir yes sir!"
 msgstr "Sissignore!"
 
 #. [message]: speaker=Bakha
-#: To_Lands_Unknown/scenarios/03_Near_the_Jungle.cfg:450
+#: To_Lands_Unknown/scenarios/03_Near_the_Jungle.cfg:455
 msgid ""
 "My liege! There are too many of them - we must inform the city of Sud-Affar! "
 "We need reinforcements!"
 msgstr ""
 
 #. [message]: speaker=Mehir
-#: To_Lands_Unknown/scenarios/03_Near_the_Jungle.cfg:454
+#: To_Lands_Unknown/scenarios/03_Near_the_Jungle.cfg:459
 msgid ""
 "Alright men, you heard him, whichever of you has the fastest carpet, fetch "
 "us some reinforcements, now! Move it!"
@@ -5411,8 +5290,8 @@ msgstr ""
 
 #. [objective]: condition=win
 #. [objectives]
-#: To_Lands_Unknown/scenarios/03_Near_the_Jungle.cfg:508
-#: To_Lands_Unknown/scenarios/03_Near_the_Jungle.cfg:877
+#: To_Lands_Unknown/scenarios/03_Near_the_Jungle.cfg:513
+#: To_Lands_Unknown/scenarios/03_Near_the_Jungle.cfg:882
 #: To_Lands_Unknown/scenarios/10_Chaos.cfg:731
 #, fuzzy
 #| msgid "Survive until the ship arrives."
@@ -5420,32 +5299,32 @@ msgid "Survive until turns run out"
 msgstr "Sopravvivi fino all’arrivo della nave"
 
 #. [objective]: condition=lose
-#: To_Lands_Unknown/scenarios/03_Near_the_Jungle.cfg:516
-#: To_Lands_Unknown/scenarios/03_Near_the_Jungle.cfg:1076
+#: To_Lands_Unknown/scenarios/03_Near_the_Jungle.cfg:521
+#: To_Lands_Unknown/scenarios/03_Near_the_Jungle.cfg:1081
 #, fuzzy
 #| msgid "Death of Elder"
 msgid "Death of Fire Elemental"
 msgstr "Morte dell’anziano"
 
 #. [message]: speaker=Mehir
-#: To_Lands_Unknown/scenarios/03_Near_the_Jungle.cfg:557
+#: To_Lands_Unknown/scenarios/03_Near_the_Jungle.cfg:562
 msgid "Hmmm... Looks safe to me..."
 msgstr ""
 
 #. [message]: speaker=Mehir
-#: To_Lands_Unknown/scenarios/03_Near_the_Jungle.cfg:565
+#: To_Lands_Unknown/scenarios/03_Near_the_Jungle.cfg:570
 #, fuzzy
 #| msgid "Wait! Did you hear that?"
 msgid "Wait! Did you just hear that?"
 msgstr "Aspettate! Avete sentito?"
 
 #. [message]: speaker=Mehir
-#: To_Lands_Unknown/scenarios/03_Near_the_Jungle.cfg:613
+#: To_Lands_Unknown/scenarios/03_Near_the_Jungle.cfg:618
 msgid "We're surrounded! Everyone, ready your weapons, but don't attack yet!"
 msgstr ""
 
 #. [message]: speaker=Bakha
-#: To_Lands_Unknown/scenarios/03_Near_the_Jungle.cfg:629
+#: To_Lands_Unknown/scenarios/03_Near_the_Jungle.cfg:634
 #, fuzzy
 #| msgid ""
 #| "They are... lizards... and that one is probably their leader. See all of "
@@ -5458,22 +5337,22 @@ msgstr ""
 "quelle piume? Forse dovremmo parlare con loro?"
 
 #. [message]: speaker=Mehir
-#: To_Lands_Unknown/scenarios/03_Near_the_Jungle.cfg:634
+#: To_Lands_Unknown/scenarios/03_Near_the_Jungle.cfg:639
 msgid "Ah, yes, well... Welcome, we come in peace."
 msgstr "Ah, sì, beh...benvenuti, veniamo in pace."
 
 #. [message]: speaker=Mehir
-#: To_Lands_Unknown/scenarios/03_Near_the_Jungle.cfg:638
+#: To_Lands_Unknown/scenarios/03_Near_the_Jungle.cfg:643
 msgid "(whispers)...though everything will go up in smoke soon..."
 msgstr "(sussurrando)...ma molto presto tutto andrà in fumo..."
 
 #. [message]: speaker=Bakha
-#: To_Lands_Unknown/scenarios/03_Near_the_Jungle.cfg:642
+#: To_Lands_Unknown/scenarios/03_Near_the_Jungle.cfg:647
 msgid "My liege!"
 msgstr ""
 
 #. [message]: speaker=Mehir
-#: To_Lands_Unknown/scenarios/03_Near_the_Jungle.cfg:647
+#: To_Lands_Unknown/scenarios/03_Near_the_Jungle.cfg:652
 #, fuzzy
 #| msgid ""
 #| "Oops, sorry. What I was trying to... ah. So we come from the desert, "
@@ -5489,14 +5368,14 @@ msgstr ""
 "lontananza. Intorno a quella città stiamo costruendo un cerchio gigante..."
 
 #. [message]: speaker=Bakha
-#: To_Lands_Unknown/scenarios/03_Near_the_Jungle.cfg:651
+#: To_Lands_Unknown/scenarios/03_Near_the_Jungle.cfg:656
 msgid ""
 "Sir, I doubt they understand our language and terminology. Maybe we should "
 "show them what we mean?"
 msgstr ""
 
 #. [message]: speaker=Mehir
-#: To_Lands_Unknown/scenarios/03_Near_the_Jungle.cfg:655
+#: To_Lands_Unknown/scenarios/03_Near_the_Jungle.cfg:660
 #, fuzzy
 #| msgid ""
 #| "How should I show them the Abyss and fried lizards, I wonder? Okay, okay, "
@@ -5509,14 +5388,14 @@ msgstr ""
 "Va bene, va bene, ci proverò. Forse eviteremo guai..."
 
 #. [message]: speaker=narrator
-#: To_Lands_Unknown/scenarios/03_Near_the_Jungle.cfg:670
+#: To_Lands_Unknown/scenarios/03_Near_the_Jungle.cfg:675
 #: To_Lands_Unknown/scenarios/16_Defense_of_Saffaros.cfg:558
 #: To_Lands_Unknown/scenarios/21_Skydock.cfg:999
 msgid "Two hours later..."
 msgstr "Due ore dopo..."
 
 #. [message]: speaker=Bakha
-#: To_Lands_Unknown/scenarios/03_Near_the_Jungle.cfg:674
+#: To_Lands_Unknown/scenarios/03_Near_the_Jungle.cfg:679
 msgid ""
 "I am afraid they still don’t understand. Maybe we should show them a magical "
 "entity?"
@@ -5525,47 +5404,47 @@ msgstr ""
 "magica?"
 
 #. [message]: speaker=Mehir
-#: To_Lands_Unknown/scenarios/03_Near_the_Jungle.cfg:678
+#: To_Lands_Unknown/scenarios/03_Near_the_Jungle.cfg:683
 msgid "I only have a fire elemental summoning scroll, but let’s give it a try."
 msgstr ""
 
 #. [message]: speaker=Bakha
-#: To_Lands_Unknown/scenarios/03_Near_the_Jungle.cfg:683
+#: To_Lands_Unknown/scenarios/03_Near_the_Jungle.cfg:688
 msgid "No no no, anything but that, I beg you!"
 msgstr ""
 
 #. [message]: speaker=Mehir
-#: To_Lands_Unknown/scenarios/03_Near_the_Jungle.cfg:699
+#: To_Lands_Unknown/scenarios/03_Near_the_Jungle.cfg:704
 msgid "Damn, it's too late now!"
 msgstr ""
 
 #. [message]: speaker=Rhaxiz
-#: To_Lands_Unknown/scenarios/03_Near_the_Jungle.cfg:705
+#: To_Lands_Unknown/scenarios/03_Near_the_Jungle.cfg:710
 msgid "Raa!! Xazi Xsi! Xsi! hissssss!"
 msgstr "Raa!! Xazi Xsi! Xsi! hissssss!"
 
 #. [message]: speaker=Bakha
-#: To_Lands_Unknown/scenarios/03_Near_the_Jungle.cfg:734
+#: To_Lands_Unknown/scenarios/03_Near_the_Jungle.cfg:739
 msgid ""
 "By Nomolas! Summoning a fire elemental, in the middle of a jungle, in front "
 "of the natives! Now we're as good as dead!"
 msgstr ""
 
 #. [message]: speaker=Mehir
-#: To_Lands_Unknown/scenarios/03_Near_the_Jungle.cfg:739
+#: To_Lands_Unknown/scenarios/03_Near_the_Jungle.cfg:744
 msgid ""
 "Hey, the whole thing was your idea! Anyway, everyone, run for your lives!"
 msgstr ""
 
 #. [message]: speaker=Bakha
-#: To_Lands_Unknown/scenarios/03_Near_the_Jungle.cfg:743
+#: To_Lands_Unknown/scenarios/03_Near_the_Jungle.cfg:748
 msgid ""
 "You're not saying we should leave the Circle to the mercy of those lizards, "
 "are you?"
 msgstr ""
 
 #. [message]: speaker=Mehir
-#: To_Lands_Unknown/scenarios/03_Near_the_Jungle.cfg:747
+#: To_Lands_Unknown/scenarios/03_Near_the_Jungle.cfg:752
 #, fuzzy
 #| msgid "Don’t worry about us. You must protect the Circle at all costs!"
 msgid ""
@@ -5574,19 +5453,19 @@ msgid ""
 msgstr "Non preoccupatevi per noi. Proteggete il cerchio a tutti i costi!"
 
 #. [message]: speaker=narrator
-#: To_Lands_Unknown/scenarios/03_Near_the_Jungle.cfg:771
+#: To_Lands_Unknown/scenarios/03_Near_the_Jungle.cfg:776
 msgid ""
 "Your units can heal their wounds at the start of your turn when they are on "
 "an oasis hex."
 msgstr ""
 
 #. [message]: speaker=Mehir
-#: To_Lands_Unknown/scenarios/03_Near_the_Jungle.cfg:787
+#: To_Lands_Unknown/scenarios/03_Near_the_Jungle.cfg:792
 msgid "EVERYONE, TO ARMS!!! WE ARE UNDER ATTACK!!!"
 msgstr ""
 
 #. [message]: speaker=Mehir
-#: To_Lands_Unknown/scenarios/03_Near_the_Jungle.cfg:842
+#: To_Lands_Unknown/scenarios/03_Near_the_Jungle.cfg:847
 #, fuzzy
 #| msgid ""
 #| "Let someone inform Sud-Affar! We are under attack! We need reinforcements!"
@@ -5597,32 +5476,32 @@ msgstr ""
 "Che qualcuno informi Sud-Affar! Siamo sotto attacco! Ci servono dei rinforzi!"
 
 #. [objective]: condition=win
-#: To_Lands_Unknown/scenarios/03_Near_the_Jungle.cfg:874
-#: To_Lands_Unknown/scenarios/03_Near_the_Jungle.cfg:1068
+#: To_Lands_Unknown/scenarios/03_Near_the_Jungle.cfg:879
+#: To_Lands_Unknown/scenarios/03_Near_the_Jungle.cfg:1073
 msgid "Kill all enemy units"
 msgstr ""
 
 #. [message]: speaker=Mehir
-#: To_Lands_Unknown/scenarios/03_Near_the_Jungle.cfg:899
+#: To_Lands_Unknown/scenarios/03_Near_the_Jungle.cfg:904
 msgid ""
 "I see something flying in our direction. Maintain defensive position, "
 "people! Do not rush forward!"
 msgstr ""
 
 #. [message]: speaker=Mehir
-#: To_Lands_Unknown/scenarios/03_Near_the_Jungle.cfg:970
+#: To_Lands_Unknown/scenarios/03_Near_the_Jungle.cfg:975
 #, fuzzy
 #| msgid "Good Nomolas! What was THAT?!"
 msgid "By Nomolas! What are these things?!"
 msgstr "Potente Nomolas! Cos’è STATO!?"
 
 #. [message]: speaker=Mehir
-#: To_Lands_Unknown/scenarios/03_Near_the_Jungle.cfg:991
+#: To_Lands_Unknown/scenarios/03_Near_the_Jungle.cfg:996
 msgid "By Nomolas! These beasts just keep coming! My goodness, we're doomed!"
 msgstr ""
 
 #. [message]: speaker=LizardMessenger
-#: To_Lands_Unknown/scenarios/03_Near_the_Jungle.cfg:1008
+#: To_Lands_Unknown/scenarios/03_Near_the_Jungle.cfg:1013
 #, fuzzy
 #| msgid ""
 #| "(that lizard says something, but it is too far away for Mehir to hear "
@@ -5634,36 +5513,36 @@ msgstr ""
 "(la lucertola dice qualcosa, ma è troppo lontana dalle orecchie di Mehir)"
 
 #. [message]: speaker=narrator
-#: To_Lands_Unknown/scenarios/03_Near_the_Jungle.cfg:1030
+#: To_Lands_Unknown/scenarios/03_Near_the_Jungle.cfg:1035
 msgid "Rha! Xsisss, sefffissss!"
 msgstr "Rha! Xsisss, sefffissss!"
 
 #. [message]: speaker=lastbackup
-#: To_Lands_Unknown/scenarios/03_Near_the_Jungle.cfg:1046
+#: To_Lands_Unknown/scenarios/03_Near_the_Jungle.cfg:1051
 msgid "Seeetfuu! Txsiii hassith!"
 msgstr "Seeetfuu! Txsiii hassith!"
 
 #. [message]: speaker=Mehir
-#: To_Lands_Unknown/scenarios/03_Near_the_Jungle.cfg:1059
+#: To_Lands_Unknown/scenarios/03_Near_the_Jungle.cfg:1064
 msgid "Huh? They are retreating?"
 msgstr ""
 
 #. [message]: speaker=Mehir
-#: To_Lands_Unknown/scenarios/03_Near_the_Jungle.cfg:1063
+#: To_Lands_Unknown/scenarios/03_Near_the_Jungle.cfg:1068
 msgid ""
 "No, wait — there are a few of them left. Everyone, keep fighting, now we "
 "might actually make it out of here in one piece!"
 msgstr ""
 
 #. [message]: speaker=Mehir
-#: To_Lands_Unknown/scenarios/03_Near_the_Jungle.cfg:1121
+#: To_Lands_Unknown/scenarios/03_Near_the_Jungle.cfg:1126
 #, fuzzy
 #| msgid "That’s the last of them."
 msgid "Phew, that’s the last of them..."
 msgstr "E questo è l’ultimo."
 
 #. [message]: speaker=Mehir
-#: To_Lands_Unknown/scenarios/03_Near_the_Jungle.cfg:1126
+#: To_Lands_Unknown/scenarios/03_Near_the_Jungle.cfg:1131
 msgid ""
 "Summoning a fire elemental in front of the lizards was a mistake, one that "
 "cost too many lives... If only I hadn’t made it, things could have taken a "
@@ -5671,7 +5550,7 @@ msgid ""
 msgstr ""
 
 #. [message]: speaker=Mehir
-#: To_Lands_Unknown/scenarios/03_Near_the_Jungle.cfg:1131
+#: To_Lands_Unknown/scenarios/03_Near_the_Jungle.cfg:1136
 #, fuzzy
 #| msgid ""
 #| "The reinforcements from Sud-Affar will come soon. We must be on our "
@@ -5687,7 +5566,7 @@ msgstr ""
 "piena di creature pericolose. Avremo bisogno di molte truppe."
 
 #. [message]: speaker=Mehir
-#: To_Lands_Unknown/scenarios/03_Near_the_Jungle.cfg:1136
+#: To_Lands_Unknown/scenarios/03_Near_the_Jungle.cfg:1141
 msgid ""
 "Send someone to the city for machetes and saws. We can forget about fire "
 "elementals for the time being."
@@ -5696,7 +5575,7 @@ msgstr ""
 "scordarci di usare gli elementali di fuoco, per il momento."
 
 #. [message]: speaker=Mehir
-#: To_Lands_Unknown/scenarios/03_Near_the_Jungle.cfg:1184
+#: To_Lands_Unknown/scenarios/03_Near_the_Jungle.cfg:1189
 msgid ""
 "I'd better be careful with this Fire Elemental. If I lose it, we won't be "
 "able to quickly burn the jungle ahead of us until reinforcements arrive. The "
@@ -5704,7 +5583,7 @@ msgid ""
 msgstr ""
 
 #. [message]: speaker=Mehir
-#: To_Lands_Unknown/scenarios/03_Near_the_Jungle.cfg:1200
+#: To_Lands_Unknown/scenarios/03_Near_the_Jungle.cfg:1205
 msgid ""
 "Damn! Not only we can't cook those lizards, but how the hell are we supposed "
 "to burn this damned jungle now? My career is screwed!"
@@ -5895,8 +5774,8 @@ msgstr "...oh...una freccia soporifera..."
 #: To_Lands_Unknown/scenarios/04_Southern_Nations.cfg:501
 #: To_Lands_Unknown/scenarios/04_Southern_Nations.cfg:123
 #: To_Lands_Unknown/scenarios/05_Jungle_of_Life.cfg:35
-#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:380
-#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:973
+#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:348
+#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:941
 msgid "Jaffar"
 msgstr "Jaffar"
 
@@ -7541,9 +7420,9 @@ msgstr "Dannazione!"
 
 #. [message]: speaker=Mehir
 #: To_Lands_Unknown/scenarios/06_Fire_Canyon.cfg:1718
-#: To_Lands_Unknown/scenarios/08_Ka-gatta.cfg:2320
-#: To_Lands_Unknown/scenarios/09_Goddess_of_All_Rhamis.cfg:437
-#: To_Lands_Unknown/scenarios/10_Chaos.cfg:1993
+#: To_Lands_Unknown/scenarios/08_Ka-gatta.cfg:1658
+#: To_Lands_Unknown/scenarios/09_Goddess_of_All_Rhamis.cfg:438
+#: To_Lands_Unknown/scenarios/10_Chaos.cfg:2006
 #: To_Lands_Unknown/scenarios/12_Siege_of_Mag-Magar.cfg:1334
 #: To_Lands_Unknown/scenarios/15_Abyssal_Rebellion.cfg:2056
 #: To_Lands_Unknown/scenarios/16_Defense_of_Saffaros.cfg:1652
@@ -7556,9 +7435,9 @@ msgstr ""
 
 #. [message]: speaker=Mehir
 #: To_Lands_Unknown/scenarios/06_Fire_Canyon.cfg:1724
-#: To_Lands_Unknown/scenarios/08_Ka-gatta.cfg:2326
-#: To_Lands_Unknown/scenarios/09_Goddess_of_All_Rhamis.cfg:443
-#: To_Lands_Unknown/scenarios/10_Chaos.cfg:1999
+#: To_Lands_Unknown/scenarios/08_Ka-gatta.cfg:1664
+#: To_Lands_Unknown/scenarios/09_Goddess_of_All_Rhamis.cfg:444
+#: To_Lands_Unknown/scenarios/10_Chaos.cfg:2012
 #: To_Lands_Unknown/scenarios/12_Siege_of_Mag-Magar.cfg:1340
 #: To_Lands_Unknown/scenarios/15_Abyssal_Rebellion.cfg:2062
 #: To_Lands_Unknown/scenarios/16_Defense_of_Saffaros.cfg:1658
@@ -7841,7 +7720,7 @@ msgstr ""
 
 #. [message]: speaker=narrator
 #: To_Lands_Unknown/scenarios/07_Dome_of_Elements.cfg:275
-#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:230
+#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:198
 msgid ""
 "Right click an empty hex adjacent to Mehir and then pick a unit you wish to "
 "summon."
@@ -7849,15 +7728,15 @@ msgstr ""
 
 #. [objective]: condition=win
 #: To_Lands_Unknown/scenarios/07_Dome_of_Elements.cfg:291
-#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:250
-#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:781
+#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:218
+#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:749
 msgid "Summon something"
 msgstr ""
 
 #. [note]
 #: To_Lands_Unknown/scenarios/07_Dome_of_Elements.cfg:295
-#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:258
-#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:789
+#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:226
+#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:757
 msgid "Right click Mehir for help"
 msgstr ""
 
@@ -7885,7 +7764,7 @@ msgstr ""
 
 #. [objective]: condition=win
 #: To_Lands_Unknown/scenarios/07_Dome_of_Elements.cfg:337
-#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:310
+#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:278
 msgid "Destroy your elemental"
 msgstr ""
 
@@ -8315,12 +8194,12 @@ msgid ""
 msgstr ""
 
 #. [message]: speaker=Mehir
-#: To_Lands_Unknown/scenarios/08_Ka-gatta.cfg:463
+#: To_Lands_Unknown/scenarios/08_Ka-gatta.cfg:464
 msgid "So this is our old homeland... It gives me the creeps..."
 msgstr ""
 
 #. [message]: speaker=Mehir
-#: To_Lands_Unknown/scenarios/08_Ka-gatta.cfg:467
+#: To_Lands_Unknown/scenarios/08_Ka-gatta.cfg:468
 msgid ""
 "I can see skeletons scattered near the entrance. They seem to be quite old, "
 "clearly not belonging to Tashkar’s expedition. They must have been "
@@ -8328,7 +8207,7 @@ msgid ""
 msgstr ""
 
 #. [message]: speaker=Mehir
-#: To_Lands_Unknown/scenarios/08_Ka-gatta.cfg:471
+#: To_Lands_Unknown/scenarios/08_Ka-gatta.cfg:472
 msgid ""
 "As far as I can see, there are no traces of Tashkar or his troops around "
 "here. They must have been in too much of a hurry to explore the place. "
@@ -8337,7 +8216,7 @@ msgid ""
 msgstr ""
 
 #. [message]: speaker=narrator
-#: To_Lands_Unknown/scenarios/08_Ka-gatta.cfg:476
+#: To_Lands_Unknown/scenarios/08_Ka-gatta.cfg:477
 msgid ""
 "Note: Mehir has become a Grand Summoner. He can now recruit a wider range of "
 "units and, as explained in the previous scenario, is capable of summoning "
@@ -8345,19 +8224,19 @@ msgid ""
 msgstr ""
 
 #. [objective]: condition=win
-#: To_Lands_Unknown/scenarios/08_Ka-gatta.cfg:482
+#: To_Lands_Unknown/scenarios/08_Ka-gatta.cfg:483
 msgid "Move to the next chamber"
 msgstr "Spostati alla cavità successiva"
 
 #. [objective]: condition=win
-#: To_Lands_Unknown/scenarios/08_Ka-gatta.cfg:486
+#: To_Lands_Unknown/scenarios/08_Ka-gatta.cfg:487
 #, fuzzy
 #| msgid "(optional) Search the caves"
 msgid "(optional) Search the caves for treasure"
 msgstr "(facoltativo) Esplora le grotte"
 
 #. [objectives]
-#: To_Lands_Unknown/scenarios/08_Ka-gatta.cfg:499
+#: To_Lands_Unknown/scenarios/08_Ka-gatta.cfg:500
 msgid ""
 "-You can get a bit of extra gold by looting the skeletons lying on the "
 "ground.\n"
@@ -8366,7 +8245,7 @@ msgid ""
 msgstr ""
 
 #. [message]: speaker=scout
-#: To_Lands_Unknown/scenarios/08_Ka-gatta.cfg:521
+#: To_Lands_Unknown/scenarios/08_Ka-gatta.cfg:522
 msgid ""
 "Sir, I've scouted the area. These caves are infested with rogue elementals, "
 "and are home for dangerous creatures like bats and giant spiders. It would "
@@ -8374,228 +8253,118 @@ msgid ""
 msgstr ""
 
 #. [message]: speaker=Mehir
-#: To_Lands_Unknown/scenarios/08_Ka-gatta.cfg:525
+#: To_Lands_Unknown/scenarios/08_Ka-gatta.cfg:526
 msgid "I'll keep that in mind, thanks."
 msgstr ""
 
 #. [object]
-#: To_Lands_Unknown/scenarios/08_Ka-gatta.cfg:559
+#: To_Lands_Unknown/scenarios/08_Ka-gatta.cfg:560
 msgid "Found some gold:"
 msgstr ""
 
 #. [modify_side]
-#: To_Lands_Unknown/scenarios/08_Ka-gatta.cfg:639
+#: To_Lands_Unknown/scenarios/08_Ka-gatta.cfg:640
 msgid "Guardians"
 msgstr ""
 
 #. [message]: speaker=Mehir
-#: To_Lands_Unknown/scenarios/08_Ka-gatta.cfg:645
+#: To_Lands_Unknown/scenarios/08_Ka-gatta.cfg:646
 msgid "We’ve awoken BATS!"
 msgstr ""
 
-#. [scenario]: id=08_Ka-gatta
-#: To_Lands_Unknown/scenarios/08_Ka-gatta.cfg:696
-msgid "scimitar^Take it"
-msgstr "Prendila"
-
-#. [scenario]: id=08_Ka-gatta
-#: To_Lands_Unknown/scenarios/08_Ka-gatta.cfg:696
-msgid "scimitar^Leave it"
-msgstr "Lasciala"
-
-#. [scenario]: id=08_Ka-gatta
-#: To_Lands_Unknown/scenarios/08_Ka-gatta.cfg:696
-#: To_Lands_Unknown/scenarios/08_Ka-gatta.cfg:1010
-msgid "Only a summoner can use this item!"
-msgstr "Solo un evocatore può usare questo oggetto!"
-
-#. [object]
-#: To_Lands_Unknown/scenarios/08_Ka-gatta.cfg:698
-#, fuzzy
-#| msgid "ancient cuirass"
-msgid "Ancient Scimitar"
-msgstr "corazza antica"
-
-#. [object]
-#: To_Lands_Unknown/scenarios/08_Ka-gatta.cfg:701
-msgid ""
-"Scimitar damage increased by 100%, and the weapon becomes magical (always "
-"70% chance to hit)"
-msgstr ""
-
-#. [effect]
-#. [value]: id=mscimitar # wmllint: ignore
-#: To_Lands_Unknown/scenarios/08_Ka-gatta.cfg:712
-#: To_Lands_Unknown/scenarios/08_Ka-gatta.cfg:738
-#, fuzzy
-#| msgid "ancient cuirass"
-msgid "ancient scimitar"
-msgstr "corazza antica"
-
-#. [value]: id=mscimitar # wmllint: ignore
-#: To_Lands_Unknown/scenarios/08_Ka-gatta.cfg:739
-msgid ""
-"This unit holds a powerful scimitar.\n"
-"Effects:\n"
-"Scimitar damage increased by 100%, and the weapon becomes magical (always "
-"70% chance to hit)"
-msgstr ""
-
-#. [message]: type=EoMa_Ho_rhami
-#: To_Lands_Unknown/scenarios/08_Ka-gatta.cfg:758
-#, fuzzy
-#| msgid "Those who touch the scimitar..."
-msgid "Those who dare touch the scimitar..."
-msgstr "Coloro che toccano la scimitarra..."
-
-#. [message]: type=EoMa_Dharma_rhami
-#: To_Lands_Unknown/scenarios/08_Ka-gatta.cfg:762
-msgid "...MUST DIE!!!"
-msgstr "...DEVONO MORIRE!!!"
-
-#. [message]: speaker=Mehir
-#: To_Lands_Unknown/scenarios/08_Ka-gatta.cfg:767
-msgid "Err... can't we negotiate? There's no need for violence!"
-msgstr ""
-
-#. [message]: type=EoMa_Ho_rhami
-#: To_Lands_Unknown/scenarios/08_Ka-gatta.cfg:774
-msgid ""
-"Have we not made our point clear enough, mortal? When we want someone dead, "
-"there will be no negotiations!"
-msgstr ""
-
-#. [message]: speaker=Mehir
-#: To_Lands_Unknown/scenarios/08_Ka-gatta.cfg:778
-msgid "Damn it! I guess we have no choice now. Men, defensive formation!"
-msgstr ""
-
-#. [scenario]: id=08_Ka-gatta
-#: To_Lands_Unknown/scenarios/08_Ka-gatta.cfg:784
-msgid "carpet^Leave it"
-msgstr "Lascialo"
-
-#. [scenario]: id=08_Ka-gatta
-#: To_Lands_Unknown/scenarios/08_Ka-gatta.cfg:784
-msgid "Only the carpet rider can use this item!"
-msgstr "Solo un cavalcatore di tappeti può usare questo oggetto!"
-
-#. [object]
-#: To_Lands_Unknown/scenarios/08_Ka-gatta.cfg:789
-msgid ""
-"Advances the unit (if unit is already at maximum level, gain 1 AMLA "
-"instead)\n"
-"Speed increases by 50%\n"
-"+10% terrain defense bonus"
-msgstr ""
-
 #. [message]: race=eoma_summoner
-#: To_Lands_Unknown/scenarios/08_Ka-gatta.cfg:870
+#: To_Lands_Unknown/scenarios/08_Ka-gatta.cfg:700
 msgid "I’ve found a chest full of gold!"
 msgstr "Ho trovato un forziere pieno d’oro!"
 
 #. [message]
-#: To_Lands_Unknown/scenarios/08_Ka-gatta.cfg:876
+#: To_Lands_Unknown/scenarios/08_Ka-gatta.cfg:706
 #, fuzzy
 #| msgid "I’ve found a chest full of gold!"
 msgid "My liege, I’ve found a chest full of gold!"
 msgstr "Ho trovato un forziere pieno d’oro!"
 
 #. [object]
-#: To_Lands_Unknown/scenarios/08_Ka-gatta.cfg:882
+#: To_Lands_Unknown/scenarios/08_Ka-gatta.cfg:712
 #, fuzzy
 #| msgid "200 gold"
 msgid "300 gold"
 msgstr "200 monete d’oro"
 
-#. [scenario]: id=08_Ka-gatta
-#: To_Lands_Unknown/scenarios/08_Ka-gatta.cfg:899
+#. [message]: type=EoMa_Ho_rhami
+#: To_Lands_Unknown/scenarios/08_Ka-gatta.cfg:762
 #, fuzzy
-#| msgid "armor^Leave it"
-msgid "ring^Leave it"
-msgstr "Lasciala"
+#| msgid "Those who touch the scimitar..."
+msgid "Those who dare touch the scimitar..."
+msgstr "Coloro che toccano la scimitarra..."
 
-#. [scenario]: id=08_Ka-gatta
-#: To_Lands_Unknown/scenarios/08_Ka-gatta.cfg:899
-msgid "Only a human can use this item!"
-msgstr "Solo un umano può usare questo oggetto!"
+#. [message]: type=EoMa_Dharma_rhami
+#: To_Lands_Unknown/scenarios/08_Ka-gatta.cfg:766
+msgid "...MUST DIE!!!"
+msgstr "...DEVONO MORIRE!!!"
 
-#. [object]
-#: To_Lands_Unknown/scenarios/08_Ka-gatta.cfg:904
-msgid "This ring will heal the bearer by 8 hitpoints each turn."
+#. [message]: speaker=Mehir
+#: To_Lands_Unknown/scenarios/08_Ka-gatta.cfg:771
+msgid "Err... can't we negotiate? There's no need for violence!"
 msgstr ""
 
-#. [value]: id=regenring # wmllint: ignore
-#: To_Lands_Unknown/scenarios/08_Ka-gatta.cfg:935
+#. [message]: type=EoMa_Ho_rhami
+#: To_Lands_Unknown/scenarios/08_Ka-gatta.cfg:778
 msgid ""
-"This unit wears the Ring of Regeneration.\n"
-"\n"
-"Effects:\n"
-"Grants the regeneration ability"
+"Have we not made our point clear enough, mortal? When we want someone dead, "
+"there will be no negotiations!"
 msgstr ""
 
-#. [scenario]: id=08_Ka-gatta
-#: To_Lands_Unknown/scenarios/08_Ka-gatta.cfg:950
-msgid "cloak^Leave it"
-msgstr "Lascialo"
+#. [message]: speaker=Mehir
+#: To_Lands_Unknown/scenarios/08_Ka-gatta.cfg:782
+msgid "Damn it! I guess we have no choice now. Men, defensive formation!"
+msgstr ""
 
-#. [scenario]: id=08_Ka-gatta
-#: To_Lands_Unknown/scenarios/08_Ka-gatta.cfg:950
+#. [message]: speaker=unit
+#: To_Lands_Unknown/scenarios/08_Ka-gatta.cfg:826
 #, fuzzy
-#| msgid "Only a camel rider can use this item!"
-msgid "Only a camel rider (or his advancements) can use this item!"
-msgstr "Solo un cavalcatore di cammelli può usare questo oggetto!"
-
-#. [object]
-#: To_Lands_Unknown/scenarios/08_Ka-gatta.cfg:955
-msgid ""
-"Advances the unit (unless the unit is already at maximum level)\n"
-"Grants 50% fire resistance"
-msgstr ""
-
-#. [scenario]: id=08_Ka-gatta
-#: To_Lands_Unknown/scenarios/08_Ka-gatta.cfg:1010
-msgid "cap^Leave it"
-msgstr "Lascialo"
+#| msgid "The ground is trembling..."
+msgid "The ground is shaking..."
+msgstr "La terra trema..."
 
 #. [message]: speaker=Ghost
-#: To_Lands_Unknown/scenarios/08_Ka-gatta.cfg:1116
+#: To_Lands_Unknown/scenarios/08_Ka-gatta.cfg:859
 #, fuzzy
 #| msgid "Who... who are you?"
 msgid "Who... who is here? Where am I?"
 msgstr "Chi...chi siete?"
 
 #. [message]: speaker=Mehir
-#: To_Lands_Unknown/scenarios/08_Ka-gatta.cfg:1121
+#: To_Lands_Unknown/scenarios/08_Ka-gatta.cfg:864
 msgid "A ghost? That's something new..."
 msgstr ""
 
 #. [message]: speaker=Mehir
-#: To_Lands_Unknown/scenarios/08_Ka-gatta.cfg:1127
+#: To_Lands_Unknown/scenarios/08_Ka-gatta.cfg:870
 msgid "EEEEEK! A GHOST!!!"
 msgstr ""
 
 #. [message]: speaker=Ghost
-#: To_Lands_Unknown/scenarios/08_Ka-gatta.cfg:1132
+#: To_Lands_Unknown/scenarios/08_Ka-gatta.cfg:875
 msgid ""
 "Rashti, is that you? Do you remember me, your first master? So many "
 "centuries have passed..."
 msgstr ""
 
 #. [message]: speaker=Mehir
-#: To_Lands_Unknown/scenarios/08_Ka-gatta.cfg:1137
+#: To_Lands_Unknown/scenarios/08_Ka-gatta.cfg:880
 msgid ""
 "Listen grandpa, I don't know who are you talking to but you'd better rest."
 msgstr ""
 
 #. [message]: speaker=Mehir
-#: To_Lands_Unknown/scenarios/08_Ka-gatta.cfg:1143
+#: To_Lands_Unknown/scenarios/08_Ka-gatta.cfg:886
 msgid ""
 "Wh..what? Err... I think he might be lost in his memories of mortal life..."
 msgstr ""
 
 #. [message]: speaker=Ghost
-#: To_Lands_Unknown/scenarios/08_Ka-gatta.cfg:1148
+#: To_Lands_Unknown/scenarios/08_Ka-gatta.cfg:891
 msgid ""
 "Who are these people with you? Why are you fading away? Rashti? RASHTI?! "
 "Wait... you are not Rashti... She is here but not with you. You took her "
@@ -8603,144 +8372,60 @@ msgid ""
 msgstr ""
 
 #. [message]: speaker=Mehir
-#: To_Lands_Unknown/scenarios/08_Ka-gatta.cfg:1160
+#: To_Lands_Unknown/scenarios/08_Ka-gatta.cfg:903
 msgid ""
 "I guess we pissed him off. He must be one of those ancient summoners the "
 "Instructor told me about in Sud-Affar..."
 msgstr ""
 
 #. [message]: speaker=Mehir
-#: To_Lands_Unknown/scenarios/08_Ka-gatta.cfg:1165
+#: To_Lands_Unknown/scenarios/08_Ka-gatta.cfg:908
 msgid ""
 "Another maniac... It's time to make him rest in peace ...for good this time."
 msgstr ""
 
 #. [message]: speaker=Mehir
-#: To_Lands_Unknown/scenarios/08_Ka-gatta.cfg:1170
+#: To_Lands_Unknown/scenarios/08_Ka-gatta.cfg:913
 msgid ""
 "We have to put him down somehow. I wonder how this can be done. He is dead "
 "already... Maybe we can destroy the circle with magic?"
 msgstr ""
 
 #. [message]: speaker=Ghost
-#: To_Lands_Unknown/scenarios/08_Ka-gatta.cfg:1249
+#: To_Lands_Unknown/scenarios/08_Ka-gatta.cfg:992
 msgid ""
 "Now I see it... She has chosen you. Treat her well... She is the Golden "
 "Lady..."
 msgstr ""
 
 #. [message]: speaker=Ghost
-#: To_Lands_Unknown/scenarios/08_Ka-gatta.cfg:1268
+#: To_Lands_Unknown/scenarios/08_Ka-gatta.cfg:1011
 msgid ""
 "My magical servants, you may return to the Abyss! Farewell, stranger, and "
 "thank you for releasing me from this prison..."
 msgstr ""
 
 #. [message]: speaker=Ghost
-#: To_Lands_Unknown/scenarios/08_Ka-gatta.cfg:1319
+#: To_Lands_Unknown/scenarios/08_Ka-gatta.cfg:1062
 msgid "Farewell, stranger, and thank you for releasing me from this prison..."
 msgstr ""
 
 #. [message]: speaker=Mehir
-#: To_Lands_Unknown/scenarios/08_Ka-gatta.cfg:1333
+#: To_Lands_Unknown/scenarios/08_Ka-gatta.cfg:1076
 msgid ""
 "That was very weird, but he's gone now! Phew! I wonder what he meant, "
 "though..."
 msgstr ""
 
-#. [scenario]: id=08_Ka-gatta
-#: To_Lands_Unknown/scenarios/08_Ka-gatta.cfg:1346
-msgid "armor^Leave it"
-msgstr "Lasciala"
-
-#. [scenario]: id=08_Ka-gatta
-#: To_Lands_Unknown/scenarios/08_Ka-gatta.cfg:1346
-#, fuzzy
-#| msgid "Only a human can use this item!"
-msgid "Only humans can use this item!"
-msgstr "Solo un umano può usare questo oggetto!"
-
-#. [object]
-#: To_Lands_Unknown/scenarios/08_Ka-gatta.cfg:1351
-msgid ""
-"Increases physical resistances by 25%\n"
-"Increases fire and cold resistances by 20%\n"
-"Decreases arcane resistance by 15%"
-msgstr ""
-
-#. [message]: speaker=unit
-#: To_Lands_Unknown/scenarios/08_Ka-gatta.cfg:1384
-#, fuzzy
-#| msgid "The ground is trembling..."
-msgid "The ground is shaking..."
-msgstr "La terra trema..."
-
-#. [value]: id=cota # wmllint: ignore
-#: To_Lands_Unknown/scenarios/08_Ka-gatta.cfg:1401
-msgid "ancient cuirass"
-msgstr "corazza antica"
-
-#. [value]: id=cota # wmllint: ignore
-#: To_Lands_Unknown/scenarios/08_Ka-gatta.cfg:1402
-#, fuzzy
-#| msgid ""
-#| "This unit is wearing a powerful armor, which grants additional physical "
-#| "resistance, but also increases susceptibility to arcane damage."
-msgid ""
-"This unit is wearing a powerful armor, which grants additional physical "
-"resistance, but also increases susceptibility to arcane damage.\n"
-"\n"
-"Effects:\n"
-"Increases physical resistances by 25%\n"
-"Increases fire and cold resistances by 20%\n"
-"Decreases arcane resistance by 15%"
-msgstr ""
-"L’unità indossa un’armatura potentissima che le conferisce ulteriore "
-"resistenza fisica, ma che aumenta la sua vulnerabilità ai danni esoterici."
-
-#. [scenario]: id=08_Ka-gatta
-#: To_Lands_Unknown/scenarios/08_Ka-gatta.cfg:1421
-msgid "spear^Leave it"
-msgstr "Lasciala"
-
-#. [scenario]: id=08_Ka-gatta
-#: To_Lands_Unknown/scenarios/08_Ka-gatta.cfg:1421
-msgid "Only a Rhami or Rhami’kai can use this item!"
-msgstr "Solo una rhami o una rhami’kai può usare questo oggetto!"
-
-#. [object]
-#: To_Lands_Unknown/scenarios/08_Ka-gatta.cfg:1423
-#, fuzzy
-#| msgid "Spear of Rhami"
-msgid "Spear of the Rhami"
-msgstr "Lancia di Rhami"
-
-#. [object]
-#: To_Lands_Unknown/scenarios/08_Ka-gatta.cfg:1426
-msgid ""
-"Advances the unit (unless the unit is already at maximum level)\n"
-"Increases the attack by 25%\n"
-"Increases magical resistances by 10%"
-msgstr ""
-
-#. [value]: id=spearrhami # wmllint: ignore
-#: To_Lands_Unknown/scenarios/08_Ka-gatta.cfg:1489
-msgid ""
-"This unit is holding a powerful spear of abysmal origin.\n"
-"\n"
-"Effects:\n"
-"Increases the attack by 20%"
-msgstr ""
-
 #. [message]: speaker=Mehir
-#: To_Lands_Unknown/scenarios/08_Ka-gatta.cfg:1514
+#: To_Lands_Unknown/scenarios/08_Ka-gatta.cfg:1093
 msgid ""
 "Creature! Why are you attacking us?! Don't you see we are Summoners? Who is "
 "your master? Answer me, now!"
 msgstr ""
 
 #. [message]: speaker=SpearGuardian
-#: To_Lands_Unknown/scenarios/08_Ka-gatta.cfg:1518
+#: To_Lands_Unknown/scenarios/08_Ka-gatta.cfg:1097
 msgid ""
 "I bow before no man. The only being I serve is the the Holy Rashti'rhami - "
 "the goddess of all Rhamis. It was her who, 392 years ago, ordered me to "
@@ -8751,7 +8436,7 @@ msgid ""
 msgstr ""
 
 #. [message]: speaker=Mehir
-#: To_Lands_Unknown/scenarios/08_Ka-gatta.cfg:1523
+#: To_Lands_Unknown/scenarios/08_Ka-gatta.cfg:1102
 msgid ""
 "Hmmm.... (lies) We were looking for you. You see, I am a messenger sent by "
 "Rashti herself. She ordered me to... err.. find you and release you from "
@@ -8761,38 +8446,38 @@ msgid ""
 msgstr ""
 
 #. [message]: speaker=Mehir
-#: To_Lands_Unknown/scenarios/08_Ka-gatta.cfg:1527
+#: To_Lands_Unknown/scenarios/08_Ka-gatta.cfg:1106
 msgid "So here I am. By the order of Rashti'rhami herself, you are relieved!"
 msgstr ""
 
 #. [message]: speaker=SpearGuardian
-#: To_Lands_Unknown/scenarios/08_Ka-gatta.cfg:1531
+#: To_Lands_Unknown/scenarios/08_Ka-gatta.cfg:1110
 msgid ""
 "(with excitement in her voice) Really? Thank you so much! Since I am free "
 "now, can I join you?"
 msgstr ""
 
 #. [message]: speaker=Mehir
-#: To_Lands_Unknown/scenarios/08_Ka-gatta.cfg:1535
+#: To_Lands_Unknown/scenarios/08_Ka-gatta.cfg:1114
 msgid ""
 "Yeah, why not? By the way, could you do something about those elemental "
 "guardians? They've been quite an annoyance so far."
 msgstr ""
 
 #. [message]: speaker=SpearGuardian
-#: To_Lands_Unknown/scenarios/08_Ka-gatta.cfg:1540
+#: To_Lands_Unknown/scenarios/08_Ka-gatta.cfg:1119
 msgid "They will not attack you when I am on your side."
 msgstr ""
 
 #. [message]: speaker=Mehir
-#: To_Lands_Unknown/scenarios/08_Ka-gatta.cfg:1548
+#: To_Lands_Unknown/scenarios/08_Ka-gatta.cfg:1127
 msgid ""
 "Nice! Could you also convince them to join us? A few Earth Gods would "
 "certainly come in handy..."
 msgstr ""
 
 #. [message]: speaker=SpearGuardian
-#: To_Lands_Unknown/scenarios/08_Ka-gatta.cfg:1552
+#: To_Lands_Unknown/scenarios/08_Ka-gatta.cfg:1131
 msgid ""
 "I am sorry, but they do not obey me. They were ordered to protect this place "
 "forever, and aren't mentally capable of taking orders from those other than "
@@ -8800,125 +8485,54 @@ msgid ""
 msgstr ""
 
 #. [message]: speaker=Mehir
-#: To_Lands_Unknown/scenarios/08_Ka-gatta.cfg:1556
+#: To_Lands_Unknown/scenarios/08_Ka-gatta.cfg:1135
 msgid "I see. At least we can count on you, hehe..."
 msgstr ""
 
 #. [message]: speaker=SpearGuardian
-#: To_Lands_Unknown/scenarios/08_Ka-gatta.cfg:1561
+#: To_Lands_Unknown/scenarios/08_Ka-gatta.cfg:1140
 msgid ""
 "To give you a reason to fulfill my demand, if you defeat me, you shall prove "
 "yourselves worthy of wielding this sacred relic of our kind."
 msgstr ""
 
 #. [message]: speaker=Mehir
-#: To_Lands_Unknown/scenarios/08_Ka-gatta.cfg:1565
+#: To_Lands_Unknown/scenarios/08_Ka-gatta.cfg:1144
 msgid "Alright men, you heard her. Time to earn ourselves a legendary spear!"
 msgstr ""
 
 #. [message]: speaker=SpearGuardian
-#: To_Lands_Unknown/scenarios/08_Ka-gatta.cfg:1580
+#: To_Lands_Unknown/scenarios/08_Ka-gatta.cfg:1159
 msgid "She was right, you are worthy..."
 msgstr ""
 
-#. [scenario]: id=08_Ka-gatta
-#: To_Lands_Unknown/scenarios/08_Ka-gatta.cfg:1589
-msgid "collar^Leave it"
-msgstr "Lasciala"
-
-#. [scenario]: id=08_Ka-gatta
-#: To_Lands_Unknown/scenarios/08_Ka-gatta.cfg:1589
-msgid "Only a magical entity can use this item!"
-msgstr "Solo un’entità magica può usare questo oggetto!"
-
-#. [object]
-#: To_Lands_Unknown/scenarios/08_Ka-gatta.cfg:1594
-#, fuzzy
-#| msgid ""
-#| "A legendary artifact, a masterpiece made by the Ancestors. In olden times "
-#| "a magical collar was made, which when placed upon a magical being, could "
-#| "recall it after death.\n"
-#| "The unit is recalled back to the leader\n"
-#| "After each recall the unit gets stronger\n"
-#| "The unit can be recalled only 3 times. After that it dies for sure."
-msgid ""
-"The unit is recalled back to the leader when dies\n"
-"After each recall the unit is fully healed\n"
-"The unit can be recalled only 3 times. After that it dies for sure."
-msgstr ""
-"Artefatto leggendario, un capolavoro fabbricato dagli antenati. In tempi "
-"antichi un collare magico fu forgiato e fatto indossare ad un essere magico, "
-"il quale poteva essere richiamato dopo la sua morte.\n"
-"L’unità viene richiamata dal condottiero\n"
-"Dopo ogni richiamo l’unità diventa sempre più forte\n"
-"L’unità può essere richiamata solo 3 volte, dopo di che muore per sempre."
-
-#. [value]: id=collar # wmllint: ignore
-#: To_Lands_Unknown/scenarios/08_Ka-gatta.cfg:1638
-msgid ""
-"After death the unit is recalled back to the leader. Activates only 3 times."
-msgstr ""
-"Dopo la morte, l’unità ha la possibilità di essere richiamata dal "
-"condottiero. Attivabile solo 3 volte."
-
-#. [scenario]: id=08_Ka-gatta
-#: To_Lands_Unknown/scenarios/08_Ka-gatta.cfg:1675
-msgid "amulet^Leave it"
-msgstr "Lascialo"
-
-#. [scenario]: id=08_Ka-gatta
-#: To_Lands_Unknown/scenarios/08_Ka-gatta.cfg:1675
-msgid "Only the elemental entity can use this item!"
-msgstr "Solo un’entità elementale può usare questo oggetto!"
-
-#. [object]
-#: To_Lands_Unknown/scenarios/08_Ka-gatta.cfg:1680
-msgid ""
-"The elemental unit can turn into another elemental (use right-click on the "
-"unit to activate)"
-msgstr ""
-
-#. [scenario]: id=08_Ka-gatta
-#: To_Lands_Unknown/scenarios/08_Ka-gatta.cfg:1740
-#, fuzzy
-#| msgid "spear^Leave it"
-msgid "staff^Leave it"
-msgstr "Lasciala"
-
-#. [scenario]: id=08_Ka-gatta
-#: To_Lands_Unknown/scenarios/08_Ka-gatta.cfg:1740
-#, fuzzy
-#| msgid "Only a camel rider can use this item!"
-msgid "Only a Novice Summoner, Dispeller or Banisher can use this item!"
-msgstr "Solo un cavalcatore di cammelli può usare questo oggetto!"
-
 #. [message]: race=eoma_summoner
-#: To_Lands_Unknown/scenarios/08_Ka-gatta.cfg:1836
-#: To_Lands_Unknown/scenarios/08_Ka-gatta.cfg:1905
+#: To_Lands_Unknown/scenarios/08_Ka-gatta.cfg:1174
+#: To_Lands_Unknown/scenarios/08_Ka-gatta.cfg:1243
 msgid "Sir, there's some kind of lever here..."
 msgstr ""
 
 #. [message]: type=EoMa_Rhami,EoMa_Rhami_datu,EoMa_Rhami_kai,EoMa_Ho_rhami,EoMa_Dharma_rhami
-#: To_Lands_Unknown/scenarios/08_Ka-gatta.cfg:1841
-#: To_Lands_Unknown/scenarios/08_Ka-gatta.cfg:1875
-#: To_Lands_Unknown/scenarios/08_Ka-gatta.cfg:1910
+#: To_Lands_Unknown/scenarios/08_Ka-gatta.cfg:1179
+#: To_Lands_Unknown/scenarios/08_Ka-gatta.cfg:1213
+#: To_Lands_Unknown/scenarios/08_Ka-gatta.cfg:1248
 msgid "Master, I found some kind of lever..."
 msgstr ""
 
 #. [message]: race=eoma_summoner
-#: To_Lands_Unknown/scenarios/08_Ka-gatta.cfg:1870
+#: To_Lands_Unknown/scenarios/08_Ka-gatta.cfg:1208
 msgid "There's some kind of lever here, sir..."
 msgstr ""
 
 #. [message]: speaker=Mehir
-#: To_Lands_Unknown/scenarios/08_Ka-gatta.cfg:2005
+#: To_Lands_Unknown/scenarios/08_Ka-gatta.cfg:1343
 msgid ""
 "It looks like we've opened the secret door to the powerful relic my Jinni "
 "told me about. It's time to claim the treasure..."
 msgstr ""
 
 #. [message]: speaker=Mehir
-#: To_Lands_Unknown/scenarios/08_Ka-gatta.cfg:2012
+#: To_Lands_Unknown/scenarios/08_Ka-gatta.cfg:1350
 #, fuzzy
 #| msgid ""
 #| "We unlocked them! Maybe we should check tunnels located near those "
@@ -8934,14 +8548,14 @@ msgstr ""
 "uno di questi, quello che ha sbloccato le sbarre di ferro."
 
 #. [message]: speaker=Mehir
-#: To_Lands_Unknown/scenarios/08_Ka-gatta.cfg:2028
+#: To_Lands_Unknown/scenarios/08_Ka-gatta.cfg:1366
 msgid ""
 "It seems Tashkar and his troops left this area. Still, I wonder what was the "
 "point of his whole expedition..."
 msgstr ""
 
 #. [message]: speaker=Mehir
-#: To_Lands_Unknown/scenarios/08_Ka-gatta.cfg:2224
+#: To_Lands_Unknown/scenarios/08_Ka-gatta.cfg:1562
 msgid ""
 "These must be the ancient guardians of this place. They were awakened by "
 "Tashkar, but why? This is not good. But the worst thing is, they won't "
@@ -8949,12 +8563,12 @@ msgid ""
 msgstr ""
 
 #. [message]: speaker=Mehir
-#: To_Lands_Unknown/scenarios/08_Ka-gatta.cfg:2262
+#: To_Lands_Unknown/scenarios/08_Ka-gatta.cfg:1600
 msgid "Aaaaah! The caves are collapsing!"
 msgstr ""
 
 #. [message]: speaker=unit
-#: To_Lands_Unknown/scenarios/08_Ka-gatta.cfg:2336
+#: To_Lands_Unknown/scenarios/08_Ka-gatta.cfg:1674
 msgid ""
 "I sense bats sleeping above us. The entire chamber is full of these "
 "creatures. If we make some loud noise, they will certainly wake up and "
@@ -8962,7 +8576,7 @@ msgid ""
 msgstr ""
 
 #. [message]: speaker=unit
-#: To_Lands_Unknown/scenarios/08_Ka-gatta.cfg:2345
+#: To_Lands_Unknown/scenarios/08_Ka-gatta.cfg:1683
 msgid ""
 "This place is home to many unique artifacts. And we are very close to one of "
 "the most powerful Summoner relics ever created. I can feel its emanating "
@@ -8970,7 +8584,7 @@ msgid ""
 msgstr ""
 
 #. [message]: speaker=Mehir
-#: To_Lands_Unknown/scenarios/08_Ka-gatta.cfg:2349
+#: To_Lands_Unknown/scenarios/08_Ka-gatta.cfg:1687
 #: To_Lands_Unknown/scenarios/22_North_Pole.cfg:1087
 #, fuzzy
 #| msgid "Tell me of Kharos."
@@ -8978,7 +8592,7 @@ msgid "Tell me more!"
 msgstr "Parlatemi di Kharos."
 
 #. [message]: speaker=unit
-#: To_Lands_Unknown/scenarios/08_Ka-gatta.cfg:2353
+#: To_Lands_Unknown/scenarios/08_Ka-gatta.cfg:1691
 msgid ""
 "It is well hidden behind a secret door imitating a cave wall. To open it and "
 "access the relic your men will have to pull some levers scattered around the "
@@ -8986,40 +8600,40 @@ msgid ""
 msgstr ""
 
 #. [message]: speaker=Mehir
-#: To_Lands_Unknown/scenarios/08_Ka-gatta.cfg:2359
+#: To_Lands_Unknown/scenarios/08_Ka-gatta.cfg:1697
 #, fuzzy
 #| msgid "Defeat the invaders"
 msgid "Where are those levers?"
 msgstr "Sconfiggi gli invasori"
 
 #. [message]: speaker=Mehir
-#: To_Lands_Unknown/scenarios/08_Ka-gatta.cfg:2365
+#: To_Lands_Unknown/scenarios/08_Ka-gatta.cfg:1703
 #, fuzzy
 #| msgid "So this is your biggest secret..."
 msgid "So this is their true purpose..."
 msgstr "Quindi questo è il vostro grande segreto..."
 
 #. [message]: speaker=unit
-#: To_Lands_Unknown/scenarios/08_Ka-gatta.cfg:2371
+#: To_Lands_Unknown/scenarios/08_Ka-gatta.cfg:1709
 msgid ""
 "There are three of them. I need to focus to be able to see where your men "
 "will find them in the future. This will take a moment..."
 msgstr ""
 
 #. [message]: speaker=unit
-#: To_Lands_Unknown/scenarios/08_Ka-gatta.cfg:2380
+#: To_Lands_Unknown/scenarios/08_Ka-gatta.cfg:1718
 msgid ""
 "I can see now. Here are the locations of all the levers. Activating them "
 "will open the secret door near the exit."
 msgstr ""
 
 #. [message]: speaker=Mehir
-#: To_Lands_Unknown/scenarios/08_Ka-gatta.cfg:2392
+#: To_Lands_Unknown/scenarios/08_Ka-gatta.cfg:1730
 msgid "Jinn abilities never cease to amaze me..."
 msgstr ""
 
 #. [message]: speaker=unit
-#: To_Lands_Unknown/scenarios/08_Ka-gatta.cfg:2398
+#: To_Lands_Unknown/scenarios/08_Ka-gatta.cfg:1736
 msgid ""
 "Be careful though, my Master! Pulling any of the levers will activate "
 "security mechanisms, which may trap some of our troops. But once the "
@@ -9027,27 +8641,27 @@ msgid ""
 msgstr ""
 
 #. [message]: speaker=Mehir
-#: To_Lands_Unknown/scenarios/08_Ka-gatta.cfg:2402
+#: To_Lands_Unknown/scenarios/08_Ka-gatta.cfg:1740
 msgid "Thanks for the warning."
 msgstr ""
 
 #. [message]: speaker=unit
-#: To_Lands_Unknown/scenarios/08_Ka-gatta.cfg:2410
+#: To_Lands_Unknown/scenarios/08_Ka-gatta.cfg:1748
 msgid ""
 "We should not stay here for too long. This place doesn't seem to be "
 "geologically stable."
 msgstr ""
 
 #. [message]: speaker=Mehir
-#: To_Lands_Unknown/scenarios/08_Ka-gatta.cfg:2450
-#: To_Lands_Unknown/scenarios/08_Ka-gatta.cfg:2455
-#: To_Lands_Unknown/scenarios/08_Ka-gatta.cfg:2460
-#: To_Lands_Unknown/scenarios/08_Ka-gatta.cfg:2465
+#: To_Lands_Unknown/scenarios/08_Ka-gatta.cfg:1792
+#: To_Lands_Unknown/scenarios/08_Ka-gatta.cfg:1797
+#: To_Lands_Unknown/scenarios/08_Ka-gatta.cfg:1802
+#: To_Lands_Unknown/scenarios/08_Ka-gatta.cfg:1807
 msgid "Test"
 msgstr ""
 
 #. [message]: speaker=Mehir
-#: To_Lands_Unknown/scenarios/08_Ka-gatta.cfg:2470
+#: To_Lands_Unknown/scenarios/08_Ka-gatta.cfg:1812
 msgid "Test Badass"
 msgstr ""
 
@@ -9073,7 +8687,7 @@ msgid "Mage"
 msgstr "Mago"
 
 #. [message]: speaker=Mage
-#: To_Lands_Unknown/scenarios/09_Goddess_of_All_Rhamis.cfg:115
+#: To_Lands_Unknown/scenarios/09_Goddess_of_All_Rhamis.cfg:116
 msgid ""
 "Just give up already! No matter how many of my troops you slay, it won't get "
 "you anywhere! It would be much easier for both of us if you just accepted "
@@ -9081,45 +8695,45 @@ msgid ""
 msgstr ""
 
 #. [message]: speaker=Rashti
-#: To_Lands_Unknown/scenarios/09_Goddess_of_All_Rhamis.cfg:120
+#: To_Lands_Unknown/scenarios/09_Goddess_of_All_Rhamis.cfg:121
 msgid "How many times do I have to tell you, human..."
 msgstr ""
 
 #. [message]: speaker=Rashti
-#: To_Lands_Unknown/scenarios/09_Goddess_of_All_Rhamis.cfg:125
+#: To_Lands_Unknown/scenarios/09_Goddess_of_All_Rhamis.cfg:126
 msgid "I won't stop..."
 msgstr ""
 
 #. [message]: speaker=Rashti
-#: To_Lands_Unknown/scenarios/09_Goddess_of_All_Rhamis.cfg:130
+#: To_Lands_Unknown/scenarios/09_Goddess_of_All_Rhamis.cfg:131
 #, fuzzy
 #| msgid "...TO SEE YOU ALIVE!!!"
 msgid "...UNTIL YOU ARE DEAD!!!"
 msgstr "...VEDERTI IN VITA!!!"
 
 #. [message]: speaker=Mage
-#: To_Lands_Unknown/scenarios/09_Goddess_of_All_Rhamis.cfg:162
+#: To_Lands_Unknown/scenarios/09_Goddess_of_All_Rhamis.cfg:163
 msgid ""
 "You can throw golems at me all day long for all I care, and it won't change "
 "a thing."
 msgstr ""
 
 #. [message]: speaker=Mehir
-#: To_Lands_Unknown/scenarios/09_Goddess_of_All_Rhamis.cfg:167
+#: To_Lands_Unknown/scenarios/09_Goddess_of_All_Rhamis.cfg:168
 msgid ""
 "Wait, am I sunstruck, or am I seeing Rashti'rhami herself battling the very "
 "people who invaded the central palace?!"
 msgstr ""
 
 #. [message]: speaker=Rashti
-#: To_Lands_Unknown/scenarios/09_Goddess_of_All_Rhamis.cfg:183
+#: To_Lands_Unknown/scenarios/09_Goddess_of_All_Rhamis.cfg:184
 msgid ""
 "(looks at Mehir) Finally, somebody actually bothered to send reinforcements! "
 "What took them so long?"
 msgstr ""
 
 #. [message]: speaker=Mehir
-#: To_Lands_Unknown/scenarios/09_Goddess_of_All_Rhamis.cfg:187
+#: To_Lands_Unknown/scenarios/09_Goddess_of_All_Rhamis.cfg:188
 msgid ""
 "Uhh... we didn't know there was a full on battle going on here, and didn't "
 "make enough haste, my sincere apologies. By the way, do you happen to know "
@@ -9127,53 +8741,53 @@ msgid ""
 msgstr ""
 
 #. [message]: speaker=Rashti
-#: To_Lands_Unknown/scenarios/09_Goddess_of_All_Rhamis.cfg:192
+#: To_Lands_Unknown/scenarios/09_Goddess_of_All_Rhamis.cfg:193
 msgid ""
 "Last time I saw him with his troops was inside this building. I don't know "
 "what those damn mages did to him, but I must find out..."
 msgstr ""
 
 #. [message]: speaker=Rashti
-#: To_Lands_Unknown/scenarios/09_Goddess_of_All_Rhamis.cfg:197
+#: To_Lands_Unknown/scenarios/09_Goddess_of_All_Rhamis.cfg:198
 msgid "...NO MATTER HOW MANY MORE OF THEM I HAVE TO KILL!!!"
 msgstr ""
 
 #. [message]: speaker=Mage
-#: To_Lands_Unknown/scenarios/09_Goddess_of_All_Rhamis.cfg:201
+#: To_Lands_Unknown/scenarios/09_Goddess_of_All_Rhamis.cfg:202
 msgid ""
 "Defend the entrance at all costs! We can't let these summoners disturb the "
 "research!"
 msgstr ""
 
 #. [message]: speaker=Mehir
-#: To_Lands_Unknown/scenarios/09_Goddess_of_All_Rhamis.cfg:206
+#: To_Lands_Unknown/scenarios/09_Goddess_of_All_Rhamis.cfg:207
 msgid "Everyone, cover Rashti'rhami, and secure the entrance!"
 msgstr ""
 
 #. [message]: speaker=SpearGuardian
-#: To_Lands_Unknown/scenarios/09_Goddess_of_All_Rhamis.cfg:222
+#: To_Lands_Unknown/scenarios/09_Goddess_of_All_Rhamis.cfg:223
 msgid ""
 "(finally catching up) Greetings, your Highness! Your servant Mehir found me "
 "in the caves and released from my post by your request."
 msgstr ""
 
 #. [message]: speaker=Rashti
-#: To_Lands_Unknown/scenarios/09_Goddess_of_All_Rhamis.cfg:227
+#: To_Lands_Unknown/scenarios/09_Goddess_of_All_Rhamis.cfg:228
 msgid "I... don't remember sending anyone for you."
 msgstr ""
 
 #. [message]: speaker=SpearGuardian
-#: To_Lands_Unknown/scenarios/09_Goddess_of_All_Rhamis.cfg:235
+#: To_Lands_Unknown/scenarios/09_Goddess_of_All_Rhamis.cfg:236
 msgid "So... so this was a ...lie?"
 msgstr ""
 
 #. [message]: speaker=Mehir
-#: To_Lands_Unknown/scenarios/09_Goddess_of_All_Rhamis.cfg:239
+#: To_Lands_Unknown/scenarios/09_Goddess_of_All_Rhamis.cfg:240
 msgid "Uh... baby... it's not what you think..."
 msgstr ""
 
 #. [message]: speaker=Rashti
-#: To_Lands_Unknown/scenarios/09_Goddess_of_All_Rhamis.cfg:243
+#: To_Lands_Unknown/scenarios/09_Goddess_of_All_Rhamis.cfg:244
 msgid ""
 "Wait. In retrospect, I do vaguely recall sending someone, I just don't "
 "really keep track of all the guardians under my command. Anyway, that is not "
@@ -9182,24 +8796,24 @@ msgid ""
 msgstr ""
 
 #. [message]: speaker=SpearGuardian
-#: To_Lands_Unknown/scenarios/09_Goddess_of_All_Rhamis.cfg:247
+#: To_Lands_Unknown/scenarios/09_Goddess_of_All_Rhamis.cfg:248
 msgid "Yes, your Highness!"
 msgstr ""
 
 #. [message]: speaker=Mehir
-#: To_Lands_Unknown/scenarios/09_Goddess_of_All_Rhamis.cfg:251
+#: To_Lands_Unknown/scenarios/09_Goddess_of_All_Rhamis.cfg:252
 msgid "Phew..."
 msgstr ""
 
 #. [objective]: condition=win
-#: To_Lands_Unknown/scenarios/09_Goddess_of_All_Rhamis.cfg:259
+#: To_Lands_Unknown/scenarios/09_Goddess_of_All_Rhamis.cfg:260
 #: To_Lands_Unknown/scenarios/10_Chaos.cfg:937
 #: To_Lands_Unknown/scenarios/16_Defense_of_Saffaros.cfg:654
 msgid "Defeat all enemies"
 msgstr "Sconfiggi tutti i nemici"
 
 #. [objective]: condition=lose
-#: To_Lands_Unknown/scenarios/09_Goddess_of_All_Rhamis.cfg:267
+#: To_Lands_Unknown/scenarios/09_Goddess_of_All_Rhamis.cfg:268
 #: To_Lands_Unknown/scenarios/10_Chaos.cfg:365
 #: To_Lands_Unknown/scenarios/10_Chaos.cfg:739
 #: To_Lands_Unknown/scenarios/10_Chaos.cfg:949
@@ -9213,19 +8827,19 @@ msgid "Death of Rashti"
 msgstr "Morte di Rashti"
 
 #. [message]: speaker=Rashti
-#: To_Lands_Unknown/scenarios/09_Goddess_of_All_Rhamis.cfg:307
+#: To_Lands_Unknown/scenarios/09_Goddess_of_All_Rhamis.cfg:308
 #, fuzzy
 #| msgid "and now, KILL THE REST OF THEM!"
 msgid "And now, FINISH OFF THE REST OF THOSE SCUM!!!"
 msgstr "e ora, UCCIDETE IL RESTO!"
 
 #. [message]: speaker=Mage
-#: To_Lands_Unknown/scenarios/09_Goddess_of_All_Rhamis.cfg:320
+#: To_Lands_Unknown/scenarios/09_Goddess_of_All_Rhamis.cfg:321
 msgid "Argh! I... failed..."
 msgstr ""
 
 #. [message]: speaker=Mage
-#: To_Lands_Unknown/scenarios/09_Goddess_of_All_Rhamis.cfg:357
+#: To_Lands_Unknown/scenarios/09_Goddess_of_All_Rhamis.cfg:358
 msgid ""
 "<i>*to himself* Damn it, things are not looking good. I must get out of "
 "here, fast...</i> Uh... (to his troops) I have some urgent business with "
@@ -9233,48 +8847,48 @@ msgid ""
 msgstr ""
 
 #. [message]: id=deputy
-#: To_Lands_Unknown/scenarios/09_Goddess_of_All_Rhamis.cfg:361
+#: To_Lands_Unknown/scenarios/09_Goddess_of_All_Rhamis.cfg:362
 msgid ""
 "Aerius ordered you to guard this post! You can't just leave it without his "
 "permission!... Hey! Come back!"
 msgstr ""
 
 #. [message]: speaker=Mehir
-#: To_Lands_Unknown/scenarios/09_Goddess_of_All_Rhamis.cfg:371
+#: To_Lands_Unknown/scenarios/09_Goddess_of_All_Rhamis.cfg:372
 msgid ""
 "Looks like your higher-up run away crying. I suggest you do the same if you "
 "don't want to die."
 msgstr ""
 
 #. [message]: id=deputy
-#: To_Lands_Unknown/scenarios/09_Goddess_of_All_Rhamis.cfg:375
+#: To_Lands_Unknown/scenarios/09_Goddess_of_All_Rhamis.cfg:376
 msgid ""
 "He was merely an incompetent coward, no need to compare us to him. Meet our "
 "blades!"
 msgstr ""
 
 #. [message]: speaker=Mehir
-#: To_Lands_Unknown/scenarios/09_Goddess_of_All_Rhamis.cfg:381
+#: To_Lands_Unknown/scenarios/09_Goddess_of_All_Rhamis.cfg:382
 msgid "If you want to do this the hard way, I can certainly arrange that."
 msgstr ""
 
 #. [message]: speaker=Rashti
-#: To_Lands_Unknown/scenarios/09_Goddess_of_All_Rhamis.cfg:386
+#: To_Lands_Unknown/scenarios/09_Goddess_of_All_Rhamis.cfg:387
 msgid "*impressed*"
 msgstr ""
 
 #. [message]: speaker=Mehir
-#: To_Lands_Unknown/scenarios/09_Goddess_of_All_Rhamis.cfg:397
+#: To_Lands_Unknown/scenarios/09_Goddess_of_All_Rhamis.cfg:398
 msgid "We won! We actually did it!"
 msgstr ""
 
 #. [message]: speaker=Rashti
-#: To_Lands_Unknown/scenarios/09_Goddess_of_All_Rhamis.cfg:402
+#: To_Lands_Unknown/scenarios/09_Goddess_of_All_Rhamis.cfg:403
 msgid "My master may need our help, we must hurry!"
 msgstr ""
 
 #. [message]: speaker=Rashti
-#: To_Lands_Unknown/scenarios/09_Goddess_of_All_Rhamis.cfg:413
+#: To_Lands_Unknown/scenarios/09_Goddess_of_All_Rhamis.cfg:414
 msgid ""
 "(quietly to Mehir) You may be smart, but you won't fool me. We both know "
 "full well I haven't actually relieved the Spear Guardian from her post. "
@@ -9283,7 +8897,7 @@ msgid ""
 msgstr ""
 
 #. [message]: speaker=unit
-#: To_Lands_Unknown/scenarios/09_Goddess_of_All_Rhamis.cfg:449
+#: To_Lands_Unknown/scenarios/09_Goddess_of_All_Rhamis.cfg:450
 msgid ""
 "My Master, the enemy seems to be well prepared for defense but luckily the "
 "Holy Rashti'rhami is with us. Her great charisma may give us victory. Use "
@@ -9786,29 +9400,29 @@ msgid "KILL THE REST!!! SHOW NO MERCY TO THESE SCUM!!!"
 msgstr ""
 
 #. [message]: speaker=Aerius
-#: To_Lands_Unknown/scenarios/10_Chaos.cfg:1277
+#: To_Lands_Unknown/scenarios/10_Chaos.cfg:1283
 msgid "Damn you, bastards!"
 msgstr ""
 
 #. [message]: speaker=Rashti
-#: To_Lands_Unknown/scenarios/10_Chaos.cfg:1281
+#: To_Lands_Unknown/scenarios/10_Chaos.cfg:1287
 msgid "This one's for Tashkar."
 msgstr ""
 
 #. [message]: speaker=Rashti
-#: To_Lands_Unknown/scenarios/10_Chaos.cfg:1350
+#: To_Lands_Unknown/scenarios/10_Chaos.cfg:1356
 #, fuzzy
 #| msgid "Let’s defeat the rest!"
 msgid "The portal has been closed! Let’s defeat the rest!"
 msgstr "Sconfiggiamo il resto!"
 
 #. [message]: speaker=Mehir
-#: To_Lands_Unknown/scenarios/10_Chaos.cfg:1383
+#: To_Lands_Unknown/scenarios/10_Chaos.cfg:1384
 msgid "Aaaaah! The chamber is collapsing!"
 msgstr ""
 
 #. [message]: speaker=Mehir
-#: To_Lands_Unknown/scenarios/10_Chaos.cfg:1472
+#: To_Lands_Unknown/scenarios/10_Chaos.cfg:1485
 #, fuzzy
 #| msgid ""
 #| "That’s the last of them. We must bring our sad news to al-Kamija. Tashkar "
@@ -9823,33 +9437,33 @@ msgstr ""
 "vergogno, avrei potuto fare di più."
 
 #. [message]: speaker=Rashti
-#: To_Lands_Unknown/scenarios/10_Chaos.cfg:1477
+#: To_Lands_Unknown/scenarios/10_Chaos.cfg:1490
 #, fuzzy
 #| msgid "Mehir... please, be my new master."
 msgid "Mehir... please... be my new master."
 msgstr "Mehir...per favore, diventate il mio nuovo maestro."
 
 #. [message]: speaker=Mehir
-#: To_Lands_Unknown/scenarios/10_Chaos.cfg:1482
+#: To_Lands_Unknown/scenarios/10_Chaos.cfg:1495
 #, fuzzy
 #| msgid "What? Me?"
 msgid "What?! Me?! But..."
 msgstr "Cosa? Io?"
 
 #. [message]: speaker=Rashti
-#: To_Lands_Unknown/scenarios/10_Chaos.cfg:1486
+#: To_Lands_Unknown/scenarios/10_Chaos.cfg:1499
 #, fuzzy
 #| msgid "You are not my master."
 msgid "You are worthy."
 msgstr "Non siete il mio maestro."
 
 #. [message]: speaker=Mehir
-#: To_Lands_Unknown/scenarios/10_Chaos.cfg:1491
+#: To_Lands_Unknown/scenarios/10_Chaos.cfg:1504
 msgid "Finally a female abysmal likes me! But..."
 msgstr ""
 
 #. [message]: speaker=Mehir
-#: To_Lands_Unknown/scenarios/10_Chaos.cfg:1496
+#: To_Lands_Unknown/scenarios/10_Chaos.cfg:1509
 #, fuzzy
 #| msgid ""
 #| "I...I think that the Highest Council should decide about your lot. "
@@ -9865,48 +9479,48 @@ msgstr ""
 "consentito l’affidamento di esseri supremi come loro servitori."
 
 #. [message]: speaker=Rashti
-#: To_Lands_Unknown/scenarios/10_Chaos.cfg:1501
+#: To_Lands_Unknown/scenarios/10_Chaos.cfg:1514
 msgid "Hmph, all this damn bureaucracy again, I despise it..."
 msgstr ""
 
 #. [message]: speaker=Rashti
-#: To_Lands_Unknown/scenarios/10_Chaos.cfg:1506
+#: To_Lands_Unknown/scenarios/10_Chaos.cfg:1519
 msgid "I hope the High Council will understand my wish."
 msgstr ""
 
 #. [message]: speaker=Mehir
-#: To_Lands_Unknown/scenarios/10_Chaos.cfg:1586
+#: To_Lands_Unknown/scenarios/10_Chaos.cfg:1599
 msgid ""
 "Oh no... The dwellers of the Red Abyss are flooding into our realm! If we do "
 "not close the portal soon, this will be the end of the world!"
 msgstr ""
 
 #. [message]: speaker=unit
-#: To_Lands_Unknown/scenarios/10_Chaos.cfg:1604
+#: To_Lands_Unknown/scenarios/10_Chaos.cfg:1617
 msgid "A world of MORTALS! How nice! It's time to lay it to RUIN!"
 msgstr ""
 
 #. [message]: speaker=Rashti
-#: To_Lands_Unknown/scenarios/10_Chaos.cfg:1612
+#: To_Lands_Unknown/scenarios/10_Chaos.cfg:1625
 msgid ""
 "Well well, yet another pathetic rebellion in the Red Abyss? Seems it is time "
 "for me to take out the trash yet again."
 msgstr ""
 
 #. [message]: speaker=Mehir
-#: To_Lands_Unknown/scenarios/10_Chaos.cfg:1616
+#: To_Lands_Unknown/scenarios/10_Chaos.cfg:1629
 msgid "You sound... calmer than usual for your half, Your Highness."
 msgstr ""
 
 #. [message]: speaker=Rashti
-#: To_Lands_Unknown/scenarios/10_Chaos.cfg:1621
+#: To_Lands_Unknown/scenarios/10_Chaos.cfg:1634
 msgid ""
 "Hehe, I gotta set a good example in front of my subjects, you know, even if "
 "they are unruly thugs like these."
 msgstr ""
 
 #. [message]: speaker=Rashti
-#: To_Lands_Unknown/scenarios/10_Chaos.cfg:1626
+#: To_Lands_Unknown/scenarios/10_Chaos.cfg:1639
 msgid ""
 "Anyway, formal politeness aside, I WILL SHRED YOU INTO TINY BITS AND TURN "
 "YOU INSIDE OUT YOU, PATHETIC REBEL SCUM!!!"
@@ -9914,8 +9528,8 @@ msgstr ""
 
 #. [message]: speaker=unit
 #. [message]: speaker=second_unit
-#: To_Lands_Unknown/scenarios/10_Chaos.cfg:1646
-#: To_Lands_Unknown/scenarios/10_Chaos.cfg:1666
+#: To_Lands_Unknown/scenarios/10_Chaos.cfg:1659
+#: To_Lands_Unknown/scenarios/10_Chaos.cfg:1679
 msgid ""
 "Ah, look who it is. The tyrant queen and bootlicker of humans, Rashti'rhami "
 "herself! Everyone, now's our chance, she is weaker in the mortal world! Get "
@@ -9923,38 +9537,38 @@ msgid ""
 msgstr ""
 
 #. [message]: speaker=unit
-#: To_Lands_Unknown/scenarios/10_Chaos.cfg:2012
+#: To_Lands_Unknown/scenarios/10_Chaos.cfg:2025
 msgid "My Master, you... don't need my advice on this one."
 msgstr ""
 
 #. [message]: speaker=unit
-#: To_Lands_Unknown/scenarios/10_Chaos.cfg:2020
+#: To_Lands_Unknown/scenarios/10_Chaos.cfg:2033
 msgid ""
 "I cannot reveal all the details because I would alter this timeline. But "
 "very soon you will have an excellent idea, which will give us the victory."
 msgstr ""
 
 #. [message]: speaker=Mehir
-#: To_Lands_Unknown/scenarios/10_Chaos.cfg:2024
+#: To_Lands_Unknown/scenarios/10_Chaos.cfg:2037
 #, fuzzy
 #| msgid "She scares me..."
 msgid "Oh, I see..."
 msgstr "Mi spaventa..."
 
 #. [message]: speaker=unit
-#: To_Lands_Unknown/scenarios/10_Chaos.cfg:2029
+#: To_Lands_Unknown/scenarios/10_Chaos.cfg:2042
 msgid ""
 "My Master, I am seeing the future now! The enemy leader is going to trick "
 "Holy Rashti'rhami into opening the portal and pulling us in!"
 msgstr ""
 
 #. [message]: speaker=Rashti
-#: To_Lands_Unknown/scenarios/10_Chaos.cfg:2033
+#: To_Lands_Unknown/scenarios/10_Chaos.cfg:2046
 msgid "What?! Impossible! Why would I ever do such a thing?"
 msgstr ""
 
 #. [message]: speaker=unit
-#: To_Lands_Unknown/scenarios/10_Chaos.cfg:2037
+#: To_Lands_Unknown/scenarios/10_Chaos.cfg:2050
 msgid ""
 "On the other hand opening the portal might be beneficial for us, my Master. "
 "The enemy forces will be sucked into the Red Abyss immediately, but we will "
@@ -9963,7 +9577,7 @@ msgid ""
 msgstr ""
 
 #. [message]: speaker=Mehir
-#: To_Lands_Unknown/scenarios/10_Chaos.cfg:2041
+#: To_Lands_Unknown/scenarios/10_Chaos.cfg:2054
 msgid ""
 "I see. That might be pretty dangerous but could also introduce an element of "
 "surprise to give us a tactical edge... Rashti'rhami, I am not your master, "
@@ -9973,54 +9587,54 @@ msgstr ""
 
 #. [message]: speaker=Rashti
 #. [message]: id=mjinn
-#: To_Lands_Unknown/scenarios/10_Chaos.cfg:2045
+#: To_Lands_Unknown/scenarios/10_Chaos.cfg:2058
 #: To_Lands_Unknown/scenarios/11_Message.cfg:658
 msgid "Very well."
 msgstr ""
 
 #. [message]: speaker=narrator
-#: To_Lands_Unknown/scenarios/10_Chaos.cfg:2050
+#: To_Lands_Unknown/scenarios/10_Chaos.cfg:2063
 msgid "Right-click Rashti'rhami to open the portal at your discretion."
 msgstr ""
 
 #. [set_menu_item]: id=rashti_portal
-#: To_Lands_Unknown/scenarios/10_Chaos.cfg:2056
+#: To_Lands_Unknown/scenarios/10_Chaos.cfg:2069
 msgid "Activate the portal"
 msgstr ""
 
 #. [message]: speaker=narrator
-#: To_Lands_Unknown/scenarios/10_Chaos.cfg:2091
+#: To_Lands_Unknown/scenarios/10_Chaos.cfg:2104
 msgid ""
 "Are you sure you want to open the portal to the Red Abyss? All hell will "
 "break loose."
 msgstr ""
 
 #. [option]
-#: To_Lands_Unknown/scenarios/10_Chaos.cfg:2093
+#: To_Lands_Unknown/scenarios/10_Chaos.cfg:2106
 #, fuzzy
 #| msgid "Yes."
 msgid "Yes."
 msgstr "Sì."
 
 #. [message]: speaker=Mehir
-#: To_Lands_Unknown/scenarios/10_Chaos.cfg:2098
+#: To_Lands_Unknown/scenarios/10_Chaos.cfg:2111
 #, fuzzy
 #| msgid "Rashti"
 msgid "Rashti, NOW!"
 msgstr "Rashti"
 
 #. [message]: speaker=Rashti
-#: To_Lands_Unknown/scenarios/10_Chaos.cfg:2103
+#: To_Lands_Unknown/scenarios/10_Chaos.cfg:2116
 msgid "Finally! *to Aerius* Hey airhead! It's time for you to go to... HELL!"
 msgstr ""
 
 #. [option]
-#: To_Lands_Unknown/scenarios/10_Chaos.cfg:2110
+#: To_Lands_Unknown/scenarios/10_Chaos.cfg:2123
 msgid "No."
 msgstr ""
 
 #. [message]: speaker=unit
-#: To_Lands_Unknown/scenarios/10_Chaos.cfg:2128
+#: To_Lands_Unknown/scenarios/10_Chaos.cfg:2141
 msgid ""
 "My Master, we need to eliminate all the remaining enemies before we leave "
 "this place. Because our camp has been destroyed I suggest you to summon "
@@ -10028,7 +9642,7 @@ msgid ""
 msgstr ""
 
 #. [message]: speaker=unit
-#: To_Lands_Unknown/scenarios/10_Chaos.cfg:2137
+#: To_Lands_Unknown/scenarios/10_Chaos.cfg:2150
 msgid ""
 "My Master, we need to take a defensive stance. By all means try to stay as "
 "far as possible from the portal. Once it is closed it will be much easier "
@@ -11170,7 +10784,7 @@ msgid "Semir"
 msgstr ""
 
 #. [message]: speaker=Instructor
-#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:180
+#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:148
 msgid ""
 "Welcome, my liege. I am the leader of Tar-Tabar's branch of the Banishers' "
 "Guild and your new instructor. As you requested, I am going to teach you "
@@ -11179,14 +10793,14 @@ msgid ""
 msgstr ""
 
 #. [message]: speaker=Mehir
-#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:184
+#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:152
 msgid ""
 "Why yes indeed, I'm looking forward to learning more about my newly obtained "
 "magical arsenal."
 msgstr ""
 
 #. [message]: speaker=Instructor
-#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:188
+#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:156
 msgid ""
 "Ah, yes, the personal Megacircle - one of the most advanced magical circles "
 "ever designed. Those things cost a king's fortune to make, but are certainly "
@@ -11195,12 +10809,12 @@ msgid ""
 msgstr ""
 
 #. [message]: speaker=Mehir
-#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:192
+#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:160
 msgid "So, could you explain its capabilities to me in-detail?"
 msgstr ""
 
 #. [message]: speaker=Instructor
-#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:196
+#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:164
 msgid ""
 "There are plenty, but for now I'll mainly stick to those related to combat, "
 "as you seem to be quite a warmonger. Anyway, when you became a commander you "
@@ -11212,7 +10826,7 @@ msgid ""
 msgstr ""
 
 #. [message]: speaker=Instructor
-#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:200
+#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:168
 msgid ""
 "The circle also emits energies that heal you and your nearby comrades, as "
 "well as improve their reflexes and combat efficiency. Now you won't need to "
@@ -11220,12 +10834,12 @@ msgid ""
 msgstr ""
 
 #. [message]: speaker=Mehir
-#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:205
+#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:173
 msgid "Neat! And what about its offensive capabilities?"
 msgstr ""
 
 #. [message]: speaker=Instructor
-#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:209
+#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:177
 msgid ""
 "Oh ho ho, Those are tremendous... not only does it have magically-guided "
 "weapons linked to it, but it's capable of performing the so-called "
@@ -11234,14 +10848,14 @@ msgid ""
 msgstr ""
 
 #. [message]: speaker=Mehir
-#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:213
+#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:181
 msgid ""
 "The very name of this spell certainly makes quite an impression. How exactly "
 "does it work, though?"
 msgstr ""
 
 #. [message]: speaker=Instructor
-#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:217
+#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:185
 msgid ""
 "The megacircle accesses an energy-dense part of the Abyss and then opens a "
 "short-lasting gate to it, resulting in a concentrated ejection of abyssal "
@@ -11250,52 +10864,52 @@ msgid ""
 msgstr ""
 
 #. [message]: speaker=Mehir
-#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:221
+#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:189
 msgid ""
 "The way you described this certainly makes me want to see it in action. I "
 "hope it is as great as you put it..."
 msgstr ""
 
 #. [message]: speaker=Instructor
-#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:225
+#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:193
 msgid ""
 "Fair enough. How about summoning an elemental to act as our training dummy "
 "of sorts?"
 msgstr ""
 
 #. [message]: speaker=Instructor
-#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:289
+#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:257
 msgid ""
 "And now imagine destroying this elemental... with a tower of yellow light "
 "surging from the floor! The megacircle will do the rest."
 msgstr ""
 
 #. [message]: speaker=Mehir
-#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:350
+#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:318
 msgid "Whoa, that was something!... Wait, did you hear that?"
 msgstr ""
 
 #. [message]: speaker=Mehir
-#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:402
+#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:370
 msgid "What the... Jaffar? Is that you?!"
 msgstr ""
 
 #. [message]: speaker=Jaffar
-#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:406
+#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:374
 msgid ""
-"Somebody, shut the door! It's drafty in here! My bathwater will cool- ..."
-"Mehir?! Is that you?! What are YOU doing here?"
+"Somebody, shut the door! It's drafty in here! My bathwater will "
+"cool- ...Mehir?! Is that you?! What are YOU doing here?"
 msgstr ""
 
 #. [message]: speaker=Mehir
-#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:410
+#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:378
 msgid ""
 "Well, in case you missed the news, you should kind of be aware that I am in "
 "charge here now."
 msgstr ""
 
 #. [message]: speaker=Jaffar
-#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:414
+#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:382
 msgid ""
 "Dear Nomolas! To think that half a year ago you were little more than a mere "
 "officer under my command! And neither did I expect to meet you while "
@@ -11303,27 +10917,27 @@ msgid ""
 msgstr ""
 
 #. [message]: speaker=Mehir
-#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:418
+#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:386
 msgid "Heh, what can I say, fate works in mysterious ways."
 msgstr ""
 
 #. [message]: speaker=Rashti
-#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:422
+#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:390
 msgid ""
 "Of all the things that can be summoned, bathers are not the first thing one "
 "would imagine."
 msgstr ""
 
 #. [message]: speaker=Mehir
-#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:426
+#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:394
 msgid ""
 "Indeed... So Jaffar, weren't you supposed to be in Sud-Affar, guarding the "
 "Great Circle?"
 msgstr ""
 
 #. [message]: speaker=Jaffar
-#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:430
-#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:1070
+#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:398
+#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:1038
 msgid ""
 "I was, but I resigned. Being nearly boiled to death by a bunch of humanoid "
 "lizards is the stuff of nightmares, you know! I needed to change place, so I "
@@ -11331,8 +10945,8 @@ msgid ""
 msgstr ""
 
 #. [message]: speaker=Mehir
-#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:434
-#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:1074
+#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:402
+#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:1042
 msgid ""
 "Good timing. You see, I lack a deputy. Say, would you like to assume this "
 "office? You've certainly got experience with the job, considering you used "
@@ -11341,8 +10955,8 @@ msgid ""
 msgstr ""
 
 #. [message]: speaker=Jaffar
-#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:438
-#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:1078
+#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:406
+#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:1046
 msgid ""
 "I need some time to consider it... Alright then. On thorough reflection, Tar-"
 "Tabar is a far better alternative to being anywhere near those damn lizards. "
@@ -11350,36 +10964,36 @@ msgid ""
 msgstr ""
 
 #. [message]: speaker=Instructor
-#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:442
+#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:410
 msgid "Pardon, but shall I proceed with my lecture?"
 msgstr ""
 
 #. [message]: speaker=Mehir
-#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:446
+#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:414
 msgid "Oh, right, I totally forgot about that. But what about Jaffar?"
 msgstr ""
 
 #. [message]: speaker=Jaffar
-#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:450
+#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:418
 msgid ""
 "It's fine. Take your time, I still haven't finished my bath, so just pretend "
 "like I never fell from the ceiling..."
 msgstr ""
 
 #. [message]: speaker=Mehir
-#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:454
+#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:422
 msgid "Sure, we'll all try... (to Semir) You may continue, guildmaster."
 msgstr ""
 
 #. [message]: speaker=Mehir
-#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:460
+#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:428
 msgid ""
 "Damn it, I've just accidentally damaged my palace. That's gonna be expensive "
 "to fix..."
 msgstr ""
 
 #. [message]: speaker=Instructor
-#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:465
+#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:433
 msgid ""
 "As you have witnessed, my liege, the 'Incantation of Power' is quite "
 "powerful, and telling you to cast it indoors wasn't exactly my brightest "
@@ -11387,7 +11001,7 @@ msgid ""
 msgstr ""
 
 #. [message]: speaker=Rashti
-#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:471
+#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:439
 msgid ""
 "See, I'm not the only here that got tricked into casting a spell at the "
 "wrong time and place! Had you been Tashkar's Ultimate Being you'd probably "
@@ -11395,71 +11009,71 @@ msgid ""
 msgstr ""
 
 #. [message]: speaker=Rashti
-#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:476
+#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:444
 msgid "*sigh*"
 msgstr ""
 
 #. [message]: speaker=Mehir
-#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:480
+#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:448
 #: To_Lands_Unknown/scenarios/20_Enlightenment.cfg:1028
 msgid "Right..."
 msgstr ""
 
 #. [message]: speaker=Instructor
-#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:485
+#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:453
 msgid ""
 "That's all I have to say about the megacircle. Let's move on to my favorite "
 "topic: Banishment."
 msgstr ""
 
 #. [message]: speaker=Mehir
-#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:489
+#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:457
 msgid ""
 "I already had some dispellers under my command. Mind that I am holding my "
 "prestigious position not least because of vast experience!"
 msgstr ""
 
 #. [message]: speaker=Instructor
-#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:493
+#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:461
 msgid ""
 "*ahem* As you should be aware, magical beings originating from the Red Abyss "
 "can be quite rebellious, unpredictable and destruction-loving."
 msgstr ""
 
 #. [message]: speaker=Rashti
-#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:500
+#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:468
 msgid ""
 "Who are you calling unpredictable, Semir? *stares while sharpening scimitar*"
 msgstr ""
 
 #. [message]: speaker=Instructor
-#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:504
+#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:472
 msgid ""
 "Erm, not you, Your Highness. I meant your unruly efreet and dharma'rhami "
 "subjects."
 msgstr ""
 
 #. [message]: speaker=Rashti
-#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:508
+#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:476
 msgid "Very well. *puts away scimitar*"
 msgstr ""
 
 #. [message]: speaker=Mehir
-#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:514
+#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:482
 msgid ""
 "I certainly got quite the taste of Red Abyss back in Ka-gatta... I was sure "
 "as hell lucky that Rashti closed the portal in time..."
 msgstr ""
 
 #. [message]: speaker=Mehir
-#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:523
+#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:491
 msgid ""
 "Yeah, I certainly got quite the taste of Red Abyss back in Ka-gatta... I was "
 "sure as hell lucky that Rashti closed the portal in time..."
 msgstr ""
 
 #. [message]: speaker=Instructor
-#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:531
+#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:499
 msgid ""
 "Anyway, centuries ago when the Red Cult rebelled against our nation, red "
 "beings were their main weapon of war. Back then, the art of banishment had "
@@ -11470,7 +11084,7 @@ msgid ""
 msgstr ""
 
 #. [message]: speaker=Instructor
-#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:535
+#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:503
 msgid ""
 "After the Red Cult was defeated, circles capable of summoning red abysmal "
 "beings directly have been made illegal to prevent further rebellions of such "
@@ -11479,7 +11093,7 @@ msgid ""
 msgstr ""
 
 #. [message]: speaker=Instructor
-#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:539
+#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:507
 msgid ""
 "Anyway, where was I? Magical beings banished from this world return to the "
 "Abyss via small Dimensional Gates, which they leave behind. Such a gate "
@@ -11488,143 +11102,143 @@ msgid ""
 msgstr ""
 
 #. [message]: speaker=Mehir
-#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:545
+#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:513
 msgid "Hmmm..."
 msgstr ""
 
 #. [option]
-#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:547
+#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:515
 msgid "I've seen those Dimensional Gates in action, but please continue."
 msgstr ""
 
 #. [option]
-#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:555
+#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:523
 msgid "I already know all of this. There is no need for explanation."
 msgstr ""
 
 #. [message]: speaker=Instructor
-#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:559
-#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:686
+#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:527
+#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:654
 msgid ""
 "Oh, I see. In this case if you have any more questions, you know where to "
 "find me, my liege."
 msgstr ""
 
 #. [message]: speaker=Mehir
-#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:573
+#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:541
 msgid "Nice! I would like to see one!"
 msgstr ""
 
 #. [message]: speaker=Instructor
-#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:587
+#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:555
 msgid ""
 "Fair enough. I am going to summon a red being now to demonstrate the "
 "banishment process."
 msgstr ""
 
 #. [message]: speaker=Mehir
-#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:592
+#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:560
 msgid "Waaaait a minute, you said it is illegal to summon one directly!"
 msgstr ""
 
 #. [message]: speaker=Instructor
-#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:596
+#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:564
 msgid ""
 "Oh, did I? Well... as long as I intend to immediately banish the efreeti, it "
 "doesn't matter... right?"
 msgstr ""
 
 #. [message]: speaker=Instructor
-#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:600
+#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:568
 #, fuzzy
 #| msgid "...ris..."
 msgid "...right...?"
 msgstr "...ris..."
 
 #. [message]: speaker=Jaffar
-#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:605
+#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:573
 msgid ""
 "Mehir, just let him summon the damn thing, will you? At least it's a change "
 "of pace from being boiled to death and falling from the ceiling..."
 msgstr ""
 
 #. [message]: speaker=Mehir
-#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:611
+#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:579
 msgid ""
 "Fair enough, I'll turn a blind eye to the illegal summoning for the sake of "
 "trying banishment. Guildmaster, you may proceed."
 msgstr ""
 
 #. [message]: speaker=Rashti
-#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:616
+#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:584
 msgid "I like that attitude. Screw the rules!"
 msgstr ""
 
 #. [message]: speaker=Instructor
-#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:625
+#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:593
 msgid "Very well, time to summon that Efreeti..."
 msgstr ""
 
 #. [message]: type=EoMa_Efreeti
-#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:633
+#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:601
 msgid ""
 "So this is the world of mortals? Time for some destruction... Wait a minute, "
 "IS THAT A BANISHER?! AAAAAAH!"
 msgstr ""
 
 #. [message]: speaker=Instructor
-#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:637
+#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:605
 msgid "Well, time to send this fellow back where he belongs!"
 msgstr ""
 
 #. [objective]: condition=win
-#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:645
+#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:613
 msgid "Semir banishes the efreeti"
 msgstr ""
 
 #. [message]: speaker=Mehir
-#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:662
+#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:630
 msgid "Heh, been some time since I saw the process of banishment up-close!"
 msgstr ""
 
 #. [message]: speaker=Instructor
-#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:666
+#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:634
 msgid ""
 "Indeed, it's quite a sight. Anyway, you now have control over the resulting "
 "gate."
 msgstr ""
 
 #. [message]: speaker=Mehir
-#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:672
+#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:640
 msgid "Quite fascinating..."
 msgstr ""
 
 #. [option]
-#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:674
+#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:642
 msgid "...maybe I'll learn something more about them. Please continue."
 msgstr ""
 
 #. [option]
-#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:682
+#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:650
 msgid "...but I already know how these things work."
 msgstr ""
 
 #. [message]: speaker=Mehir
-#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:699
+#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:667
 msgid ""
 "Quite fascinating... I guess the next logical step would be an in-depth "
 "explanation about it..."
 msgstr ""
 
 #. [message]: speaker=Instructor
-#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:713
+#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:681
 msgid ""
 "*ahem* The Dimensional Gate can transform itself into an abyssmal being of "
 "its master's choice, in exchange for a living being's soul..."
 msgstr ""
 
 #. [message]: speaker=Mehir
-#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:719
+#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:687
 msgid ""
 "As a matter of fact during my booming career I ordered one of my Dimensional "
 "Gates to consume a soul of a hostile being, so I already know everything "
@@ -11632,7 +11246,7 @@ msgid ""
 msgstr ""
 
 #. [message]: speaker=Instructor
-#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:723
+#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:691
 msgid ""
 "You seem to be more experienced than I imagined, my liege. Then you will "
 "certainly agree with me that the 'soul catching' is a hefty but fair price "
@@ -11640,7 +11254,7 @@ msgid ""
 msgstr ""
 
 #. [message]: speaker=Mehir
-#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:727
+#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:695
 msgid ""
 "Since we have that one Dimensional Gate already present here, it would be a "
 "good idea to transform it into something more useful. But I need a spare "
@@ -11649,12 +11263,12 @@ msgid ""
 msgstr ""
 
 #. [message]: speaker=Mehir
-#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:734
+#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:702
 msgid "Yikes!"
 msgstr ""
 
 #. [message]: speaker=Instructor
-#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:738
+#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:706
 msgid ""
 "Indeed, the usage of Dimensional Gates may be considered immoral by some. "
 "But if the soul belongs to an enemy or animal at the end of its life, then "
@@ -11663,7 +11277,7 @@ msgid ""
 msgstr ""
 
 #. [message]: speaker=Instructor
-#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:742
+#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:710
 msgid ""
 "Though do not forget that the dimensional gates have many interesting "
 "properties, including being a sentient, mobile portal. The 'soul catching' "
@@ -11671,32 +11285,32 @@ msgid ""
 msgstr ""
 
 #. [message]: speaker=Mehir
-#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:746
+#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:714
 msgid ""
 "It would be quite interesting to see such a transformation take place. So we "
 "need a spare soul to make this happen, right?"
 msgstr ""
 
 #. [message]: speaker=Rashti
-#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:752
+#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:720
 msgid "*looks at Jaffar*"
 msgstr ""
 
 #. [message]: speaker=Jaffar
-#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:756
+#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:724
 msgid "Hey, why are you looking at me? I'm too young to die!"
 msgstr ""
 
 #. [message]: speaker=Rashti
 #. [message]: speaker=Mehir
-#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:762
-#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:1047
-#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:1051
+#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:730
+#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:1015
+#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:1019
 msgid "*looks at Semir*"
 msgstr ""
 
 #. [message]: speaker=Instructor
-#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:767
+#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:735
 msgid ""
 "Dear Nomolas! No need to resort to such barbarism, my liege! I forgot to "
 "mention that we can just as easily sacrifice a magical being for the same "
@@ -11704,28 +11318,28 @@ msgid ""
 msgstr ""
 
 #. [message]: speaker=Mehir
-#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:772
+#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:740
 msgid ""
 "Why didn't you say so before?! Anyway, I guess I'll just summon another "
 "elemental to act as a training dummy..."
 msgstr ""
 
 #. [message]: speaker=Instructor
-#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:802
+#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:770
 msgid ""
 "Good, now use your Dimensional Gate to destroy your elemental. When this "
 "happens..."
 msgstr ""
 
 #. [message]: speaker=Mehir
-#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:806
+#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:774
 msgid ""
 "...I will be able to choose which magical being I want to summon from this "
 "gate. Yeah, yeah, I know all of that."
 msgstr ""
 
 #. [message]: speaker=Instructor
-#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:812
+#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:780
 msgid ""
 "Good, now use your Dimensional Gate to destroy your elemental. When this "
 "happens, the channel between dimensions will solidify and you will be able "
@@ -11734,42 +11348,42 @@ msgid ""
 msgstr ""
 
 #. [message]: speaker=Instructor
-#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:816
+#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:784
 msgid ""
 "You can use it to summon all sorts of powerful magical beings: elemental "
 "avatars, rhami'kais, great jinn, you name it!"
 msgstr ""
 
 #. [message]: speaker=Mehir
-#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:823
+#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:791
 msgid "Anyway, time to see what I can get out of this yellow gate..."
 msgstr ""
 
 #. [objective]: condition=win
-#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:834
+#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:802
 msgid "Destroy your elemental with the Dimensional Gate II"
 msgstr ""
 
 #. [message]: speaker=Mehir
-#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:852
+#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:820
 msgid "Aaand... done!"
 msgstr ""
 
 #. [message]: speaker=Mehir
-#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:859
+#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:827
 msgid ""
 "Nice! This almost makes me want to create a dimensional gate collection..."
 msgstr ""
 
 #. [message]: speaker=Mehir
-#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:868
+#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:836
 msgid ""
 "I do wonder, though, is it possible to banish a very powerful abysmal being? "
 "Like, say, an elemental god or Dharma'rhami?"
 msgstr ""
 
 #. [message]: speaker=Instructor
-#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:872
+#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:840
 msgid ""
 "These are too powerful to be banished, even for professionals like myself. "
 "Only the Master of Banishers from al-Kamija is or, more accurately, was "
@@ -11778,19 +11392,19 @@ msgid ""
 msgstr ""
 
 #. [message]: speaker=Rashti
-#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:877
+#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:845
 msgid ""
 "Exactly! It infuriates me to think those WORTHLESS FOOLS in the High Council "
 "had the audacity to even SUGGEST the possibility of him becoming my master..."
 msgstr ""
 
 #. [message]: speaker=Rashti
-#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:882
+#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:850
 msgid "At least they changed their mind, probably thanks to Malib's help."
 msgstr ""
 
 #. [message]: speaker=Instructor
-#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:886
+#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:854
 msgid ""
 "Ahem, back to the original question. So at the moment, the only way to get "
 "rid of powerful abyssal beings is to completely destroy their bodies. That "
@@ -11798,24 +11412,24 @@ msgid ""
 msgstr ""
 
 #. [message]: speaker=Mehir
-#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:890
+#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:858
 msgid "I'll keep that in mind. Thanks for explaining all of this to me."
 msgstr ""
 
 #. [message]: speaker=Instructor
-#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:894
+#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:862
 msgid ""
 "You're welcome. I get paid for this after all. Do you have any questions "
 "left, my liege?"
 msgstr ""
 
 #. [message]: speaker=Mehir
-#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:898
+#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:866
 msgid "Yes, I wonder: what happens if one tries to banish a dimensional gate?"
 msgstr ""
 
 #. [message]: speaker=Instructor
-#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:902
+#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:870
 msgid ""
 "That's a pretty interesting question. It's been years since anyone brought "
 "it up, to be honest. Anyway, 'banishing' a Dimensional Gate II simply turns "
@@ -11826,12 +11440,12 @@ msgid ""
 msgstr ""
 
 #. [message]: speaker=Mehir
-#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:906
+#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:874
 msgid "And how exactly did you make such an... unusual discovery?"
 msgstr ""
 
 #. [message]: speaker=Instructor
-#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:910
+#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:878
 msgid ""
 "Ah, I learned this when observing one of my dispeller students. He's a bit, "
 "uhh... weird, to be honest, so, after banishing an elemental, he decided to "
@@ -11841,7 +11455,7 @@ msgid ""
 msgstr ""
 
 #. [message]: speaker=Mehir
-#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:914
+#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:882
 msgid ""
 "Heh, nice... And now, the last question: since you said that the Master of "
 "Banishers from al-Kamija could banish elemental gods and other powerful "
@@ -11850,7 +11464,7 @@ msgid ""
 msgstr ""
 
 #. [message]: speaker=Instructor
-#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:918
+#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:886
 msgid ""
 "It certainly isn't, my liege. The Master of Banishers has an entire "
 "collection of such dimensional gates in his mansion, though he doesn't show "
@@ -11860,17 +11474,17 @@ msgid ""
 msgstr ""
 
 #. [message]: speaker=Instructor
-#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:922
+#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:890
 msgid "Anything else, my liege?"
 msgstr ""
 
 #. [message]: speaker=Mehir
-#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:926
+#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:894
 msgid "No, that's all I wanted to know right now."
 msgstr ""
 
 #. [message]: speaker=Jaffar
-#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:939
+#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:907
 msgid ""
 "At last! The bathwater is cold now. I need a towel, garbs, sandals, a divan, "
 "some dainties and a water pipe. Some delicious fig wine would be welcome "
@@ -11878,14 +11492,14 @@ msgid ""
 msgstr ""
 
 #. [message]: speaker=Mehir
-#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:943
+#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:911
 msgid ""
 "Servants! Carry my deputy Jaffar in his bathtub to the chambers he is "
 "entitled to."
 msgstr ""
 
 #. [message]: speaker=Mehir
-#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:987
+#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:955
 msgid ""
 "By the way, I will organize a celebration for Jaffar's inauguration, and "
 "you're all invited. There will be lots of food, drinks, music and dancing! "
@@ -11893,14 +11507,14 @@ msgid ""
 msgstr ""
 
 #. [message]: speaker=Instructor
-#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:992
+#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:960
 msgid ""
 "Now, there is one thing left to do: as the leader of Tar-Tabar, you should "
 "appoint your deputy..."
 msgstr ""
 
 #. [message]: speaker=Jaffar
-#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:1043
+#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:1011
 msgid ""
 "Ah, there you are! Which of you thought it was a good idea to use an "
 "incantation of power INDOORS?! I was on my way to take a bath, and then I "
@@ -11909,67 +11523,67 @@ msgid ""
 msgstr ""
 
 #. [message]: speaker=Instructor
-#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:1055
+#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:1023
 msgid "Uhh... I will neither confirm nor deny."
 msgstr ""
 
 #. [message]: speaker=Jaffar
-#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:1059
+#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:1027
 msgid "Hmph, damn banishers..."
 msgstr ""
 
 #. [message]: speaker=Mehir
-#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:1066
+#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:1034
 msgid ""
 "So, to change the topic... Jaffar, weren't you supposed to be in Sud-Affar, "
 "guarding the Great Circle?"
 msgstr ""
 
 #. [message]: speaker=Mehir
-#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:1082
+#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:1050
 msgid ""
 "Very well, I will organize a celebration for your inauguration. There will "
 "be lots of food, drinks, music and dancing!"
 msgstr ""
 
 #. [message]: speaker=Instructor
-#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:1087
+#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:1055
 msgid ""
 "Ah, I won't miss that! We can converse of the philosophies of jinn for hours!"
 msgstr ""
 
 #. [message]: speaker=Rashti
-#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:1091
+#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:1059
 msgid ""
 "You do realize that you've spent most of your time on nothing but "
 "entertainment almost every day since your appointment, right?"
 msgstr ""
 
 #. [message]: speaker=Mehir
-#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:1095
+#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:1063
 msgid "Oh, come on, can't I just have some fun?"
 msgstr ""
 
 #. [message]: speaker=Rashti
-#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:1099
+#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:1067
 msgid "*sigh* Maybe choosing you as my master wasn't such a good idea..."
 msgstr ""
 
 #. [message]: speaker=Instructor
-#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:1162
+#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:1130
 msgid ""
 "Uhh... my liege, I am not entirely sure this is the best time for messing "
 "around with dimensional gates."
 msgstr ""
 
 #. [message]: speaker=Rashti
-#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:1185
+#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:1153
 msgid ""
 "It's not that hard to get a new gate, so why not just use this one properly?"
 msgstr ""
 
 #. [message]: speaker=Jaffar
-#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:1209
+#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:1177
 msgid ""
 "*sigh* Some people have a hard time understanding the simplest things... Get "
 "a move on, Mehir! Shall I give you a piece of my mind?"
@@ -11977,27 +11591,27 @@ msgstr ""
 
 #. [message]: speaker=Jaffar
 #. [message]: speaker=Instructor
-#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:1235
-#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:1240
+#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:1203
+#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:1208
 msgid ""
 "Looks like this is going nowhere... o holy Rashti'rhami, could Your Majesty "
 "please do something about it?"
 msgstr ""
 
 #. [message]: speaker=Rashti
-#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:1245
+#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:1213
 msgid "Sure... alright, here goes nothing..."
 msgstr ""
 
 #. [message]: speaker=Rashti
-#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:1268
+#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:1236
 #, fuzzy
 #| msgid "AAAARGH!!!"
 msgid "RRRRAAAARRRGGGGHHHH!!!"
 msgstr "AAAARGH!!!"
 
 #. [unstore_unit]
-#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:1281
+#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:1249
 #, fuzzy
 #| msgid "...MUST DIE!!!"
 msgid "DIE!!!"
@@ -12005,43 +11619,43 @@ msgstr "...DEVONO MORIRE!!!"
 
 #. [message]: speaker=Jaffar
 #. [message]: speaker=Instructor
-#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:1319
-#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:1324
+#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:1287
+#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:1292
 msgid "Much better!"
 msgstr ""
 
 #. [message]: speaker=Rashti
-#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:1329
+#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:1297
 msgid "You're welcome."
 msgstr ""
 
 #. [message]: speaker=Mehir
-#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:1334
+#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:1302
 msgid "Hey! I've just grown attached to this thing, you know!"
 msgstr ""
 
 #. [message]: speaker=Jaffar
-#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:1339
+#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:1307
 msgid "That's exactly the issue."
 msgstr ""
 
 #. [message]: speaker=Instructor
-#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:1345
+#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:1313
 msgid "*ahem* Anyway, I'll need another gate to continue, and that means..."
 msgstr ""
 
 #. [message]: speaker=Mehir
-#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:1349
+#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:1317
 msgid "Another illegally summoned Efreeti?"
 msgstr ""
 
 #. [message]: speaker=Instructor
-#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:1353
+#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:1321
 msgid "Indeed, my liege."
 msgstr ""
 
 #. [message]: speaker=Instructor
-#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:1410
+#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:1378
 msgid ""
 "Alright, here's another gate for you. Just use it properly this time, and "
 "don't take too long. After all, your men can create many gates later on, so "
@@ -12049,142 +11663,142 @@ msgid ""
 msgstr ""
 
 #. [message]: speaker=Instructor
-#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:1437
+#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:1405
 #, fuzzy
 #| msgid "incantation of power"
 msgid "You have to use the incantation of power."
 msgstr "incantesimo del potere"
 
 #. [message]: speaker=Instructor
-#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:1467
+#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:1435
 msgid ""
 "You should use the banishment attack instead of the others. Against beings "
 "like efreeti, it is far more effective."
 msgstr ""
 
 #. [event]
-#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:1504
+#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:1472
 msgid "What do you want?"
 msgstr "Cosa volete?"
 
 #. [event]
-#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:1505
+#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:1473
 msgid "Nothing? Then why did you start talking to me?"
 msgstr ""
 
 #. [event]
-#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:1506
+#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:1474
 msgid "Aren't you supposed to be having a lesson right now?"
 msgstr ""
 
 #. [event]
-#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:1507
+#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:1475
 msgid "I don't see the point."
 msgstr ""
 
 #. [event]
-#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:1508
+#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:1476
 msgid "Is this supposed to be a joke?"
 msgstr ""
 
 #. [event]
-#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:1509
+#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:1477
 msgid "It's certainly not a funny one."
 msgstr ""
 
 #. [event]
-#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:1511
+#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:1479
 msgid "Don't forget I'm not the only one you're boring to death."
 msgstr ""
 
 #. [event]
-#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:1514
+#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:1482
 msgid "Ahem."
 msgstr ""
 
 #. [event]
-#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:1515
+#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:1483
 msgid "You're not going to annoy me forever, are you?"
 msgstr ""
 
 #. [event]
-#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:1516
+#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:1484
 msgid "Nevermind."
 msgstr ""
 
 #. [event]
-#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:1518
+#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:1486
 msgid ""
 "What? Do you think you'll get some kind of easter egg for clicking me enough "
 "times? That's... unlikely."
 msgstr ""
 
 #. [event]
-#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:1519
+#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:1487
 #, fuzzy
 #| msgid "*smiles*"
 msgid "*whistles*"
 msgstr "*sorride*"
 
 #. [message]: speaker=Rashti
-#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:1529
+#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:1497
 msgid "In case you're wondering, no, I'm not your girlfriend."
 msgstr ""
 
 #. [message]: speaker=Rashti
-#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:1534
+#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:1502
 msgid "...yet. *teehee*"
 msgstr ""
 
 #. [event]
-#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:1545
+#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:1513
 msgid "I'm running out of ideas..."
 msgstr ""
 
 #. [message]: speaker=Instructor
-#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:1557
+#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:1525
 msgid "Did you really have to poke Rashti'rhami 20 times?"
 msgstr ""
 
 #. [message]: speaker=Mehir
-#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:1564
+#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:1532
 msgid "*puts on sunglasses* Yes."
 msgstr ""
 
 #. [message]: speaker=Instructor
-#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:1568
+#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:1536
 msgid "Wha...?! Those things haven't even been invented yet!"
 msgstr ""
 
 #. [message]: speaker=Mehir
-#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:1572
+#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:1540
 msgid "Does it look like I care?"
 msgstr ""
 
 #. [message]: speaker=Instructor
-#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:1576
+#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:1544
 msgid ""
 "I suppose not. Not like you had any respect for the fourth wall anyway, "
 "fixing the damn thing is quite expensive..."
 msgstr ""
 
 #. [message]: speaker=Mehir
-#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:1596
+#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:1564
 msgid "What a nice view of the city..."
 msgstr ""
 
 #. [message]: speaker=Instructor
-#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:1611
+#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:1579
 msgid "My liege, are you leaving?"
 msgstr ""
 
 #. [message]: speaker=Mehir
-#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:1622
+#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:1590
 msgid "Deal with it."
 msgstr ""
 
 #. [message]: speaker=Mehir
-#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:1660
+#: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:1628
 msgid "Nah, I'd rather stay here for now."
 msgstr ""
 
@@ -13347,13 +12961,6 @@ msgstr ""
 msgid ""
 "Hey, look! It's the very sphere he used to protect himself! We might be able "
 "to use it too."
-msgstr ""
-
-#. [message]: speaker=narrator
-#: To_Lands_Unknown/scenarios/15_Abyssal_Rebellion.cfg:1892
-msgid ""
-"The sphere can be given to a unit upon recall, like the artifacts from Ka-"
-"gatta. It provides the bearer with an increase of 15% to all resistances."
 msgstr ""
 
 #. [message]: speaker=Rashti
@@ -20384,6 +19991,208 @@ msgid "female^Citizen"
 msgstr ""
 
 #, fuzzy
+#~| msgid "You want to withdraw, but where?"
+#~ msgid "Do you want to play the cutscene?"
+#~ msgstr "Volete ritirarvi, ma dove?"
+
+#, fuzzy
+#~| msgid ""
+#~| "At the moment you do not have a unit in your army who could use this "
+#~| "artifact. However the item will be picked up, so it can wait for a "
+#~| "suitable unit to be recruited or recalled."
+#~ msgid ""
+#~ "At the moment you do not have a unit on the map who could use this "
+#~ "artifact. However the item will be picked up, so it can wait for a "
+#~ "suitable unit to be recruited or recalled."
+#~ msgstr ""
+#~ "Al momento non disponi di un’unità nel tuo esercito che possa usare "
+#~ "questo artefatto. Tuttavia l’oggetto verrà raccolto, in attesa che venga "
+#~ "reclutata o richiamata un’unità adatta per usarlo."
+
+#, fuzzy
+#~| msgid "Golden Carpet"
+#~ msgid "golden carpet"
+#~ msgstr "Tappetto dorato"
+
+#, fuzzy
+#~| msgid "carpet^Leave it"
+#~ msgid "carpet^Leave it for another unit"
+#~ msgstr "Lascialo"
+
+#, fuzzy
+#~| msgid ""
+#~| "Marked with mysterious symbols, this cloak was enchanted a long time "
+#~| "ago, but it still grants its owner good protection against fire.\n"
+#~| "Advances the unit\n"
+#~| "Grants 50% fire resistance"
+#~ msgid ""
+#~ "Marked with mysterious symbols, this cloak was enchanted a long time ago, "
+#~ "but it still grants its owner good protection against fire.\n"
+#~ "Advances the unit (unless the unit is already at maximum level)\n"
+#~ "Grants 50% fire resistance"
+#~ msgstr ""
+#~ "Marchiato da simboli misteriosi, questo mantello fu reso magico in tempi "
+#~ "antichi, ma concede tuttora al proprietario una buona protezione al "
+#~ "fuoco.\n"
+#~ "Avanza l’unità di livello\n"
+#~ "Garantisce una resistenza al fuoco del 50%"
+
+#, fuzzy
+#~| msgid "Desert Cloak"
+#~ msgid "desert cloak"
+#~ msgstr "Mantello del deserto"
+
+#, fuzzy
+#~| msgid "cloak^Leave it"
+#~ msgid "cloak^Leave it for another unit"
+#~ msgstr "Lascialo"
+
+#~ msgid "Spear of Rhami"
+#~ msgstr "Lancia di Rhami"
+
+#, fuzzy
+#~| msgid "Spear of Rhami"
+#~ msgid "spear of rhami"
+#~ msgstr "Lancia di Rhami"
+
+#, fuzzy
+#~| msgid "spear^Leave it"
+#~ msgid "spear^Leave it for another unit"
+#~ msgstr "Lasciala"
+
+#, fuzzy
+#~| msgid ""
+#~| "A legendary artifact, a masterpiece made by the Ancestors. In olden "
+#~| "times a magical collar was made, which when placed upon a magical being, "
+#~| "could recall it after death.\n"
+#~| "The unit is recalled back to the leader\n"
+#~| "After each recall the unit gets stronger\n"
+#~| "The unit can be recalled only 3 times. After that it dies for sure."
+#~ msgid ""
+#~ "A legendary artifact, a masterpiece made by the Ancestors. In olden times "
+#~ "a magical collar was made, which when placed upon a magical being, could "
+#~ "recall it after death.\n"
+#~ "The unit is recalled back to the leader\n"
+#~ "After each recall the unit is fully healed\n"
+#~ "The unit can be recalled only 3 times. After that it dies for sure."
+#~ msgstr ""
+#~ "Artefatto leggendario, un capolavoro fabbricato dagli antenati. In tempi "
+#~ "antichi un collare magico fu forgiato e fatto indossare ad un essere "
+#~ "magico, il quale poteva essere richiamato dopo la sua morte.\n"
+#~ "L’unità viene richiamata dal condottiero\n"
+#~ "Dopo ogni richiamo l’unità diventa sempre più forte\n"
+#~ "L’unità può essere richiamata solo 3 volte, dopo di che muore per sempre."
+
+#~ msgid "collar"
+#~ msgstr "collare"
+
+#~ msgid ""
+#~ "After death the unit is recalled back to leader. Activates only 3 times."
+#~ msgstr ""
+#~ "Dopo la morte, l’unità ha la possibilità di essere richiamata dal "
+#~ "condottiero. Attivabile solo 3 volte."
+
+#, fuzzy
+#~| msgid "collar^Leave it"
+#~ msgid "collar^Leave it for another unit"
+#~ msgstr "Lasciala"
+
+#~ msgid ""
+#~ "The Ancestors were fascinated with elementals — entities made of pure "
+#~ "energy. They also dreamed about creating a creature from a mix of all "
+#~ "four known elements. Unfortunately they failed. Yet at the end an unique "
+#~ "amulet was created, capable of transforming one element into another one. "
+#~ "This is one of the most powerful relics made by the Ancestors.\n"
+#~ "The elemental unit can turn into other elemental\n"
+#~ "(use right-click on the unit to activate)"
+#~ msgstr ""
+#~ "Gli antenati furono affascinati dagli elementali – entità costituite di "
+#~ "pura energia. Sognarono persino di creare una creatura mista di tutti e "
+#~ "quattro gli elementi noti. Purtroppo non ci riuscirono, ma alla fine fu "
+#~ "creato un amuleto unico nel suo genere, in grado di trasformare un "
+#~ "elemento in un altro. Questa è una delle reliquie più potenti create "
+#~ "dagli antenati.\n"
+#~ "L’unità elementale può mutare in un altro tipo di elementale\n"
+#~ "(per attivarlo, fai clic col tasto destro del mouse sopra l’unità)"
+
+#, fuzzy
+#~| msgid "amulet^Leave it"
+#~ msgid "amulet^Leave it for another unit"
+#~ msgstr "Lascialo"
+
+#~ msgid "Cuirass of the Ancients"
+#~ msgstr "Corazza degli antichi"
+
+#, fuzzy
+#~| msgid ""
+#~| "Richly decorated plates, solid workmanship and magical symbols: this "
+#~| "must be the legendary armor of Ka-Gattans. Its extraordinary shape fits "
+#~| "any human body.\n"
+#~| "Increases physical resistances by 25%\n"
+#~| "Increases fire and cold resistances by 20%\n"
+#~| "Decreases astral resistance by 15%"
+#~ msgid ""
+#~ "Richly decorated plates, solid workmanship and magical symbols: this must "
+#~ "be the legendary armor of Ka-gattans.\n"
+#~ "\n"
+#~ "- Increases physical resistances by 25%\n"
+#~ "- Increases fire and cold resistances by 20%\n"
+#~ "- Decreases arcane resistance by 15%"
+#~ msgstr ""
+#~ "Placche sontuosamente decorate, solida lavorazione e simboli magici: "
+#~ "questa è l’armatura leggendaria dei soldati di Ka-Gatta. La sua forma "
+#~ "straordinaria si adatta ad ogni corpo umano.\n"
+#~ "Aumenta la resistenza fisica del 25%\n"
+#~ "Aumenta la resistenza al fuoco e al freddo del 20%\n"
+#~ "Riduce la resistenza astrale del 15%"
+
+#, fuzzy
+#~| msgid "armor^Leave it"
+#~ msgid "armor^Leave it for another unit"
+#~ msgstr "Lasciala"
+
+#~ msgid "cap of power"
+#~ msgstr "copricapo del potere"
+
+#, fuzzy
+#~| msgid "+1 movement point, -10 HP"
+#~ msgid "movepoints"
+#~ msgstr "+1 punto movimento, -10 PF"
+
+#~ msgid "Only a summoner can use this item!"
+#~ msgstr "Solo un evocatore può usare questo oggetto!"
+
+#~ msgid "Only the carpet rider can use this item!"
+#~ msgstr "Solo un cavalcatore di tappeti può usare questo oggetto!"
+
+#~ msgid "Only a human can use this item!"
+#~ msgstr "Solo un umano può usare questo oggetto!"
+
+#, fuzzy
+#~| msgid "Only a camel rider can use this item!"
+#~ msgid "Only a camel rider (or his advancements) can use this item!"
+#~ msgstr "Solo un cavalcatore di cammelli può usare questo oggetto!"
+
+#, fuzzy
+#~| msgid "Only a human can use this item!"
+#~ msgid "Only humans can use this item!"
+#~ msgstr "Solo un umano può usare questo oggetto!"
+
+#~ msgid "Only a Rhami or Rhami’kai can use this item!"
+#~ msgstr "Solo una rhami o una rhami’kai può usare questo oggetto!"
+
+#~ msgid "Only a magical entity can use this item!"
+#~ msgstr "Solo un’entità magica può usare questo oggetto!"
+
+#~ msgid "Only the elemental entity can use this item!"
+#~ msgstr "Solo un’entità elementale può usare questo oggetto!"
+
+#, fuzzy
+#~| msgid "Only a camel rider can use this item!"
+#~ msgid "Only a Novice Summoner, Dispeller or Banisher can use this item!"
+#~ msgstr "Solo un cavalcatore di cammelli può usare questo oggetto!"
+
+#, fuzzy
 #~| msgid "So be it. Let the Highest Council decide."
 #~ msgid "So be it. Let the High Council decide."
 #~ msgstr "Così sia. Lasciamo che il massimo consiglio decida."
@@ -20440,8 +20249,8 @@ msgstr ""
 #~ "...Someone is coming... I hear their breath — it is a human... they come "
 #~ "from the north-west..."
 #~ msgstr ""
-#~ "...Qualcuno sta arrivando... sento il suo respiro – è un essere umano..."
-#~ "proviene da nord-ovest..."
+#~ "...Qualcuno sta arrivando... sento il suo respiro – è un essere "
+#~ "umano...proviene da nord-ovest..."
 
 #~ msgid "...This is... Impossible!"
 #~ msgstr "...Questo è...impossibile!"
