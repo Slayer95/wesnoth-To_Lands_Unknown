@@ -1,6 +1,73 @@
 To Lands Unknown - ChangeLog
 * * * * * * * * * * * * * * 
 
+Version 3.13
+
+- General
+	* units can now pick up and carry items without equipping them
+	* a unit carrying an unequipped item can equip it later or equip another unit with that item
+	* when a unit carrying an item (equipped or unequipped) dies, the item is dropped on the ground
+	* player can give collected items to units in later scenarios via right-click menu instead of a message box on recruit/recall as long as these units are in keeps/castles
+	* items lying on the ground are automatically collected on victory (does not apply to Ka-gatta scenario)
+	* implemented a special help menu including a dynamic database of collected unequipped items
+	* clarified achievement descriptions for 'Successful Purchase', 'Old Friends' and 'Trusty Scout'
+
+- Scenarios
+	> scenario 00 - Morning on al-Kamija:	
+		* the Water Elemental is now loyal and has a name
+		* temporarily enabled HUD during Water Elemental purchase to help players make a decision by showing Mehir's gold and the Water Elemental's stats
+	> scenario 01 - Highiest Tiers:
+		* all initial Mehir's squad members who are required for the 'Old Friends' achievement are now forever loyal and have the loyal icon visible
+		* Alib now has the 'drunk' trait for the duration of the scenario
+		* some multihex buildings no longer render on top of units
+		* removed all impassable tiles from the map
+	> scenario 03 - Near the Jungle:	
+		* enabled the Pyro achievement for badass mode
+		* Bakha is now loyal
+	> scenario 04 - Southern Nations:	
+		* ensured 14,16 is empty for animhack
+		* fixed incorrect bonus XP value for the 'No Time for Reinforcements' achievement reward
+	> scenario 06 - Fire Canyon:
+		* killing Goblin Leader by player in badass mode no longer leads to immediate victory
+		* killing all enemies in badass mode now leads to victory
+		* ensured the bottleneck micro_ai is used only in normal mode
+		* Mehir now has the 'drunk' trait instead of object in badass mode
+		* ensured Mehir has safe spot before burning bridge
+	> scenario 07 - Dome of Elements:	
+		* enabled the Eavesdropping achievement for badass mode
+	> scenario 08 - Ka-gatta:	
+		* fixed incorrect Collar of Recall item description
+		* fixed incorrect Golden Carpet item description
+		* decreased number of turns for different difficulty levels
+	> scenario 10 - Chaos:	
+		* made turns limit dynamic
+	> scenario 23 - Ruins:	
+		* made more tiles accessible
+		* improved one of Glomin's badass lines (by IceSandslash)
+
+- Graphics
+	* carpet highways in S01 are now rendered with [terrain_graphics] instead of animhack
+
+- Code
+    * simplified temporary amla effects with [effect][filter]
+    * fixed gate advancement after recall bug (object removal was reverted by unstore_unit)
+    * improve the "Dimensional Gate advancement for a fee" warning message
+	* moved the palace gate sequence to a separate event in Highiest Tiers
+    * reduced event priority of Sky Kingdom death animation
+    * fixed missing magenta palette team color for the golemball animhack animation
+	* used Qxu instead of Xv^Qov in the Highiest Tiers map
+	* used ^Yyyy for multihex visuals in Ruins
+	* implemented a new 'drunk' trait with corresponding visuals
+	* optimized TLU_PICKUPABBLE_ITEM macro and made it more flexible
+	* moved artifact definitions from the scenario file to a separate file
+	* moved artifact, object and trait descriptions to one file
+	* fixed typos
+
+- Translations
+	* updated the translation template file and all .po files
+	* updated the Polish translation
+	* updated the Spanish translation
+	
 Version 3.12.1
 
 - Units & Abilities
