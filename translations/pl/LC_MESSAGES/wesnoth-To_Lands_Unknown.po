@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
 "POT-Creation-Date: 2025-08-17 12:20 UTC\n"
-"PO-Revision-Date: 2025-06-27 18:48+0200\n"
+"PO-Revision-Date: 2025-08-17 15:19+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: pl\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 "
 "|| n%100>14) ? 1 : 2);\n"
-"X-Generator: Poedit 3.3.1\n"
+"X-Generator: Poedit 3.6\n"
 
 #: To_Lands_Unknown/_main.cfg:27
 msgid ""
@@ -192,11 +192,9 @@ msgstr "Udany zakup"
 
 #. [achievement]: id=tlu_successful_purchase
 #: To_Lands_Unknown/achievements.cfg:43
-#, fuzzy
-#| msgid "Keep the water elemental from Prologue alive."
 msgid ""
 "Keep the water elemental from Prologue alive throughout the entire campaign."
-msgstr "Utrzymaj żywiołaka wody kupionego w Prologu przy życiu."
+msgstr "Utrzymaj żywiołaka wody z Prologu przy życiu przez całą kampanię."
 
 #. [achievement]: id=tlu_art_of_the_deal
 #: To_Lands_Unknown/achievements.cfg:49
@@ -227,16 +225,12 @@ msgstr "Starzy przyjaciele"
 
 #. [achievement]: id=tlu_old_friends
 #: To_Lands_Unknown/achievements.cfg:66
-#, fuzzy
-#| msgid ""
-#| "Keep all original squad members from Highiest Tiers alive (Alib, Kalib, "
-#| "Afez, Muzaf, Safay)."
 msgid ""
 "Keep all original squad members from Highiest Tiers alive throughout the "
 "entire campaign (Alib, Kalib, Afez, Muzaf, Safay)."
 msgstr ""
-"Zachowaj przy życiu wszystkich oryginalnych członków drużyny ze scenariusza "
-"Njwyższe Kondygnacje (Alib, Kalib, Afez, Muzaf, Safay)."
+"Zachowaj wszystkich oryginalnych członków drużyny z najwyższych poziomów "
+"przy życiu przez całą kampanię (Alib, Kalib, Afez, Muzaf, Safay)."
 
 #. [achievement]: id=tlu_trusty_scout
 #: To_Lands_Unknown/achievements.cfg:72
@@ -245,10 +239,8 @@ msgstr "Zaufany zwiadowca"
 
 #. [achievement]: id=tlu_trusty_scout
 #: To_Lands_Unknown/achievements.cfg:73
-#, fuzzy
-#| msgid "Keep Bakha from Near the Jungle alive."
 msgid "Keep Bakha from Near the Jungle alive throughout the entire campaign."
-msgstr "Zachowaj Bakhę z misji Blisko Dżungli przy życiu."
+msgstr "Utrzymaj Bakha z Near the Jungle przy życiu przez całą kampanię."
 
 #. [achievement]: id=tlu_pyro
 #. [unit]: type=EoMa_Fire_Elemental, id=pyro
@@ -828,18 +820,9 @@ msgstr ""
 
 #: To_Lands_Unknown/macros/artifact-descriptions.cfg:3
 msgid "This item is recoverable after its owner's death."
-msgstr ""
+msgstr "Przedmiot ten można odzyskać po śmierci właściciela."
 
 #: To_Lands_Unknown/macros/artifact-descriptions.cfg:6
-#, fuzzy
-#| msgid ""
-#| "Legends say that this scimitar can magically lead a hand of the owner so "
-#| "his strikes are more deadly and hit more often.\n"
-#| "\n"
-#| "- Attack increases by 100%\n"
-#| "- Chance to hit is not affected by defense and equals 70%\n"
-#| "\n"
-#| "Should this unit pick up the scimitar?"
 msgid ""
 "Legends say that this scimitar can magically lead a hand of the owner so his "
 "strikes are more deadly and hit more often.\n"
@@ -849,13 +832,13 @@ msgid ""
 "\n"
 "Only a summoner can use this item."
 msgstr ""
-"Legendy mówią, że ten sejmitar może magicznie prowadzić rękę swego "
-"właściciela tak, by jego ciosy były bardziej zabójcze i częstsze.\n"
+"Legendy mówią, że ten scimitar może magicznie prowadzić rękę właściciela, "
+"dzięki czemu jego uderzenia są bardziej śmiercionośne i częściej trafiają.\n"
 "\n"
-"- Atak zwiększa się o 100%\n"
-"- Szansa na trafienie jest stała i wynosi 70%\n"
+"- Atak wzrasta o 100%\n"
+"- Szansa na trafienie nie zależy od obrony i wynosi 70%\n"
 "\n"
-"Czy jednostka powinna podnieść sejmitar?"
+"Tylko przywoływacz może używać tego przedmiotu."
 
 #: To_Lands_Unknown/macros/artifact-descriptions.cfg:14
 msgid ""
@@ -878,17 +861,6 @@ msgstr ""
 "na trafienie)"
 
 #: To_Lands_Unknown/macros/artifact-descriptions.cfg:23
-#, fuzzy
-#| msgid ""
-#| "Propelled by Abyssal winds, and woven from magical threads. Those lucky "
-#| "enough who possess this ancient vehicle gain amazing mobility.\n"
-#| "\n"
-#| "- Advances the unit (if unit is already at maximum level, gain 1 AMLA "
-#| "instead)\n"
-#| "- Speed increases by 50%\n"
-#| "- +10% terrain defense bonus\n"
-#| "\n"
-#| "Should this unit pick up the carpet?"
 msgid ""
 "Propelled by Abyssal winds, and woven from magical threads. Those lucky "
 "enough who possess this ancient vehicle gain amazing mobility.\n"
@@ -900,15 +872,15 @@ msgid ""
 "\n"
 "Only a carpet rider or a carpet master can use this item."
 msgstr ""
-"Napędzany wiatrem z Otchłani, uszyty z magicznych nici. Szczęśliwcy którzy "
-"mogą posiąść ten starożytny pojazd mogą liczyć na niesamowite zwiększenie "
-"mobilności.\n"
+"Napędzany przez otchłanne wiatry i utkany z magicznych nici. Szczęśliwcy "
+"posiadający ten starożytny pojazd zyskują niesamowitą mobilność.\n"
 "\n"
-"- Awansuje jednostkę (o ile nie jest na najwyższym poziomie)\n"
+"- Awansuje jednostkę (jeśli jednostka jest już na maksymalnym poziomie, "
+"zyskuje 1 AMLA)\n"
 "- Prędkość wzrasta o 50%\n"
-"- +10% do obrony terenowej\n"
+"- +10% terrain do obrony\n"
 "\n"
-"Czy jednostka powinna podnieść dywan?"
+"Z tego przedmiotu może korzystać tylko jeździec dywanów lub mistrz dywanów."
 
 #: To_Lands_Unknown/macros/artifact-descriptions.cfg:31
 msgid ""
@@ -937,13 +909,6 @@ msgstr ""
 "+10% do obrony terenowej"
 
 #: To_Lands_Unknown/macros/artifact-descriptions.cfg:43
-#, fuzzy
-#| msgid ""
-#| "This mysterius ring is richly decorated with magical symbols connected to "
-#| "the Abyss, mending wounds of the bearer.\n"
-#| "- Grants regeneration\n"
-#| "\n"
-#| "Should this unit pick up the ring?"
 msgid ""
 "This mysterius ring is richly decorated with magical symbols connected to "
 "the Abyss, mending wounds of the bearer.\n"
@@ -951,12 +916,11 @@ msgid ""
 "\n"
 "Only a human can use this item."
 msgstr ""
-"Ten tajemniczy pierścień ozdobiony jest magicznymi symbolami połączonymi "
-"bezpośrednio z Otchłanią. Dzięki temu umożliwia leczenie swojego "
-"właściciela.\n"
-"- Umożliwia regenerację\n"
+"Ten tajemniczy pierścień jest bogato zdobiony magicznymi symbolami "
+"związanymi z Otchłanią, leczącymi rany noszącego.\n"
+"- Zapewnia regenerację\n"
 "\n"
-"Czy jednostka powinna podnieść pierścień?"
+"Tylko człowiek może używać tego przedmiotu."
 
 #: To_Lands_Unknown/macros/artifact-descriptions.cfg:48
 msgid "This ring will heal the bearer by 8 hitpoints each turn."
@@ -975,15 +939,6 @@ msgstr ""
 "Umożliwia regenerację"
 
 #: To_Lands_Unknown/macros/artifact-descriptions.cfg:57
-#, fuzzy
-#| msgid ""
-#| "Marked with mysterious symbols, this cloak was enchanted a long time ago, "
-#| "shielding the wearer from the desert heat and flames alike.\n"
-#| "\n"
-#| "- Advances the unit (unless the unit is already at maximum level)\n"
-#| "- Grants 50% fire resistance\n"
-#| "\n"
-#| "Should this unit pick up the cloak?"
 msgid ""
 "Marked with mysterious symbols, this cloak was enchanted a long time ago, "
 "shielding the wearer from the desert heat and flames alike.\n"
@@ -993,14 +948,14 @@ msgid ""
 "\n"
 "Only a camel rider (or his advancements) can use this item."
 msgstr ""
-"Ozdobiony tajemniczymi symbolami, ten płaszcz został choć zaklęty dawno "
-"temu, nadal skutecznie potrafi chronić swojego właściciela przed żarem "
-"pustyni jak i ogniem.\n"
+"Oznaczony tajemniczymi symbolami płaszcz został zaklęty dawno temu, chroniąc "
+"użytkownika przed pustynnym upałem i płomieniami.\n"
 "\n"
-"- Awansuje jednostkę (o ile nie jest na najwyższym poziomie)\n"
-"- Daje 50% odporności na ogień\n"
+"- Awansuje jednostkę (chyba że jednostka osiągnęła już maksymalny poziom)\n"
+"- Przyznaje 50% f odporności na ogień\n"
 "\n"
-"Czy jednostka powinna podnieść płaszcz?"
+"Tego przedmiotu może używać tylko  wielbłądzi jeździec (lub jego wyższe "
+"poziomy)."
 
 #: To_Lands_Unknown/macros/artifact-descriptions.cfg:64
 msgid ""
@@ -1023,16 +978,6 @@ msgstr ""
 "Daje 50% odporności na ogień"
 
 #: To_Lands_Unknown/macros/artifact-descriptions.cfg:74
-#, fuzzy
-#| msgid ""
-#| "This unique headgear had to belong to a very powerful summoner. It "
-#| "follows from the amazing workmanship and the glitter of the big crystal "
-#| "in the front.\n"
-#| "\n"
-#| "- Increases magical power by 20%\n"
-#| "- Decreases experience points needed for advancement by 25%\n"
-#| "\n"
-#| "Should this unit pick up the cap?"
 msgid ""
 "This unique headgear had to belong to a very powerful summoner. It follows "
 "from the amazing workmanship and the glitter of the big crystal in the "
@@ -1043,14 +988,14 @@ msgid ""
 "\n"
 "Only a summoner can use this item."
 msgstr ""
-"To niezwykłe nakrycie głowy należało do bardzo potężnego przywoływacza. "
-"Można to wywnioskować po niezwykłym wykonaniu i błyszczącym krysztale "
-"umocowanym na przedzie.\n"
+"To wyjątkowe nakrycie głowy musiało należeć do bardzo potężnego "
+"przywoływacza. Wynika to z niesamowitego wykonania i blasku dużego kryształu "
+"z przodu.\n"
 "\n"
-"Zwiększa magiczną moc o 20%\n"
-"Zmniejsza ilość punktów doświadczenia wymaganych do awansu o 25%\n"
+"- Zwiększa moc magiczną o 20%\n"
+"- Zmniejsza liczbę punktów doświadczenia potrzebnych do awansu o 25%\n"
 "\n"
-"Czy jednostka powinna podnieść czapkę?"
+"Tylko przywoływacz może używać tego przedmiotu."
 
 #: To_Lands_Unknown/macros/artifact-descriptions.cfg:81
 msgid ""
@@ -1075,16 +1020,6 @@ msgstr ""
 "Zmniejsza ilość punktów doświadczenia wymaganych do awansu o 25%"
 
 #: To_Lands_Unknown/macros/artifact-descriptions.cfg:92
-#, fuzzy
-#| msgid ""
-#| "Richly decorated plates, solid workmanship and magical symbols: this must "
-#| "be the legendary armor made by the Ka-gattans blacksmiths.\n"
-#| "\n"
-#| "- Increases physical resistances by 25%\n"
-#| "- Increases fire and cold resistances by 20%\n"
-#| "- Decreases arcane resistance by 15%\n"
-#| "\n"
-#| "Should this unit pick up the armor?"
 msgid ""
 "Richly decorated plates, solid workmanship and magical symbols: this must be "
 "the legendary armor made by the Ka-gattans' blacksmiths.\n"
@@ -1095,14 +1030,14 @@ msgid ""
 "\n"
 "Only a human can use this item."
 msgstr ""
-"Bogate wzornictwo, solidne wykonanie i magiczne symbole: to musi być "
-"legendarny pancerz Ka-gattan.\n"
+"Bogato zdobione płyty, solidne wykonanie i magiczne symbole: to musi być "
+"legendarna zbroja wykonana przez kowali Ka-gattanów.\n"
 "\n"
-"- zwiększa fizyczne odporności o 25%\n"
-"- zwiększa odporność na ogień i chłód o 20%\n"
-"- zmniejsza odporność na astralny typ obrażeń o 15%\n"
+"- Zwiększa odporność fizyczną o 25%\n"
+"- Zwiększa odporność na ogień i zimno o 20%\n"
+"- Zmniejsza odporność na magię o 15%\n"
 "\n"
-"Czy jednostka powinna podnieść pancerz?"
+"Tylko człowiek może używać tego przedmiotu."
 
 #: To_Lands_Unknown/macros/artifact-descriptions.cfg:100
 msgid ""
@@ -1134,17 +1069,6 @@ msgstr ""
 "Zmniejsza odporność na tajemny typ obrażeń o 15%"
 
 #: To_Lands_Unknown/macros/artifact-descriptions.cfg:113
-#, fuzzy
-#| msgid ""
-#| "This pike, forged from raw abyssal energy, is the weapon once wielded by "
-#| "the very first Rhami'kai of. The spears used by her successors were were "
-#| "made from mundane metal.\n"
-#| "\n"
-#| "- Advances the unit (unless the unit is already at maximum level)\n"
-#| "- Increases the attack by 25%\n"
-#| "- Increases magical resistances by 10%\n"
-#| "\n"
-#| "Should this unit pick up the spear?"
 msgid ""
 "This pike, forged from raw abyssal energy, is the weapon once wielded by the "
 "very first Rhami'kai. The spears used by her successors were made from "
@@ -1156,15 +1080,15 @@ msgid ""
 "\n"
 "Only a Rhami, Rhami’kai or Ho'rhami can use this item."
 msgstr ""
-"Włócznia, wykuta z czystej energii Otchłani, dzierżona była niegdyś przez "
-"pierwszą Rhami'kai. Kolejne włócznie noszone przez jej następczynie były "
-"wykonane już ze zwykłego metalu.\n"
+"Ta pika, wykuta z surowej energii otchłani, jest bronią używaną niegdyś "
+"przez pierwszą Rhami'kai. Włócznie używane przez jej następców były wykonane "
+"ze zwykłego metalu.\n"
 "\n"
-"-Awansuje jednostkę (o ile nie jest na najwyższym poziomie)\n"
+"- Awansuje jednostkę (chyba że jest już na maksymalnym poziomie)\n"
 "- Zwiększa atak o 25%\n"
 "- Zwiększa odporność na magię o 10%\n"
 "\n"
-"Czy jednostka powinna podnieść włócznię?"
+"Tylko Rhami, Rhami'kai lub Ho'rhami mogą używać tego przedmiotu."
 
 #: To_Lands_Unknown/macros/artifact-descriptions.cfg:122
 msgid ""
@@ -1189,17 +1113,6 @@ msgstr ""
 "Zwiększa atak o 20%"
 
 #: To_Lands_Unknown/macros/artifact-descriptions.cfg:134
-#, fuzzy
-#| msgid ""
-#| "A legendary masterpiece made by the Ancestors in the olden times. Its "
-#| "unique powers enabled the magical being to be recalled back to the mortal "
-#| "world after being killed.\n"
-#| "\n"
-#| "- The unit is recalled back to the leader when dies\n"
-#| "- After each recall the unit is fully healed\n"
-#| "- The unit can be recalled only 3 times. After that it dies for sure.\n"
-#| "\n"
-#| "Should this unit pick up the collar?"
 msgid ""
 "A legendary masterpiece made by the Ancestors in the olden times. Its unique "
 "powers enabled the magical being to be recalled back to the mortal world "
@@ -1211,30 +1124,25 @@ msgid ""
 "\n"
 "Only a magical entity can use this item."
 msgstr ""
-"Legendarny artefakt, arcydzieło Starożytnych. Powstała  w dawnych czasach ta "
-"niezwykła obroża umieszczona na magicznej jednostce pozwala na jej "
-"wskrzeszenie po śmierci.\n"
+"Legendarne arcydzieło stworzone przez Przodków w dawnych czasach. Jego "
+"unikalne moce umożliwiały magicznym istotom powrót do świata śmiertelników "
+"po ich zabiciu.\n"
 "\n"
-"- Jednostka powraca do przywódcy\n"
-"- Po każdym przywołaniu jednostka staje się uleczona\n"
-"- Jednostka może zostać wskrzeszona 3 razy. Później przepada na dobre.\n"
+"- Jednostka jest przywoływana z powrotem do przywódcy po śmierci\n"
+"- Po każdym przywołaniu jednostka jest w pełni uleczona\n"
+"- Jednostkę można przywołać tylko 3 razy. Potem artefakt przestaje działać.\n"
 "\n"
-"Czy jednostka powinna podnieść obrożę?"
+"Tylko magiczna jednostka może użyć tego przedmiotu."
 
 #: To_Lands_Unknown/macros/artifact-descriptions.cfg:142
-#, fuzzy
-#| msgid ""
-#| "The unit is recalled back to the leader when dies\n"
-#| "After each recall the unit becomes stronger\n"
-#| "The unit can be recalled only 3 times. After that it dies for sure."
 msgid ""
 "The unit is recalled back to the leader when dies\n"
 "After each recall the unit is fully healed\n"
 "The unit can be recalled only 3 times. After that it dies for sure."
 msgstr ""
-"Jednostka powraca do przywódcy gdy ginie\n"
-"Za każdym razem staje się silniejsza\n"
-"Działa tylko 3 razy. Później jednostka ginie na dobre."
+"Jednostka jest przywoływana z powrotem do lidera, gdy zginie\n"
+"Po każdym przywołaniu jednostka jest w pełni leczona\n"
+"Jednostkę można przywołać tylko 3 razy. Po tym artefakt przestaje działać."
 
 #: To_Lands_Unknown/macros/artifact-descriptions.cfg:146
 msgid ""
@@ -1242,18 +1150,6 @@ msgid ""
 msgstr "Po śmierci jednostka wraca do przywódcy. Działa tylko 3 razy."
 
 #: To_Lands_Unknown/macros/artifact-descriptions.cfg:150
-#, fuzzy
-#| msgid ""
-#| "When the Ancestors summoned first elementals — entities made of pure "
-#| "energy -  they dreamed about replicating the Elemental Bird - a mix of "
-#| "all four known elements. Unfortunately they failed, but at least ended up "
-#| "with an unique amulet, capable of transforming one forms of an elemental "
-#| "into another. One might go as far as saying this is one of the most "
-#| "powerful relics made by the Ancestors.\n"
-#| "The elemental unit can turn into another elemental (use right-click on "
-#| "the unit to activate)\n"
-#| "\n"
-#| "Should this unit pick up the amulet?"
 msgid ""
 "When the Ancestors summoned first elementals — entities made of pure energy "
 "-  they dreamed about replicating the Elemental Bird - a mix of all four "
@@ -1266,26 +1162,24 @@ msgid ""
 "\n"
 "Only an elemental entity can use this item."
 msgstr ""
-"Kiedy Przodkowie przywołali pierwsze żywiołaki - jednostki zbudowane z "
-"czystej energii - zamarzyli o stworzeniu czegoś na wzór Ptaka Żywiołów - "
-"istoty będącej połączeniem wszystkich czterech elementów. Niestety ich próby "
-"spełzły na niczym, lecz udało im się opracować unikalny amulet pozwalający "
-"na zmianę jednego żywiołu w inny. Po dziś dzień jest to jeden z "
-"najpotężniejszych artefaktów stworzonych przez Przodków.\n"
+"Kiedy Przodkowie przywołali pierwsze żywiołaki – istoty złożone z czystej "
+"energii – marzyli o odtworzeniu Żywiołowego Ptaka – połączenia wszystkich "
+"czterech znanych żywiołów. Niestety nie udało im się to, ale przynajmniej "
+"otrzymali w zamian unikalny amulet, zdolny do przekształcania jednej formy "
+"żywiołaka w inną. Można nawet powiedzieć, że jest to jedna z "
+"najpotężniejszych relikwii stworzonych przez Przodków.\n"
+"Żywiołak może przekształcić się w innego żywiołaka (aby aktywować, kliknij "
+"prawym przyciskiem myszy na jednostkę).\n"
 "\n"
-"Czy jednostka powinna podnieść amulet?"
+"Tylko żywiołak może używać tego przedmiotu."
 
 #: To_Lands_Unknown/macros/artifact-descriptions.cfg:156
-#, fuzzy
-#| msgid ""
-#| "The elemental unit can turn into another elemental (use right-click on "
-#| "the unit to activate)"
 msgid ""
 "This elemental unit can turn into another elemental (use right-click on the "
 "unit to activate)"
 msgstr ""
-"Ten żywiołak może zamienić się w inny typ (użyj prawego przycisku aby "
-"aktywować)"
+"Ta jednostka żywiołaków może zmienić się w innego żywiołaka (aby aktywować, "
+"kliknij jednostkę prawym przyciskiem myszy)"
 
 #: To_Lands_Unknown/macros/artifact-descriptions.cfg:158
 msgid ""
@@ -1304,17 +1198,6 @@ msgstr ""
 "Ta jednostka staje się lojalna."
 
 #: To_Lands_Unknown/macros/artifact-descriptions.cfg:167
-#, fuzzy
-#| msgid ""
-#| "This staff is rumored to have been the very one wielded by the first "
-#| "Master of Banishers. Its power is formidable even in untrained hands.\n"
-#| "\n"
-#| "- Advances the unit (unless the unit is already at maximum level)\n"
-#| "- the banishment attack never misses\n"
-#| "- the staff/frozen gate attacks deal +2 damage \n"
-#| "- increases magical resistances by 10%\n"
-#| "\n"
-#| "Should this unit pick up the staff?"
 msgid ""
 "This staff is rumored to have been the very one wielded by the first Master "
 "of Banishers. Its power is formidable even in untrained hands.\n"
@@ -1326,33 +1209,28 @@ msgid ""
 "\n"
 "Only a Novice Summoner, Dispeller or Banisher can use this item."
 msgstr ""
-"Ta laska była ponoć własnością pierwszego Mistrza Wyganiaczy. Jej moc "
-"potrafi być potężna nawet w niedoświadczonych dłoniach.\n"
+"Ta laska była podobno tą samą, którą dzierżył pierwszy Mistrz Banisherów. "
+"Jej moc jest ogromna nawet w niewprawnych rękach.\n"
 "\n"
-"- Awansuje jednostkę (o ile nie jest na najwyższym poziomie)\n"
-"- wyganianie nigdy nie pudłuje\n"
-"- laska jak i zamrożone wrota zadają +2 więcej obrażeń\n"
+"- Rozwija jednostkę (chyba że jest ona już na maksymalnym poziomie)\n"
+"- atak wygnania nigdy nie chybia\n"
+"- ataki laską/zamarzniętą bramą zadają +2 obrażenia\n"
 "- zwiększa odporność na magię o 10%\n"
 "\n"
-"Czy jednostka powinna podnieść laskę?"
+"Tylko początkujący przywoływacz, rozpraszacz lub wyganiacz może używać tego "
+"przedmiotu."
 
 #: To_Lands_Unknown/macros/artifact-descriptions.cfg:177
-#, fuzzy
-#| msgid ""
-#| "- Advances the unit (unless the unit is already at maximum level)\n"
-#| "- the banishment attack never misses\n"
-#| "- the staff/frozen gate attacks deal +2 damage \n"
-#| "- increases magical resistances by 10%"
 msgid ""
 "Advances the unit (unless the unit is already at maximum level)\n"
 "- the banishment attack never misses\n"
 "- the staff/frozen gate attacks deal +2 damage \n"
 "- increases magical resistances by 10%"
 msgstr ""
-"- Awansuje jednostkę (o ile nie jest na najwyższym poziomie)\n"
-"- atak wygonienia nigdy nie pudłuje\n"
-"- laska / zamrożone wrota zadają +2 obrażeń\n"
-"- zwiększa magiczną odporność o 10%"
+"Awansuje jednostkę (chyba że jest ona już na maksymalnym poziomie)\n"
+"- atak banicji nigdy nie chybia\n"
+"- ataki laską/zamarzniętą bramą zadają +2 obrażenia\n"
+"- zwiększa odporność na magię o 10%"
 
 #: To_Lands_Unknown/macros/artifact-descriptions.cfg:182
 msgid ""
@@ -1373,16 +1251,6 @@ msgstr ""
 "- zwiększa odporności na magię o 10%"
 
 #: To_Lands_Unknown/macros/artifact-descriptions.cfg:191
-#, fuzzy
-#| msgid ""
-#| "This sphere was found in Reficul's camp. It emits a magical barrier "
-#| "around the bearer, protecting him from most kinds of damage. Tar-Tabar's "
-#| "enchanters have managed to adapt it for human use, but at a slight "
-#| "expense of effectiveness.\n"
-#| "\n"
-#| "- increases physical and magical resistances by 15%\n"
-#| "\n"
-#| "Should this unit pick up the sphere?"
 msgid ""
 "This sphere was found in Reficul's camp. It emits a magical barrier around "
 "the bearer, protecting him from most kinds of damage. Tar-Tabar's enchanters "
@@ -1394,36 +1262,30 @@ msgid ""
 "Only a magical entity can use this item."
 msgstr ""
 "Ta kula została znaleziona w obozie Reficula. Emituje magiczną barierę wokół "
-"swego właściciela, chroniąc go przed większością obrażeń. Zaklinacze z Tar-"
-"Tabaru zdołali dostosować ją do użytku przez ludzi kosztem efektywności.\n"
+"noszącego, chroniąc go przed większością rodzajów obrażeń. Zaklinaczom z Tar-"
+"Tabar udało się przystosować ją do użytku przez ludzi, ale kosztem "
+"niewielkiej skuteczności.\n"
 "\n"
-"- zwiększa fizyczne i magiczne odporności o 15%\n"
+"- zwiększa odporność fizyczną i magiczną o 15%\n"
 "\n"
-"Czy jednostka powinna podnieść kulę?"
+"Tylko istota magiczna może używać tego przedmiotu."
 
 #: To_Lands_Unknown/macros/artifact-descriptions.cfg:198
-#, fuzzy
-#| msgid "Increases magical and physical resistances by 15%"
 msgid "Increases physical and magical resistances by 15%"
-msgstr "Zwiększa magiczne i fizyczne odporności o 15%"
+msgstr "Zwiększa odporność fizyczną i magiczną o 15%"
 
 #: To_Lands_Unknown/macros/artifact-descriptions.cfg:200
-#, fuzzy
-#| msgid ""
-#| "This unit wears a sphere once belonging to Reficul.\n"
-#| "\n"
-#| "Effects:\n"
-#| "Resitances to physical and magical attacks are increased by 15%"
 msgid ""
 "This unit holds a powerful magical sphere which once belonged to Reficul.\n"
 "\n"
 "Effects:\n"
 "Grants 15% physical and magical resistance"
 msgstr ""
-"Jednostka ta nosi kulę należącą do Reficula.\n"
+"Ta jednostka posiada potężną magiczną kulę, która kiedyś należała do "
+"Reficula.\n"
 "\n"
 "Efekty:\n"
-"Odporność na ataki fizyczne i magiczne zwiększa się o 15%"
+"Zapewnia 15% odporności fizycznej i magicznej"
 
 #: To_Lands_Unknown/macros/artifacts.cfg:31
 msgid "Ancient Scimitar"
@@ -1491,10 +1353,8 @@ msgid "cap^Leave it"
 msgstr "Zostaw ją"
 
 #: To_Lands_Unknown/macros/artifacts.cfg:198
-#, fuzzy
-#| msgid "ancient cuirass"
 msgid "Ancient Cuirass"
-msgstr "kirys przodków"
+msgstr "Starożytny Kirys"
 
 #: To_Lands_Unknown/macros/artifacts.cfg:198
 msgid "armor^Take it"
@@ -1553,8 +1413,6 @@ msgid "staff^Leave it"
 msgstr "Zostaw ją"
 
 #: To_Lands_Unknown/macros/artifacts.cfg:369
-#, fuzzy
-#| msgid "Reficul's sphere"
 msgid "Reficul's Sphere"
 msgstr "Kula Reficula"
 
@@ -1563,20 +1421,18 @@ msgid "sphere^Take it"
 msgstr "Weź ją"
 
 #: To_Lands_Unknown/macros/artifacts.cfg:369
-#, fuzzy
-#| msgid "spear^Leave it"
 msgid "sphere^Leave it"
 msgstr "Zostaw ją"
 
 #. [option]
 #: To_Lands_Unknown/macros/items.cfg:135
 msgid " for later use"
-msgstr ""
+msgstr " do późniejszego wykorzystania"
 
 #. [object]: id=carry_{ID}
 #: To_Lands_Unknown/macros/items.cfg:140
 msgid "Item collected"
-msgstr ""
+msgstr "Zebrany przedmiot"
 
 #. [object]: id=carry_{ID}
 #: To_Lands_Unknown/macros/items.cfg:144
@@ -1589,11 +1445,20 @@ msgid ""
 "equipped on units are lost forever once these units die, while some others "
 "are recoverable. For more information check items' descriptions."
 msgstr ""
+"Przedmiot został zebrany przez jednostkę. Dopóki jednostka żyje, może "
+"przekazać przedmiot innej sąsiedniej jednostce sojuszniczej (prawym "
+"przyciskiem myszy) lub wyposażyć się w niego później (nawet w innych "
+"scenariuszach). Gdy jednostka ginie, przenoszony przedmiot zostaje "
+"upuszczony na ziemię, aby inne jednostki mogły go podnieść. Jednostka może "
+"przenosić tylko jeden przedmiot naraz, chyba że się w niego wyposaża. Należy "
+"pamiętać, że niektóre przedmioty są tracone na zawsze po śmierci jednostek, "
+"podczas gdy inne można odzyskać. Więcej informacji można znaleźć w opisach "
+"przedmiotów."
 
 #. [value]: id=carry_{ID} # wmllint: ignore
 #: To_Lands_Unknown/macros/items.cfg:165
 msgid "carries: "
-msgstr ""
+msgstr "przenosi:"
 
 #. [value]: id=carry_{ID} # wmllint: ignore
 #: To_Lands_Unknown/macros/items.cfg:166
@@ -1607,17 +1472,27 @@ msgid ""
 "items equipped on units are lost forever once these units die, while some "
 "others are recoverable. For more information check items' descriptions."
 msgstr ""
+"Ta jednostka przenosi przedmiot. Przedmiot obecnie nie ma wpływu na "
+"jednostkę, ponieważ nie jest wyposażony. Dopóki jednostka żyje, może "
+"przekazać przedmiot innej sąsiedniej jednostce sojuszniczej (za pomocą "
+"prawego przycisku myszy) lub wyposażyć się w niego później (nawet w innych "
+"scenariuszach, o ile przedmiot jest kompatybilny z jednostką). Kiedy "
+"jednostka ginie, przenoszony przedmiot zostaje upuszczony na ziemię, aby "
+"inne jednostki mogły go podnieść (jeśli nie ma ziemi, przedmiot zostaje "
+"utracony). Należy pamiętać, że niektóre przedmioty wyposażone w jednostki są "
+"utracone na zawsze po śmierci tych jednostek, podczas gdy inne można "
+"odzyskać. Więcej informacji można znaleźć w opisach przedmiotów."
 
 #. [set_menu_item]: id=tlu_item_give_{ID}
 #: To_Lands_Unknown/macros/items.cfg:180
 msgid "Give: "
-msgstr ""
+msgstr "Daj:"
 
 #. [set_menu_item]: id=tlu_item_selfequip_{ID}
 #. [set_menu_item]: id=tlu_item_equip_{ID}
 #: To_Lands_Unknown/macros/items.cfg:222 To_Lands_Unknown/macros/items.cfg:316
 msgid "Equip: "
-msgstr ""
+msgstr "Wyposaż:"
 
 #. [message]: speaker=narrator
 #: To_Lands_Unknown/macros/items.cfg:668
@@ -1627,11 +1502,16 @@ msgid ""
 "your choosing. For more detailed information about equipping items, right-"
 "click anywhere on the map."
 msgstr ""
+"Wciąż posiadasz niewyposażone przedmioty. Aby je wyposażyć, kliknij prawym "
+"przyciskiem myszy jednostkę w twierdzy lub na kafelku zamku, aby nadać jej "
+"wybrany kompatybilny przedmiot. Aby uzyskać bardziej szczegółowe informacje "
+"na temat wyposażania przedmiotów, kliknij prawym przyciskiem myszy w "
+"dowolnym miejscu na mapie."
 
 #. [set_menu_item]: id=z_items_help
 #: To_Lands_Unknown/macros/items.cfg:679
 msgid "Items Help"
-msgstr ""
+msgstr "Pomoc dot. przedmiotów"
 
 #. [message]: speaker=narrator
 #: To_Lands_Unknown/macros/items.cfg:686
@@ -1645,11 +1525,20 @@ msgid ""
 "equipped on units are lost forever once these units die, while some others "
 "are recoverable. For more information check items' descriptions."
 msgstr ""
+"Wciąż posiadasz niewyposażone przedmioty. Aby je wyposażyć, kliknij prawym "
+"przyciskiem myszy jednostkę w twierdzy lub na kafelku zamku, aby nadać jej "
+"wybrany kompatybilny przedmiot.\n"
+"\n"
+"Poniżej znajduje się lista niewyposażonych przedmiotów. Wybierz przedmiot z "
+"listy, aby dowiedzieć się więcej o tym, co robi i kto może go wyposażyć. "
+"Należy pamiętać, że niektóre przedmioty wyposażone w jednostki są tracone na "
+"zawsze po ich śmierci, podczas gdy inne można odzyskać. Więcej informacji "
+"można znaleźć w opisach przedmiotów."
 
 #. [option]
 #: To_Lands_Unknown/macros/items.cfg:701
 msgid "Exit"
-msgstr ""
+msgstr "Wyjście"
 
 #. [unstore_unit]
 #: To_Lands_Unknown/macros/macros.cfg:103
@@ -3665,7 +3554,7 @@ msgstr "Yakub"
 #. [side]: id=ferryman, id=gate_guardian, id=merchant, id=waterelemental, id=elder
 #: To_Lands_Unknown/scenarios/00_Prologue.cfg:496
 msgid "Sprinkle"
-msgstr ""
+msgstr "Kropelka"
 
 #. [side]
 #: To_Lands_Unknown/scenarios/00_Prologue.cfg:513
@@ -4564,6 +4453,9 @@ msgid ""
 "Your units cost no upkeep during this scenario. Units with the loyal trait "
 "will never cost you upkeep, even in other scenarios."
 msgstr ""
+"Jednostki nie kosztują utrzymania podczas tego scenariusza. Jednostki z "
+"cechą lojalności nigdy nie będą kosztować utrzymania, nawet w innych "
+"scenariuszach."
 
 #. [unit]: id=Mufaz, type=EoMa_Novice_Summoner
 #: To_Lands_Unknown/scenarios/01_Highest_Tiers.cfg:89
@@ -4578,14 +4470,12 @@ msgstr "Alib"
 #. [trait]: id=drunk
 #: To_Lands_Unknown/scenarios/01_Highest_Tiers.cfg:117
 msgid "drunk"
-msgstr ""
+msgstr "pijany"
 
 #. [trait]: id=drunk
 #: To_Lands_Unknown/scenarios/01_Highest_Tiers.cfg:118
-#, fuzzy
-#| msgid "female^Citizen"
 msgid "female^drunk"
-msgstr "Cywil"
+msgstr "pijana"
 
 #. [effect]
 #: To_Lands_Unknown/scenarios/01_Highest_Tiers.cfg:120
@@ -4593,6 +4483,8 @@ msgid ""
 "+1 damage to melee weapons, -10% accuracy, +20% to all resistances, -1 "
 "movepoints."
 msgstr ""
+"+1 obrażeń od broni białej, -10% a celności, +20% to wszystkich odporności, "
+"-1 punkt ruchu."
 
 #. [unit]: id=Safay, type=EoMa_Carpet_Rider
 #: To_Lands_Unknown/scenarios/01_Highest_Tiers.cfg:155
@@ -5580,10 +5472,8 @@ msgstr "Przetrwaj do wyczerpania limitu tur"
 #. [objective]: condition=lose
 #: To_Lands_Unknown/scenarios/03_Near_the_Jungle.cfg:521
 #: To_Lands_Unknown/scenarios/03_Near_the_Jungle.cfg:1081
-#, fuzzy
-#| msgid "Summon Fire Elemental"
 msgid "Death of Fire Elemental"
-msgstr "Przywołaj Żywiołaka Ognia"
+msgstr "Śmierć Żywiołaka Ognia"
 
 #. [message]: speaker=Mehir
 #: To_Lands_Unknown/scenarios/03_Near_the_Jungle.cfg:562
@@ -5848,6 +5738,9 @@ msgid ""
 "able to quickly burn the jungle ahead of us until reinforcements arrive. The "
 "council may even kick me out for causing a delay..."
 msgstr ""
+"Lepiej uważać z tym żywiołakiem ognia. Jeśli go stracę, nie będziemy w "
+"stanie szybko spalić dżungli przed nami, dopóki nie przybędą posiłki. Rada "
+"może mnie nawet wyrzucić za spowodowanie opóźnienia..."
 
 #. [message]: speaker=Mehir
 #: To_Lands_Unknown/scenarios/03_Near_the_Jungle.cfg:1205
@@ -5855,6 +5748,8 @@ msgid ""
 "Damn! Not only we can't cook those lizards, but how the hell are we supposed "
 "to burn this damned jungle now? My career is screwed!"
 msgstr ""
+"Cholera! Nie tylko nie możemy ugotować tych jaszczurek, ale jak do cholery "
+"mamy teraz spalić tę przeklętą dżunglę? Moja kariera legła właśnie w gruzach!"
 
 #. [message]: speaker=Mehir
 #: To_Lands_Unknown/scenarios/04_Southern_Nations.cfg:6
@@ -7461,14 +7356,12 @@ msgstr "Zzzzz…."
 #. [trait]: id=hammered
 #: To_Lands_Unknown/scenarios/06_Fire_Canyon.cfg:668
 msgid "hammered"
-msgstr ""
+msgstr "mocno pijany"
 
 #. [trait]: id=hammered
 #: To_Lands_Unknown/scenarios/06_Fire_Canyon.cfg:669
-#, fuzzy
-#| msgid "female^immortal"
 msgid "female^hammered"
-msgstr "nieśmiertelna"
+msgstr "mocno pijana"
 
 #. [effect]
 #: To_Lands_Unknown/scenarios/06_Fire_Canyon.cfg:671
@@ -7476,6 +7369,8 @@ msgid ""
 "+1 damage to melee weapons, -20% accuracy, +20% to all resistances, -3 "
 "movepoints."
 msgstr ""
+"+1 obrażeń od broni białej, -20% a celności, +20% to wszystkich odporności, "
+"-3 punkty ruchu."
 
 #. [message]: speaker=Mehir
 #: To_Lands_Unknown/scenarios/06_Fire_Canyon.cfg:704
@@ -7508,17 +7403,14 @@ msgstr "Ludzie nie lepsze od jaszczurek! Nie ma honoru! ZABIĆ LUDZIE!"
 
 #. [object]
 #: To_Lands_Unknown/scenarios/06_Fire_Canyon.cfg:736
-#, fuzzy
-#| msgid ""
-#| "Mehir is drunk. His movement is decreased by 3 (this effect only lasts "
-#| "until the end of the scenario)"
 msgid ""
 "Mehir is drunk. His movement is decreased by 3, his accuracy is low but he "
 "is more resistant to damage (these effects only last until the end of the "
 "scenario)."
 msgstr ""
-"Mehir jest pijany. Jego ruch jest zmniejszony o 3 punkty (ten efekt trwa "
-"tylko do końca scenariusza)"
+"Mehir jest pijany. Jego ruch jest zmniejszony o 3, jego celność jest niska, "
+"ale jest bardziej odporny na obrażenia (efekty te trwają tylko do końca "
+"scenariusza)."
 
 #. [objective]: condition=win
 #: To_Lands_Unknown/scenarios/06_Fire_Canyon.cfg:748
@@ -12154,17 +12046,12 @@ msgstr ""
 
 #. [message]: speaker=Rashti
 #: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:845
-#, fuzzy
-#| msgid ""
-#| "Exactly! It infuritates me to think those WORTHLESS FOOLS in the High "
-#| "Council had the audacity to even SUGGEST the possibility of him becoming "
-#| "my master..."
 msgid ""
 "Exactly! It infuriates me to think those WORTHLESS FOOLS in the High Council "
 "had the audacity to even SUGGEST the possibility of him becoming my master..."
 msgstr ""
 "Dokładnie! Irytuje mnie myśl, że ci BEZNADZIEJNI GŁUPCY z Wysokiej Rady "
-"mieli czelność nawet POMYŚLEĆ o tym, że mógłby zostać moim panem..."
+"mieli czelność nawet POMYŚLEĆ o tym, że on mógłby zostać moim panem..."
 
 #. [message]: speaker=Rashti
 #: To_Lands_Unknown/scenarios/14_Tar-Tabar.cfg:850
@@ -14848,12 +14735,6 @@ msgstr "przywoływacz"
 
 #. [value]: id=summoner
 #: To_Lands_Unknown/scenarios/16_Defense_of_Saffaros.cfg:1746
-#, fuzzy
-#| msgid ""
-#| "This unit unit has learned the secrets of summoning.\n"
-#| "\n"
-#| "Effects:\n"
-#| "Ability to summon elementals."
 msgid ""
 "This unit has learned the secrets of summoning.\n"
 "\n"
@@ -15363,24 +15244,17 @@ msgstr "Masz całkiem... pokręcone poczucie humoru."
 
 #. [message]: type=TLU_DharmaRashti
 #: To_Lands_Unknown/scenarios/17_Siege_of_Kharos.cfg:1195
-#, fuzzy
-#| msgid ""
-#| "Heh, what can I say, being free from my blue half is quite pleasant. She "
-#| "kept imposing rules upon rules on me. No cussing out members of the High "
-#| "Council, no collateral damage from fireballs, no tortuing enemies unless "
-#| "strictly necessary, blah blah blah. Now I can finally do whatever I "
-#| "please!"
 msgid ""
 "Heh, what can I say, being free from my blue half is quite pleasant. She "
 "kept imposing rules upon rules on me. No cussing out members of the High "
 "Council, no collateral damage from fireballs, no torturing enemies unless "
 "strictly necessary, blah blah blah. Now I can finally do whatever I please!"
 msgstr ""
-"Heh, cóż mogę rzec. Bycie wolną od mojej niebieskiej połowy jest całkiem "
-"przyjemne. Ciągle narzucała mi coraz to nowe zasady. Żadnego przeklinania "
-"członków Najwyższej Rady, żadnych przypadkowych ofiar od kul ognia, żadnego "
-"torturowania nieprzyjaciół, chyba że w wyjątkowych sytuacjach, bla, bla, "
-"bla. Teraz mogę robić co mi się żywnie podoba!"
+"Cóż mogę powiedzieć, bycie wolnym od mojej niebieskiej połowy jest całkiem "
+"przyjemne. Ciągle narzucała mi kolejne zasady. Żadnego przeklinania członków "
+"Wysokiej Rady, żadnych obrażeń ubocznych od kul ognia, żadnego torturowania "
+"wrogów, chyba że jest to absolutnie konieczne, bla bla bla. Teraz wreszcie "
+"mogę robić, co mi się podoba!"
 
 #. [message]: type=TLU_HoRashti
 #: To_Lands_Unknown/scenarios/17_Siege_of_Kharos.cfg:1199
@@ -16552,16 +16426,12 @@ msgstr ""
 #. [message]: speaker=narrator
 #: To_Lands_Unknown/scenarios/19_Sky_Kingdom.cfg:593
 #: To_Lands_Unknown/scenarios/19_Sky_Kingdom.cfg:1392
-#, fuzzy
-#| msgid ""
-#| "After this scenario, leveling up Dimensional Gates will cost you a fee. "
-#| "Keep that in mind."
 msgid ""
 "After this scenario, it will be possible to level up Dimensional Gates for "
 "gold cost, instead of a kill. Keep that in mind."
 msgstr ""
-"To ostatni raz kiedy możesz awansować swoje Wrota Wymiarów za darmo. "
-"Pamiętaj o tym."
+"Po tym scenariuszu będzie można awansować na wyższy poziom Bram Wymiarowych "
+"za złoto, zamiast za zabójstwo. Należy o tym pamiętać."
 
 #. [objective]: condition=win
 #: To_Lands_Unknown/scenarios/19_Sky_Kingdom.cfg:601
@@ -20111,16 +19981,12 @@ msgstr "Teraz wszyscy są na miejscu. Najwyższy czas się stąd wynosić!"
 
 #. [message]: speaker=Glomin
 #: To_Lands_Unknown/scenarios/23_Ruins.cfg:1733
-#, fuzzy
-#| msgid ""
-#| "Huh? Where's all that darn noise comin' from? I was in the middle of a "
-#| "good gaming session on my steam-powered PC..."
 msgid ""
 "Huh? Where's all that darn noise comin' from? I was just about to kill Queen "
 "Asheviere on my steam-powered PC..."
 msgstr ""
-"Hę? Skąd dochodzi ten cholerny hałas? Właśnie byłem w trakcie ciekawej "
-"rozgrywki na moim parowym komputerze..."
+"Co? Skąd ten cholerny hałas? Właśnie miałem zabić królową Asheviere na moim "
+"zasilanym parą PC..."
 
 #. [message]: speaker=Glomin
 #: To_Lands_Unknown/scenarios/23_Ruins.cfg:1738
@@ -21588,13 +21454,6 @@ msgstr "Duch Mistrza Przywołania"
 
 #. [unit_type]: id=TLU_Summons_Master_Ghost, race=undead
 #: To_Lands_Unknown/units/GhostSummonsMaster.cfg:19
-#, fuzzy
-#| msgid ""
-#| "This ancient ghost of a Summons Master roams catacombs of Ka-gatta for "
-#| "centuries. Beings like these are result of people staying inside their "
-#| "personal circles for too long. If the bond between human's mind and a "
-#| "circle grows too strong, when that person dies his/her psyche is trapped "
-#| "inside and lives and afterlife of its own."
 msgid ""
 "This ancient ghost of a Summons Master roams catacombs of Ka-gatta for "
 "centuries. Beings like these are result of people staying inside their "
@@ -21695,15 +21554,6 @@ msgstr "ostateczny krąg"
 
 #. [regenerate]: id=eoma_healing
 #: To_Lands_Unknown/units/LastSummoner.cfg:121
-#, fuzzy
-#| msgid ""
-#| "This unit is equipped with the most powerful kind of magical circle. The "
-#| "owner can recruit and recall units without being in keeps (it doesn’t "
-#| "work in forests). All adjacent friendly units fight better (+125%, +100%, "
-#| "+75%, +50%, +25% — levels 0, 1, 2, 3, 4 respectively), are healed by 12 "
-#| "points, and receive a +20% bonus to their fire, cold, and arcane "
-#| "resistances. At the beginning of each turn, all adjacent enemy units are "
-#| "slowed and receive 8 points of damage. Owner regenerats 12 HP per turn."
 msgid ""
 "This unit is equipped with the most powerful kind of magical circle. The "
 "owner can recruit and recall units without being in keeps (it doesn’t work "
